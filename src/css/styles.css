@@ -1,0 +1,271 @@
+/*import fontu Roboto z google*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #EEEDEC;
+  font-family: 'nerissemibold', Arial, sans-serif;
+  color: #1A1A1A;
+}
+
+/*--global classes--*/
+
+/*--backgrounds--*/
+.green{
+  background-color: #8ED201;
+  color: #FFFFFF;
+}
+.white{
+  background-color: #EEEDEC;
+  color: #1A1A1A;
+}
+/*--end backgrounds--*/
+
+.section-title{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'nerisblack', Arial, sans-serif;
+}
+
+.right{
+  float: right!important;
+}
+
+/*--end-global classes--*/
+
+/**-----mobile menu----**/
+/*zielony pasek menu*/
+#mobile-nav{
+  height: 50px;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+}
+
+#hamburger {
+  position: relative;
+  width: 60px;
+  height: 50px;
+  padding: 7px 9px;
+  cursor: pointer;
+  display: block;
+  background: transparent;
+  float: left;
+
+}
+/*The white stripes in the hamburger button*/
+#hamburger div {
+  background-color: #FFF;
+  border-radius: 2px;
+  height: 3px;
+  margin-top: 6px;
+  width: 90%;
+}
+/*ikonkra androidka w mobilnym menu*/
+#main-icon{
+  height: 50px;
+  padding: 7px 5px;
+}
+/*chowamy listę pod hamburger menu dla mobilnych wersi*/
+#menu-list ul{
+  display: none;
+}
+/*po kliknieciu na hamburger menu*/
+#mobile-nav.expanded{
+  height: auto;
+}
+/*pokazujemy listę po kliknięciu na menu*/
+.expanded #menu-list ul{
+  display: block;
+  list-style: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+/*style listy po rozwinięciu*/
+.list-item a{
+  padding: 12px 0;
+  width: 100%;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  line-height: 1;
+}
+.list-item a:hover{
+  background-color: #1A1A1A;
+  color: #8ED201;
+}
+.list-icon img{
+  height: 25px;
+}
+
+/**-----end-mobile menu----**/
+
+/**-----główny andek-----**/
+header #main-logo{
+  background: rgba(143,143,143,1);
+  background: -moz-linear-gradient(top, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,1)), color-stop(12%, rgba(102,102,102,1)), color-stop(29%, rgba(71,71,71,1)), color-stop(52%, rgba(51,51,51,1)), color-stop(72%, rgba(48,48,48,1)), color-stop(98%, rgba(43,43,43,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(top, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(top, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(top, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f8f8f', endColorstr='#131313', GradientType=0 );
+}
+
+header #main-logo img{
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+/**-----end-główny andek-----**/
+
+/**----about----**/
+#about{
+  min-height: 300px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.about-text{
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.when-where{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.when-where img{
+  height: 40px;
+}
+
+.mobile-where{
+  min-width: 300px;
+  text-align: left;
+}
+
+/**----end-about----**/
+
+/**----participate----**/
+
+#participate{
+  min-height: 400px;
+  padding: 10px 0px;
+}
+
+#participate img{
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0px;
+}
+
+#participate p{
+  font-family: 'nerislight';
+  font-size: 18px;
+  text-align: center;
+}
+
+#participate h3{
+ text-align: center;
+ font-family: 'nerisblack';
+ font-size: 18px;
+}
+
+/**----end-participate----**/
+
+/**----speakers----**/
+#speakers{
+  min-height: 150px;
+  padding: 15px 0px;
+}
+
+#speakers p{
+  font-family: 'nerissemibold';
+  text-align: center;
+  font-size: 18px;
+}
+/**----end-speakers----**/
+
+/**----contact us----**/
+#contact-us{
+  min-height: 150px;
+  padding: 15px 0px;
+  text-align: center;
+}
+#e-mail{
+  text-decoration: underline;
+  color: white;
+}
+/**----end-contact us----**/
+
+/**----footer----**/
+#footer{
+  min-height: 80px;
+  background-color: #4D4D4D;
+  color: #FFF;
+  text-align: center;
+}
+.desktop-footer{
+  display: none;
+}
+.mobile-footer p{
+  float: left;
+  padding: 28px 40px 20px 40px;
+}
+#footer-icons{
+  float: right;
+  padding-right: 40px;
+}
+.icon2{
+  padding: 30px 10px;
+  height: 80px;
+}
+/**----end-footer----**/
+
+/**----other dimensions----**/
+@media (min-width: 720px){
+  #mobile-title-bar{
+    display: none;
+  }
+  #mobile-nav{
+    height: 70px;
+    text-align: center;
+  }
+  #mobile-nav ul{
+    list-style: none;
+    display: inline-block;
+  }
+  #mobile-nav li{
+    float: left;
+    font-size: 24px;
+  }
+  .list-item a{
+    padding: 23px 20px;
+  }
+  .mobile-footer{
+    display: none;
+  }
+  .desktop-footer{
+    display: inline-block;
+  }
+}
+
+/**--duże telefony i tablety--**/
+@media (min-width: 1080px){
+
+}
+
+/**--desktop--**/
+@media (min-width: 1440px){
+
+}
