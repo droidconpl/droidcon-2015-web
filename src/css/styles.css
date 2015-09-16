@@ -102,6 +102,7 @@ body{
   color: #FFF;
   display: block;
   line-height: 1;
+  border-bottom: 1px solid #FFF;
 }
 .list-item a:hover{
   background-color: #1A1A1A;
