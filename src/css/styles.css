@@ -289,8 +289,31 @@ header #main-logo img{
 
 /**--duże telefony i tablety--**/
 @media (min-width: 1080px){
+  .container {
+    width: 970px;
+    height: inherit;
+  }
   #mobile-title-bar{
     display: none;
+  }
+  #navigation{
+    height: 80px;
+  }
+  #navigation ul{
+    list-style: none;
+    display: inline-block;
+    height: 80px;
+  }
+  #navigation li{
+    float: left;
+    font-size: 24px;
+  }
+  section.top-bar-section{
+    height: 80px;
+  }
+  .list-item a{
+    padding: 27px 20px;
+    border-bottom: none;
   }
 }
 
