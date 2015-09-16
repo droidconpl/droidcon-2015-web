@@ -11,6 +11,15 @@ body{
 
 /*--global classes--*/
 
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
 /*--backgrounds--*/
 .green{
   background-color: #8ED201;
@@ -144,11 +153,11 @@ header #main-logo img{
 }
 
 .when-where img{
-  height: 40px;
+  height: 30px;
 }
 
 .mobile-where{
-  min-width: 300px;
+  min-width: 250px;
   text-align: left;
 }
 
