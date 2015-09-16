@@ -1,3 +1,3 @@
 $('#hamburger').click(function() {
-  $('#mobile-nav').toggleClass('expanded');
+  $('#navigation').toggleClass('expanded');
 });

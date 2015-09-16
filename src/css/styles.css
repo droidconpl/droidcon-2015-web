@@ -45,7 +45,7 @@ body{
 
 /**-----mobile menu----**/
 /*zielony pasek menu*/
-#mobile-nav{
+#navigation{
   height: 50px;
   width: 100%;
   z-index: 99;
@@ -80,10 +80,6 @@ body{
 /*chowamy listę pod hamburger menu dla mobilnych wersi*/
 #menu-list ul{
   display: none;
-}
-/*po kliknieciu na hamburger menu*/
-#mobile-nav.expanded{
-  height: auto;
 }
 /*pokazujemy listę po kliknięciu na menu*/
 .expanded #menu-list ul{
@@ -231,9 +227,10 @@ header #main-logo img{
 }
 .mobile-footer p{
   float: left;
-  padding: 30px 0px 20px 0px;
+  padding: 30px 0px 20px 20px;
 }
 #footer-icons{
+  padding-right: 20px;
   float: right;
 }
 .icon2{
@@ -247,36 +244,54 @@ header #main-logo img{
 /**----end-footer----**/
 
 /**----other dimensions----**/
+/**--duże telefony i tablety--**/
 @media (min-width: 720px){
-  #mobile-title-bar{
-    display: none;
-  }
-  #mobile-nav{
+  #navigation{
     height: 70px;
+  }
+  #hamburger {
+    width: 80px;
+    height: 70px;
+    padding: 12px 15px;
+  }
+  /*The white stripes in the hamburger button*/
+  #hamburger div {
+    height: 4px;
+    margin-top: 8px;
+    width: 90%;
+  }
+  #main-icon{
+    height: 65px;
+    padding: 11px 5px;
+  }
+  .expanded #menu-list ul{
+    font-size: 22px;
+  }
+  #about{
+    min-height: 200px;
+  }
+  #footer{
+    min-height: 80px;
     text-align: center;
+    font-size: 15px;
   }
-  #mobile-nav ul{
-    list-style: none;
-    display: inline-block;
+  .mobile-footer p{
+    padding-right: 30px;
   }
-  #mobile-nav li{
-    float: left;
-    font-size: 24px;
+  #footer-icons{
+    padding-right: 30px;
   }
-  .list-item a{
-    padding: 23px 20px;
-  }
-  .mobile-footer{
-    display: none;
-  }
-  .desktop-footer{
-    display: inline-block;
+  .icon2{
+    padding: 25px 12px;
+    height: 75px;
   }
 }
 
 /**--duże telefony i tablety--**/
 @media (min-width: 1080px){
-
+  #mobile-title-bar{
+    display: none;
+  }
 }
 
 /**--desktop--**/
