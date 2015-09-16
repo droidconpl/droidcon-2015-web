@@ -224,21 +224,22 @@ header #main-logo img{
   background-color: #4D4D4D;
   color: #FFF;
   text-align: center;
-}
-.desktop-footer{
-  display: none;
+  font-size: 12px;
 }
 .mobile-footer p{
   float: left;
-  padding: 28px 40px 20px 40px;
+  padding: 30px 0px 20px 0px;
 }
 #footer-icons{
   float: right;
-  padding-right: 40px;
 }
 .icon2{
-  padding: 30px 10px;
+  padding: 30px 5px;
   height: 80px;
+}
+
+.desktop-footer{
+  display: none;
 }
 /**----end-footer----**/
 
