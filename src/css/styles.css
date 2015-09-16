@@ -137,19 +137,22 @@ header #main-logo img{
 
 /**----about----**/
 #about{
-  min-height: 300px;
+  min-height: 250px;
+  padding: 20px 0;
   font-size: 16px;
   text-align: center;
   font-family: Roboto;
 }
 
 .about-text{
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 0 auto;
+  display: table;
 }
 
 .when-where{
-  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
   padding: 10px 10px;
 }
 
