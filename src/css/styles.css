@@ -15,7 +15,6 @@ body{
   top: 0;
   width: 100%;
 }
-
 .affix + .container {
   padding-top: 70px;
 }
@@ -36,9 +35,8 @@ body{
   font-size: 25px;
   font-family: 'nerisblack', Arial, sans-serif;
 }
-
 .right{
-  float: right!important;
+  float: right;
 }
 
 /*--end-global classes--*/
@@ -79,7 +77,7 @@ body{
 /*chowamy listę pod hamburger menu dla mobilnych wersi*/
 #menu-list ul{
   display: none;
-  list-style: none
+  list-style: none;
 }
 /*pokazujemy listę po kliknięciu na menu*/
 .expanded#menu-list ul{
@@ -345,20 +343,30 @@ body{
   #mobile-title-bar{
     display: none;
   }
-  #navigation{
+  #navigation, #menu-list ul{
     height: 80px;
   }
   #menu-list ul{
-    display: block;
+    display: table;
     margin: 0 auto;
+    padding: 0;
   }
   #navigation li{
     float: left;
-    font-size: 24px;
+    font-size: 22px;
+    height: inherit;
   }
   .list-item a{
-    border-bottom: none;
-
+    padding: 12px 24px;
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+  }
+  .list-icon img{
+    height: 28px;
+  }
+  .right{
+    float: none;
   }
 }
 
