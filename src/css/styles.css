@@ -16,7 +16,7 @@ body{
   width: 100%;
 }
 
-.affix + .container-fluid {
+.affix + .container {
   padding-top: 70px;
 }
 
@@ -62,7 +62,6 @@ body{
   display: block;
   background: transparent;
   float: left;
-
 }
 /*The white stripes in the hamburger button*/
 #hamburger div {
@@ -82,7 +81,7 @@ body{
   display: none;
 }
 /*pokazujemy listę po kliknięciu na menu*/
-.expanded #menu-list ul{
+.expanded#menu-list ul{
   display: block;
   list-style: none;
   font-size: 20px;
@@ -112,7 +111,7 @@ body{
 /**-----end-mobile menu----**/
 
 /**-----główny andek-----**/
-header #main-logo{
+#main-logo{
   background: rgba(143,143,143,1);
   background: -moz-linear-gradient(top, rgba(143,143,143,1) 0%, rgba(102,102,102,1) 12%, rgba(71,71,71,1) 29%, rgba(51,51,51,1) 52%, rgba(48,48,48,1) 72%, rgba(43,43,43,1) 98%, rgba(19,19,19,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,1)), color-stop(12%, rgba(102,102,102,1)), color-stop(29%, rgba(71,71,71,1)), color-stop(52%, rgba(51,51,51,1)), color-stop(72%, rgba(48,48,48,1)), color-stop(98%, rgba(43,43,43,1)), color-stop(100%, rgba(19,19,19,1)));
@@ -123,7 +122,7 @@ header #main-logo{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f8f8f', endColorstr='#131313', GradientType=0 );
 }
 
-header #main-logo img{
+#main-logo img{
   max-width: 100%;
   height: auto;
   display: inline-block;
@@ -132,8 +131,8 @@ header #main-logo img{
 
 /**-----end-główny andek-----**/
 
-/**----about----**/
-#about{
+/**----about-section----**/
+#about-section{
   min-height: 250px;
   padding: 20px 0;
   font-size: 16px;
@@ -162,15 +161,15 @@ header #main-logo img{
   text-align: left;
 }
 
-/**----end-about----**/
+/**----end-about-section----**/
 
-/**----participate----**/
-#participate{
+/**----participate-section----**/
+#participate-section{
   min-height: 400px;
   padding: 15px 0px;
 }
 
-#participate img{
+#participate-section img{
   width: 60px;
   display: block;
   margin-left: auto;
@@ -178,13 +177,13 @@ header #main-logo img{
   padding: 15px 0px;
 }
 
-#participate p{
+#participate-section p{
   font-family: 'nerislight';
   font-size: 18px;
   text-align: center;
 }
 
-#participate h3{
+#participate-section h3{
  text-align: center;
  font-family: 'nerisblack';
  font-size: 18px;
@@ -192,21 +191,70 @@ header #main-logo img{
 
 /**----end-participate----**/
 
-/**----speakers----**/
-#speakers{
+/**----sponsors-section----**/
+#sponsors-section{
   min-height: 150px;
   padding: 15px 0px;
 }
-
-#speakers p{
+#sponsors-section p{
   font-family: 'nerissemibold';
   text-align: center;
   font-size: 18px;
 }
-/**----end-speakers----**/
+.sponsor-button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8cd201), color-stop(1, #8cd201));
+	background:-moz-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-webkit-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-o-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-ms-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:linear-gradient(to bottom, #8cd201 5%, #8cd201 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd201', endColorstr='#8cd201',GradientType=0);
+	background-color: #8cd201;
+	display: block;
+	cursor: pointer;
+	color: #1A1A1A;
+	font-family: 'nerissemibold';
+	font-size: 19px;
+	font-weight: bold;
+	padding: 12px 80px;
+  margin: 30px auto 10px auto;
+  width: 300px;
+  text-align: center;
+	text-decoration: none;
+}
+.sponsor-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8cd201), color-stop(1, #8cd201));
+	background:-moz-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-webkit-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-o-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:-ms-linear-gradient(top, #8cd201 5%, #8cd201 100%);
+	background:linear-gradient(to bottom, #8cd201 5%, #8cd201 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cd201', endColorstr='#8cd201',GradientType=0);
+	background-color: #8cd201;
+  text-decoration: none;
+  color: #FFF;
+}
+.sponsor-button:active {
+	position:relative;
+	top:1px;
+}
+/**----end-sponsors-section----**/
 
-/**----contact us----**/
-#contact-us{
+/**----speakers-secion----**/
+#speakers-secion{
+  min-height: 150px;
+  padding: 15px 0px;
+}
+
+#speakers-secion p{
+  font-family: 'nerissemibold';
+  text-align: center;
+  font-size: 18px;
+}
+/**----end-speakers-secion----**/
+
+/**----contact-section----**/
+#contact-section{
   min-height: 150px;
   padding: 15px 0px;
   text-align: center;
@@ -215,7 +263,7 @@ header #main-logo img{
   text-decoration: underline;
   color: white;
 }
-/**----end-contact us----**/
+/**----end-contact-section----**/
 
 /**----footer----**/
 #footer{
@@ -267,7 +315,7 @@ header #main-logo img{
   .expanded #menu-list ul{
     font-size: 22px;
   }
-  #about{
+  #about-section{
     min-height: 200px;
   }
   #footer{
