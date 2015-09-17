@@ -79,11 +79,11 @@ body{
 /*chowamy listę pod hamburger menu dla mobilnych wersi*/
 #menu-list ul{
   display: none;
+  list-style: none
 }
 /*pokazujemy listę po kliknięciu na menu*/
 .expanded#menu-list ul{
   display: block;
-  list-style: none;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -125,8 +125,9 @@ body{
 #main-logo img{
   max-width: 100%;
   height: auto;
-  display: inline-block;
+  display: block;
   padding: 30px 0;
+  margin: 0 auto;
 }
 
 /**-----end-główny andek-----**/
@@ -165,7 +166,7 @@ body{
 
 /**----participate-section----**/
 #participate-section{
-  min-height: 400px;
+  min-height: 300px;
   padding: 15px 0px;
 }
 
@@ -347,21 +348,17 @@ body{
   #navigation{
     height: 80px;
   }
-  #navigation ul{
-    list-style: none;
-    display: inline-block;
-    height: 80px;
+  #menu-list ul{
+    display: block;
+    margin: 0 auto;
   }
   #navigation li{
     float: left;
     font-size: 24px;
   }
-  section.top-bar-section{
-    height: 80px;
-  }
   .list-item a{
-    padding: 27px 20px;
     border-bottom: none;
+
   }
 }
 
