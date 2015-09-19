@@ -20,6 +20,12 @@ body{
   padding-top: 70px;
 }
 
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
 /*--backgrounds--*/
 .green{
   background-color: #77AF00;
@@ -288,6 +294,15 @@ body{
   text-align: center;
   font-size: 12px;
 }
+.footer-pos h5 {
+  text-align: left;
+}
+.footer-list {
+  list-style: none;
+  text-align: left;
+  font-family: 'nerislight';
+  padding: 0;
+}
 .mobile-footer p{
   float: left;
   padding: 30px 0px 20px 20px;
@@ -300,10 +315,10 @@ body{
   padding: 30px 8px;
   height: 80px;
 }
-
 .desktop-footer{
   display: none;
 }
+
 #droidcon-global {
   display: block;
   padding-bottom: 20px;
@@ -318,6 +333,10 @@ body{
 @media (min-width: 720px){
   #navigation{
     height: 70px;
+  }
+  .anchor{
+    height: 70px; /*same height as header*/
+    margin-top: -70px; /*same height as header*/
   }
   #hamburger {
     width: 80px;
@@ -368,6 +387,10 @@ body{
   }
   #navigation, #menu-list ul{
     height: 80px;
+  }
+  .anchor{
+    height: 80px; /*same height as header*/
+    margin-top: -80px; /*same height as header*/
   }
   #menu-list ul{
     display: table;
