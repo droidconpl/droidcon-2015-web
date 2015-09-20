@@ -24,6 +24,7 @@
 <!--Here is a place for navbar-->
 <nav id="navigation" data-spy="affix" data-offset-top="70" class="green fixed">
 
+  <!--This section disappears when swiched to desktop -->
   <div id="mobile-title-bar">
     <div id="hamburger">
         <div></div>
@@ -34,7 +35,7 @@
   </div>
 
   <section id="menu-list" class="top-bar-section">
-    <ul class="right green">
+    <ul class="list right green">
       <li class="list-item"><a href="#about">About</a></li>
       <li class="list-item"><a href="#participate">Get involved</a></li>
       <li class="list-item"><a href="#sponsors">Sponsors</a></li>
@@ -59,29 +60,30 @@
 
 <span class="anchor" id="about"></span>
 <!--Here is a place for information about hte conference-->
-<section id="about-section" class="white">
+<section id="about-section" class="section white">
   <div class="container">
 
-    <div class="row about-text">
+    <p class="row about-text">
         Want to hear about latest Android technology<br />
         and talk to experienced Android expert speakers?<br />
-        Be a part of it!<br /> Join second edition of droidcon Kraków!
-    </div>
+        Be a part of it!<br />
+        Join second edition of droidcon Kraków!
+    </p>
 
-    <a href="#" class="sponsor-button">Registration - will open soon!</a>
+    <a href="#" class="button">Registration - will open soon!</a>
 
     <div class="row about-text">
-      <div class="col-sm-6 about-text">
+      <div class="col-sm-6">
         <div class="when-where"><img src="src/img/calendar.png"/></div>
         <div class="when-where mobile-where">4th-5th December 2015<br />
         6th December 2015 - Hackathon</div>
       </div>
 
-      <div class="col-sm-6 about-text">
+      <div class="col-sm-6">
         <div class="when-where"><img src="src/img/location.png"/></div>
-        <div class="when-where mobile-where"><a
-                href="https://www.google.pl/maps/place/Wygrana+6,+30-311+Kraków" target="_blank">BEST WESTERN PLUS Q Hotel<br/>
-            ul. Wygrana 6, Kraków</a>
+        <div class="when-where mobile-where">
+          <a href="https://www.google.pl/maps/place/Wygrana+6,+30-311+Kraków" target="_blank">BEST WESTERN PLUS Q Hotel
+            <br/>ul. Wygrana 6, Kraków</a>
         </div>
       </div>
     </div>
@@ -91,15 +93,15 @@
 
 <span class="anchor" id="participate"></span>
 <!--Here is a place for information how one can participate to the conference-->
-<section id="participate-section" class="green">
+<section id="participate-section" class="section green">
   <div class="container">
 
-      <div class="section-title">How can you participate?</div>
+      <h2 class="section-title">How can you participate?</h2>
 
       <div class="col-sm-4">
           <img src="src/img/learn_button.png"/>
 
-          <h3>Learn</h3>
+          <h3 class="section-subtitle">Learn</h3>
           <p>Attend the conference,<br/>
               listen to different lectures<br/>
               and take part in upcoming<br/>
@@ -110,23 +112,25 @@
       <div class="col-sm-4">
           <img src="src/img/teach_button.png"/>
 
-          <h3>Teach</h3>
+          <h3 class="section-subtitle">Teach</h3>
 
           <p>Become a speaker at<br/>
               Droidcon and give a lecture<br/>
               on the newest subjects<br/>
-              involving Android.</p>
+              involving Android.
+          </p>
       </div>
 
       <div class="col-sm-4">
           <img src="src/img/support_button.png"/>
 
-          <h3>Support</h3>
+          <h3 class="section-subtitle">Support</h3>
 
           <p>Help the conference by<br/>
               donating, volunteering or in<br/>
               other way to become an<br/>
-              even bigger event.</p>
+              even bigger event.
+          </p>
       </div>
 
   </div>
@@ -134,25 +138,25 @@
 
 <span class="anchor" id="sponsors"></span>
 <!--Here is a place with sponsors and link to sponsors offer request-->
-<section id="sponsors-section" class="white">
+<section id="sponsors-section" class="section white">
   <div class="container">
 
-    <div class="section-title">Sponsor us!</div>
+    <h2 class="section-title">Sponsor us!</h2>
     <br/>
     <p>
       Get in touch with us to get sponsors offer.
     </p>
-    <a href="mailto:contact+sponsor@droidcon.pl" class="button sponsor-button">Get in touch</a>
+    <a href="mailto:contact+sponsor@droidcon.pl" class="button">Get in touch</a>
 
   </div>
 </section>
 
 <span class="anchor" id="speakers"></span>
 <!--Here is a place for speakers-->
-<section id="speakers-secion" class="white">
+<section id="speakers-secion" class="section white">
     <div class="container">
 
-        <div class="section-title">Our speakers</div>
+        <h2 class="section-title">Our speakers</h2>
         <br/>
         <p>There is no lineup yet.</p>
         <p>Call 4 Papers will be open soon!</p>
@@ -161,16 +165,16 @@
 
 <span class="anchor" id="contact"></span>
 <!-- Here is a place for contact email-->
-<section id="contact-section" class="green">
+<section id="contact-section" class="section green">
     <div class="container">
 
-        <div class="section-title">Contact us</div>
+        <h2 class="section-title">Contact us</h2>
         <br/>
         <a id="e-mail" href="mailto:contact@droidcon.pl">contact@droidcon.pl</a>
     </div>
 </section>
 
-<footer id="footer">
+<footer id="footer" class="grey">
     <div class="container mobile-footer">
         <p>&copy; DROIDCON | Droidcon Poland</p>
 
@@ -185,7 +189,7 @@
     <div class="container desktop-footer">
         <div class="col-sm-3 footer-pos">
             <h5>Conference</h5>
-            <ul class="footer-list">
+            <ul class="list footer-list">
               <li>About</li>
               <li>Get involved</li>
               <li>Sponsors</li>
@@ -194,14 +198,14 @@
         </div>
         <div class="col-sm-3 footer-pos">
             <h5>Previous Editions</h5>
-            <ul class="footer-list">
+            <ul class="list footer-list">
               <li>2014</li>
             </ul>
         </div>
         <div class="col-sm-3 footer-pos">
           <h5>About Us</h5>
           <h5>Contact</h5>
-          <ul class="footer-list">
+          <ul class="list footer-list">
             <li></li>
           </ul>
         </div>
@@ -214,9 +218,9 @@
     </div>
 
     <div id="droidcon-global" class="container">
-      <a href="http://droidcon.com/" target="_blank"><img src="src/img/DroidCon_Logo.png" alt="droidcon Global" /></a>
+      <a href="http://droidcon.com/" target="_blank"><img src="src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
       <br />
-        droidcon is a registered trademark by Mobile Seasons GmbH
+      droidcon is a registered trademark <br />by Mobile Seasons GmbH
     </div>
 
 </footer>
