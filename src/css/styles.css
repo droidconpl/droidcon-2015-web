@@ -55,24 +55,28 @@ body{
 
 .section {
   font-size: 18px;
-  min-height: 200px;
+  min-height: 150px;
   padding: 20px 0;
   text-align: center;
-}
-.small-section {
-  padding: 20px 0;
 }
 h2.section-title{
   font-size: 25px;
   font-family: 'nerisblack', Arial, sans-serif;
-  margin: 0;
+  margin: 10px 0;
+}
+.small-section {
+  padding: 20px 0 10px 0;
 }
 h3.section-subtitle {
   font-family: 'nerisblack', Arial, sans-serif;
   font-size: 20px;
-  margin: 0;
+  margin: 10px 0;
 }
-
+.text{
+  padding: 10px 0;
+  margin: 0 auto;
+  display: table;
+}
 .right{
   float: right;
 }
@@ -158,11 +162,11 @@ h3.section-subtitle {
 /*hide list in mobile version*/
 #menu-list ul{
   display: none;
+  font-size: 20px;
 }
 /*show list after click on hamburger menu*/
 .expanded#menu-list ul{
   display: block;
-  font-size: 20px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -203,11 +207,6 @@ h3.section-subtitle {
   padding: 20px 0;
   text-align: center;
 }
-.about-text{
-  padding: 10px 0;
-  margin: 0 auto;
-  display: table;
-}
 .when-where{
   display: table-cell;
   vertical-align: middle;
@@ -242,6 +241,7 @@ h3.section-subtitle {
 
 /**----end-speakers-secion----**/
 
+
 /**----contact-section----**/
 a#e-mail{
   text-decoration: underline;
@@ -252,7 +252,7 @@ a#e-mail{
 
 /**----footer----**/
 #footer{
-  min-height: 80px;
+  min-height: 150px;
   text-align: center;
   font-size: 12px;
 }
@@ -269,6 +269,7 @@ a#e-mail{
   padding: 30px 8px;
   height: 80px;
 }
+/*will show that in higher resolutions*/
 .desktop-footer{
   display: none;
 }
@@ -314,33 +315,31 @@ a#footer-mail {
     margin-top: -70px; /*same height as header*/
   }
   #hamburger {
-    width: 80px;
+    width: 70px;
     height: 70px;
-    padding: 12px 15px;
+    padding: 12px 0;
   }
   /*The white stripes in the hamburger button*/
   #hamburger div {
     height: 4px;
-    margin-top: 8px;
-    width: 90%;
+    margin: 8px 9px 0 9px;
+    width: 70%;
   }
   #main-icon{
-    height: 65px;
+    height: 70px;
     padding: 11px 5px;
   }
-  .expanded #menu-list ul{
+  #menu-list ul{
     font-size: 22px;
   }
-  #about-section{
-    min-height: 200px;
+  .list-item a{
+    line-height: 1.5;
+  }
+  .list-icon img{
+    height: 24px;
   }
   #footer{
-    min-height: 80px;
-    text-align: center;
     font-size: 15px;
-  }
-  .mobile-footer p{
-    padding-right: 30px;
   }
   #footer-icons{
     padding-right: 30px;
