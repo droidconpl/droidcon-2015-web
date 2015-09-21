@@ -31,12 +31,30 @@
         <div></div>
         <div></div>
     </div>
-  </div>
 
-  <a href="#home"><img id="main-icon" src="src/img/main-logo.png"/></a>
+
+  <a href="#home"><img class="main-icon" src="src/img/main-logo.png"/></a>
 
   <section id="menu-list" class="top-bar-section">
     <ul class="list right green">
+      <li class="list-item"><a href="#about">About</a></li>
+      <li class="list-item"><a href="#participate">Get involved</a></li>
+      <li class="list-item"><a href="#sponsors">Sponsors</a></li>
+      <li class="list-item"><a href="#speakers">Speakers</a></li>
+      <li class="list-item"><a href="#contact">Contact</a></li>
+      <li class="list-item list-icon"><a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon" src="src/img/facebook.png"/></a>
+      </li>
+      <li class="list-item list-icon"><a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon" src="src/img/twitter.png"/></a></li>
+      <li class="list-item list-icon"><a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon" src="src/img/github-icon.png"/></a></li>
+      <!--<li class="list-item list-icon"><a href="#"><img id="google" alt="google" class="icon" src="src/img/google.png"/></a></li>-->
+    </ul>
+  </section>
+</div>
+
+  <!-- Desktop menu-->
+  <section id="desktop-menu-list" class="top-bar-section">
+    <ul class="list right green">
+      <li class="list-item"><a href="#home"><img class="main-icon" src="src/img/main-logo.png"/></a></li>
       <li class="list-item"><a href="#about">About</a></li>
       <li class="list-item"><a href="#participate">Get involved</a></li>
       <li class="list-item"><a href="#sponsors">Sponsors</a></li>
@@ -175,44 +193,47 @@
 </section>
 
 <footer id="footer" class="grey">
-    <div class="container mobile-footer">
-        <p>&copy; DROIDCON | Droidcon Poland</p>
 
-        <div id="footer-icons">
-          <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
-          <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
-          <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
-          <!--<a href="#"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>-->
-        </div>
-    </div>
+  <!-- Displayed only for mobile devices-->
+  <div class="container mobile-footer">
+      <p>&copy; DROIDCON | Droidcon Poland</p>
 
-    <div class="container desktop-footer">
-        <div class="col-sm-3 footer-pos">
-            <h5>Conference</h5>
-            <ul class="list footer-list">
-              <li><a href="#about">About</a></li>
-              <li><a href="#participate">Get involved</a></li>
-              <li><a href="sponsors">Sponsors</a></li>
-              <li><a href="speakers">Speakers</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-3 footer-pos">
-            <h5>Previous Editions</h5>
-            <ul class="list footer-list">
-              <li><a href="http://2014.droidcon.pl/" target="_blank">2014</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-3 footer-pos">
-          <!--<h5>About Us</h5>-->
-          <h5><a id="footer-mail" href="mailto:contact@droidcon.pl">Contact</a></h5>
-        </div>
-        <div class="col-sm-3 footer-pos">
-          <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
-          <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
-          <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
-          <!--<a href="#"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>-->
-        </div>
-    </div>
+      <div id="footer-icons">
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
+        <!--<a href="#"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>-->
+      </div>
+  </div>
+
+  <!-- Displayed for bigger resolutions-->
+  <div class="container desktop-footer">
+      <div class="col-sm-3 footer-pos">
+          <h5>Conference</h5>
+          <ul class="list footer-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#participate">Get involved</a></li>
+            <li><a href="sponsors">Sponsors</a></li>
+            <li><a href="speakers">Speakers</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3 footer-pos">
+          <h5>Previous Editions</h5>
+          <ul class="list footer-list">
+            <li><a href="http://2014.droidcon.pl/" target="_blank">2014</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3 footer-pos">
+        <!--<h5>About Us</h5>-->
+        <h5><a id="footer-mail" href="mailto:contact@droidcon.pl">Contact</a></h5>
+      </div>
+      <div class="col-sm-3 footer-pos">
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
+        <!--<a href="#"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>-->
+      </div>
+  </div>
 
     <div id="droidcon-global" class="container">
       <div>
