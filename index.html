@@ -20,19 +20,20 @@
 </head>
 <body>
 
-<span class="anchor" id="home"></span>
+<span id="home" class="anchor"></span>
 <!--Here is a place for navbar-->
-<nav id="navigation" data-spy="affix" data-offset-top="70" class="green fixed">
+<nav id="navbar" class="green navbar-height">
 
   <!--This section disappears when swiched to desktop -->
   <div id="mobile-title-bar">
-    <div id="hamburger">
+    <div id="hamburger" class="navbar-height">
         <div></div>
         <div></div>
         <div></div>
     </div>
-    <div><a href="#home"><img id="main-icon" src="src/img/main-logo.png"/></a></div>
   </div>
+
+  <a href="#home"><img id="main-icon" src="src/img/main-logo.png"/></a>
 
   <section id="menu-list" class="top-bar-section">
     <ul class="list right green">
@@ -40,7 +41,6 @@
       <li class="list-item"><a href="#participate">Get involved</a></li>
       <li class="list-item"><a href="#sponsors">Sponsors</a></li>
       <li class="list-item"><a href="#speakers">Speakers</a></li>
-      <!--<li class="list-item"><a href="#">Previous Conferences</a></li>-->
       <li class="list-item"><a href="#contact">Contact</a></li>
       <li class="list-item list-icon"><a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon" src="src/img/facebook.png"/></a>
       </li>
@@ -51,19 +51,21 @@
   </section>
 
 </nav>
+<!--  empty container-->
+<div class="navbar-height"></div>
 
-<section id="main-logo">
+<section id="main-logo" class="logo-gradient">
   <div class="container">
-    <img id="logo" src="src/img/tlo_ilustracja.png"/>
+    <img src="src/img/tlo_ilustracja.png"/>
   </div>
 </section>
 
-<span class="anchor" id="about"></span>
+<span id="about" class="anchor"></span>
 <!--Here is a place for information about hte conference-->
-<section id="about-section" class="section white">
+<section id="about-section" class="white">
   <div class="container">
 
-    <p class="row about-text">
+    <p class="row text">
         Want to hear about latest Android technology<br />
         and talk to experienced Android expert speakers?<br />
         Be a part of it!<br />
@@ -72,7 +74,7 @@
 
     <a href="#" class="button">Registration - will open soon!</a>
 
-    <div class="row about-text">
+    <div class="row text">
       <div class="col-sm-6">
         <div class="when-where"><img src="src/img/calendar.png"/></div>
         <div class="when-where mobile-where">4th-5th December 2015<br />
@@ -91,14 +93,14 @@
   </div>
 </section>
 
-<span class="anchor" id="participate"></span>
+<span id="participate" class="anchor"></span>
 <!--Here is a place for information how one can participate to the conference-->
 <section id="participate-section" class="section green">
   <div class="container">
 
       <h2 class="section-title">How can you participate?</h2>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4 small-section">
           <img src="src/img/learn_button.png"/>
 
           <h3 class="section-subtitle">Learn</h3>
@@ -109,7 +111,7 @@
           </p>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4 small-section">
           <img src="src/img/teach_button.png"/>
 
           <h3 class="section-subtitle">Teach</h3>
@@ -121,7 +123,7 @@
           </p>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4 small-section">
           <img src="src/img/support_button.png"/>
 
           <h3 class="section-subtitle">Support</h3>
@@ -136,40 +138,38 @@
   </div>
 </section>
 
-<span class="anchor" id="sponsors"></span>
+<span id="sponsors" class="anchor"></span>
 <!--Here is a place with sponsors and link to sponsors offer request-->
 <section id="sponsors-section" class="section white">
   <div class="container">
 
-    <h2 class="section-title">Sponsor us!</h2>
-    <br/>
-    <p>
-      Get in touch with us to get sponsors offer.
-    </p>
+    <h2 class="row section-title">Sponsor us!</h2>
+
+    <p class="text">Get in touch with us to get sponsors offer.</p>
     <a href="mailto:contact+sponsor@droidcon.pl" class="button">Get in touch</a>
 
   </div>
 </section>
 
-<span class="anchor" id="speakers"></span>
+<span id="speakers" class="anchor"></span>
 <!--Here is a place for speakers-->
 <section id="speakers-secion" class="section white">
-    <div class="container">
+  <div class="container">
 
-        <h2 class="section-title">Our speakers</h2>
-        <br/>
-        <p>There is no lineup yet.</p>
-        <p>Call 4 Papers will be open soon!</p>
-    </div>
+    <h2 class="section-title">Our speakers</h2>
+
+    <p class="text">There is no lineup yet.</p>
+    <a href="#" class="button">C4P - will open soon!</a>
+
+  </div>
 </section>
 
-<span class="anchor" id="contact"></span>
+<span id="contact" class="anchor"></span>
 <!-- Here is a place for contact email-->
 <section id="contact-section" class="section green">
     <div class="container">
 
-        <h2 class="section-title">Contact us</h2>
-        <br/>
+        <h2 class="row section-title">Contact us</h2>
         <a id="e-mail" href="mailto:contact@droidcon.pl">contact@droidcon.pl</a>
     </div>
 </section>
@@ -190,24 +190,21 @@
         <div class="col-sm-3 footer-pos">
             <h5>Conference</h5>
             <ul class="list footer-list">
-              <li>About</li>
-              <li>Get involved</li>
-              <li>Sponsors</li>
-              <li>Speakers</li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#participate">Get involved</a></li>
+              <li><a href="sponsors">Sponsors</a></li>
+              <li><a href="speakers">Speakers</a></li>
             </ul>
         </div>
         <div class="col-sm-3 footer-pos">
             <h5>Previous Editions</h5>
             <ul class="list footer-list">
-              <li>2014</li>
+              <li><a href="http://2014.droidcon.pl/" target="_blank">2014</a></li>
             </ul>
         </div>
         <div class="col-sm-3 footer-pos">
-          <h5>About Us</h5>
-          <h5>Contact</h5>
-          <ul class="list footer-list">
-            <li></li>
-          </ul>
+          <!--<h5>About Us</h5>-->
+          <h5><a id="footer-mail" href="mailto:contact@droidcon.pl">Contact</a></h5>
         </div>
         <div class="col-sm-3 footer-pos">
           <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
@@ -218,9 +215,12 @@
     </div>
 
     <div id="droidcon-global" class="container">
-      <a href="http://droidcon.com/" target="_blank"><img src="src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
-      <br />
-      droidcon is a registered trademark <br />by Mobile Seasons GmbH
+      <div>
+        <a href="http://droidcon.com/" target="_blank"><img src="src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
+      </div>
+      <div>
+        <p>droidcon is a registered trademark <br />by Mobile Seasons GmbH</p>
+      </div>
     </div>
 
 </footer>
