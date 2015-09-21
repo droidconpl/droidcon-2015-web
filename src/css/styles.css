@@ -12,14 +12,7 @@ body{
 
 /*--global classes--*/
 
-.affix {
-  top: 0;
-  width: 100%;
-}
-.affix + .container {
-  padding-top: 70px;
-}
-
+/*--Żeby odsyłało do sekcji nie zasłaniając jej--*/
 .anchor{
   display: block;
   height: 50px; /*same height as header*/
@@ -40,6 +33,20 @@ body{
   background-color: #4D4D4D;
   color: #EEEDEC;
 }
+.logo-gradient{
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-70, #737373), color-stop(100, #1C1C1C));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #737373 -70%, #1C1C1C 100%);
+}
 /*--end backgrounds--*/
 .list {
   list-style: none;
@@ -52,13 +59,18 @@ body{
   padding: 20px 0;
   text-align: center;
 }
+.small-section {
+  padding: 20px 0;
+}
 h2.section-title{
   font-size: 25px;
   font-family: 'nerisblack', Arial, sans-serif;
+  margin: 0;
 }
 h3.section-subtitle {
-  font-family: 'nerisblack';
+  font-family: 'nerisblack', Arial, sans-serif;
   font-size: 20px;
+  margin: 0;
 }
 
 .right{
@@ -81,7 +93,7 @@ h3.section-subtitle {
   font-size: 16px;
 	font-weight: bold;
 	padding: 12px 0px;
-  margin: 30px auto 10px auto;
+  margin: 10px auto;
   width: 290px;
   text-align: center;
 	text-decoration: none;
@@ -110,19 +122,21 @@ h3.section-subtitle {
 
 /*--end-global classes--*/
 
-/**-----mobile menu----**/
-/*zielony pasek menu*/
-#navigation{
-  height: 50px;
+/**-----properties for mobile devices----**/
+/*green menu bar*/
+#navbar{
+  position: fixed;
+  width: 100%;
   z-index: 99;
   top: 0;
   border-bottom: 1px solid #FFF;
 }
-#hamburger {
-  position: relative;
-  width: 60px;
+.navbar-height{
   height: 50px;
-  padding: 7px 9px;
+}
+#hamburger {
+  width: 50px;
+  padding: 7px 0;
   cursor: pointer;
   display: block;
   background: transparent;
@@ -133,19 +147,19 @@ h3.section-subtitle {
   background-color: #FFF;
   border-radius: 2px;
   height: 3px;
-  margin-top: 6px;
-  width: 90%;
+  margin: 6px 7px 0 7px;
+  width: 70%;
 }
-/*ikonkra androidka w mobilnym menu*/
+/*droid icon in menu bar*/
 #main-icon{
   height: 50px;
   padding: 7px 5px;
 }
-/*chowamy listę pod hamburger menu dla mobilnych wersi*/
+/*hide list in mobile version*/
 #menu-list ul{
   display: none;
 }
-/*pokazujemy listę po kliknięciu na menu*/
+/*show list after click on hamburger menu*/
 .expanded#menu-list ul{
   display: block;
   font-size: 20px;
@@ -154,14 +168,14 @@ h3.section-subtitle {
   width: 100%;
   text-align: center;
 }
-/*style listy po rozwinięciu*/
+/*list styles*/
 .list-item a{
-  padding: 12px 0;
+  padding: 10px 0;
   width: 100%;
   text-decoration: none;
   color: #FFF;
   display: block;
-  line-height: 1;
+  line-height: 1.3;
   border-bottom: 1px solid #FFF;
 }
 .list-item a:hover{
@@ -169,25 +183,11 @@ h3.section-subtitle {
   color: #8ED201;
 }
 .list-icon img{
-  height: 25px;
+  height: 20px;
 }
 /**-----end-mobile menu----**/
 
-/**-----główny andek-----**/
-#main-logo{
-  /* IE10+ */
-  background-image: -ms-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
-  /* Opera */
-  background-image: -o-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-70, #737373), color-stop(100, #1C1C1C));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(top, #737373 -70%, #1C1C1C 100%);
-  /* W3C Markup */
-  background-image: linear-gradient(to bottom, #737373 -70%, #1C1C1C 100%);
-}
+/**-----main droid logo-----**/
 #main-logo img{
   max-width: 100%;
   height: auto;
@@ -195,15 +195,16 @@ h3.section-subtitle {
   padding: 30px 0;
   margin: 0 auto;
 }
-/**-----end-główny andek-----**/
+/**-----end-main droid logo-----**/
 
 /**----about-section----**/
 #about-section {
   font-family: Roboto;
+  padding: 20px 0;
+  text-align: center;
 }
 .about-text{
-  font-size: 16px;
-  padding-top: 10px;
+  padding: 10px 0;
   margin: 0 auto;
   display: table;
 }
@@ -279,24 +280,33 @@ a#e-mail{
   font-family: 'nerislight';
   padding: 0;
 }
+.footer-list a {
+  color: #FFF;
+}
+a#footer-mail {
+  color: #FFF;
+}
 
 #droidcon-global {
   font-weight: bold;
-  text-align: left;
-  display: block;
-  margin: 0 auto;
 }
 #droidcon-global img {
   height: 70px;
   padding: 10px 24px;
   float: left;
 }
+#droidcon-global p{
+  float: left;
+  text-align: left;
+  padding: auto 0;
+  padding: 10px 24px;
+}
 /**----end-footer----**/
 
 /**----other dimensions----**/
 /**--duże telefony i tablety--**/
 @media (min-width: 720px){
-  #navigation{
+  .navbar-height{
     height: 70px;
   }
   .anchor{
@@ -350,7 +360,7 @@ a#e-mail{
   #mobile-title-bar{
     display: none;
   }
-  #navigation, #menu-list ul{
+  .navbar-height, #menu-list ul{
     height: 80px;
   }
   .anchor{
@@ -362,7 +372,7 @@ a#e-mail{
     margin: 0 auto;
     padding: 0;
   }
-  #navigation li{
+  #navbar li{
     float: left;
     font-size: 22px;
     height: inherit;
@@ -405,10 +415,10 @@ a#e-mail{
     width: 1100px;
     height: inherit;
   }
-  #navigation, #menu-list ul{
+  .navbar-height, #menu-list ul{
     height: 100px;
   }
-  #navigation li{
+  #navbar li{
     font-size: 24px;
   }
   .list-item a{
