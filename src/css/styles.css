@@ -48,6 +48,7 @@ body{
   background-image: linear-gradient(to bottom, #737373 -70%, #1C1C1C 100%);
 }
 /*--end backgrounds--*/
+
 .list {
   list-style: none;
   font-family: 'nerissemibold';
@@ -220,7 +221,7 @@ h3.section-subtitle {
   height: 30px;
 }
 .mobile-where{
-  min-width: 250px;
+  min-width: 280px;
   text-align: left;
 }
 /**----end-about-section----**/
@@ -360,9 +361,34 @@ a#footer-mail {
     width: 970px;
     height: inherit;
   }
+  body{
+    font-size: 18px;
+  }
   .anchor{
     height: 80px; /*same height as header*/
     margin-top: -80px; /*same height as header*/
+  }
+  .section {
+    font-size: 20px;
+    padding: 25px 0;
+    min-height: 200px;
+  }
+  h2.section-title{
+    font-size: 27px;
+    margin: 15px 0;
+  }
+  .small-section {
+    padding: 30px 0 20px 0;
+  }
+  h3.section-subtitle {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+  .text{
+    padding: 20px 0;
+  }
+  .button {
+    font-size: 18px;
   }
   /*Turn off mobile navbar list*/
   #mobile-title-bar{
