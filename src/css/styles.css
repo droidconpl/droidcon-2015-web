@@ -155,7 +155,7 @@ h3.section-subtitle {
   width: 70%;
 }
 /*droid icon in menu bar*/
-#main-icon{
+.main-icon{
   height: 50px;
   padding: 7px 5px;
 }
@@ -188,6 +188,10 @@ h3.section-subtitle {
 }
 .list-icon img{
   height: 20px;
+}
+
+#desktop-menu-list {
+  display: none;
 }
 /**-----end-mobile menu----**/
 
@@ -325,7 +329,7 @@ a#footer-mail {
     margin: 8px 9px 0 9px;
     width: 70%;
   }
-  #main-icon{
+  .main-icon{
     height: 70px;
     padding: 11px 5px;
   }
@@ -356,20 +360,29 @@ a#footer-mail {
     width: 970px;
     height: inherit;
   }
-  #mobile-title-bar{
-    display: none;
-  }
-  .navbar-height, #menu-list ul{
-    height: 80px;
-  }
   .anchor{
     height: 80px; /*same height as header*/
     margin-top: -80px; /*same height as header*/
   }
-  #menu-list ul{
+  /*Turn off mobile navbar list*/
+  #mobile-title-bar{
+    display: none;
+  }
+  /*Turn on desktop navbar list*/
+  #desktop-menu-list {
+    display: block;
+  }
+  .navbar-height, #desktop-menu-list ul{
+    height: 80px;
+  }
+  #desktop-menu-list ul{
     display: table;
     margin: 0 auto;
     padding: 0;
+  }
+  /*droid icon in menu bar*/
+  .main-icon{
+    padding: 10px 0;
   }
   #navbar li{
     float: left;
@@ -377,7 +390,7 @@ a#footer-mail {
     height: inherit;
   }
   .list-item a{
-    padding: 12px 24px;
+    padding: 0 24px;
     display: table-cell;
     vertical-align: middle;
     height: inherit;
@@ -414,17 +427,23 @@ a#footer-mail {
     width: 1100px;
     height: inherit;
   }
-  .navbar-height, #menu-list ul{
+  .anchor{
+    height: 100px; /*same height as header*/
+    margin-top: -100px; /*same height as header*/
+  }
+  .navbar-height, #desktop-menu-list ul{
     height: 100px;
   }
+  /*droid icon in menu bar*/
+  .main-icon{
+    padding: 0;
+  }
   #navbar li{
-    font-size: 24px;
+    font-size: 26px;
   }
-  .list-item a{
-    padding: 12px 24px;
-  }
+
   .list-icon img{
-    height: 32px;
+    height: 34px;
   }
   .icon2{
     height: 30px;
