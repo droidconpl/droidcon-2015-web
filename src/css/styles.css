@@ -390,7 +390,7 @@ a#footer-mail {
     height: inherit;
   }
   .list-item a{
-    padding: 0 24px;
+    padding: 0 26px;
     display: table-cell;
     vertical-align: middle;
     height: inherit;
@@ -441,7 +441,9 @@ a#footer-mail {
   #navbar li{
     font-size: 26px;
   }
-
+  .list-item a{
+    padding: 0 36px;
+  }
   .list-icon img{
     height: 34px;
   }
