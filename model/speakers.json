@@ -1,0 +1,96 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "firstName": "Sean",
+            "lastName": "Connery",
+            "bio": "Scottish actor and producer who has won an Academy Award, two BAFTA Awards (one of them being a BAFTA Academy Fellowship Award )and three Golden Globes (including the Cecil B. DeMille Award and a Henrietta Award). Connery is best known for portraying the character James Bond ,starring in seven Bond films between 1962 and 1983.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/SeanConneryJune08.jpg",
+            "sessions": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "firstName": "Ursula",
+            "lastName": "Andress",
+            "bio": "Swiss-born film and television actress, former model and sex symbol, who has appeared in American, British and Italian films. She is best known for her role as Bond girl Honey Ryder in the first James Bond film, Dr. No, for which she won a Golden Globe. She later starred as Vesper Lynd in the Bond-parody Casino Royale.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ursula_Andress_1960s.jpg/800px-Ursula_Andress_1960s.jpg",
+            "sessions": [
+                1
+            ]
+        },
+         {
+            "id": 3,
+            "firstName": "Pedro",
+            "lastName": "Armendáriz",
+            "bio": "When Armendáriz finished his studies, he moved to Mexico where he worked for the railroad, as a tour guide and as a journalist for the bilingual magazine México Real. He was discovered by film director Miguel Zacarías when Armendáriz recited a soliloquy from Hamlet to an American tourist. ",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Kerim_Bey_by_Pedro_Armendariz.jpg",
+            "sessions": [
+                2
+            ]
+        },
+          {
+            "id": 4,
+            "firstName": "Honor",
+            "lastName": "Blackman",
+            "bio": "English actress, widely known for the roles of Cathy Gale in The Avengers (1962–64), Bond girl Pussy Galore in Goldfinger (1964), Julia Daggett in Shalako (1968) and Hera in Jason and the Argonauts (1963).",
+            "imageUrl": "http://i.dailymail.co.uk/i/pix/2014/09/19/1411151154482_wps_3_Honor_Blackman_Actress.jpg",
+            "sessions": [
+                3
+            ]
+        },
+         {
+            "id": 6,
+            "firstName": "George",
+            "lastName": "Lazenby",
+            "bio": "Australian actor and former model, best known for portraying James Bond in the 1969 film On Her Majesty's Secret Service when he was 29. He remains the only actor to have played the role in only one Eon Productions Bond film.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/GeorgeLazenby11.14.08ByLuigiNovi.jpg/450px-GeorgeLazenby11.14.08ByLuigiNovi.jpg",
+            "sessions": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "firstName": "Roger",
+            "lastName": "Moore",
+            "bio": "Moore's most notable role is that of the British secret agent James Bond, whom he portrayed in seven feature films between 1973 and 1985; he remains the oldest actor to have played the character.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Roger_Moore_2014.jpg",
+            "sessions": [
+                5
+            ]
+        },
+         {
+            "id": 8,
+            "firstName": "Timothy",
+            "lastName": "Dalton",
+            "bio": "He is known for portraying James Bond in The Living Daylights (1987) and Licence to Kill (1989), as well as Rhett Butler in the television miniseries Scarlett (1994).",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Timothy_Dalton_1987.jpg/450px-Timothy_Dalton_1987.jpg",
+            "sessions": [
+                6
+            ]
+        },
+           {
+            "id": 9,
+            "firstName": "Pierce",
+            "lastName": "Brosnan",
+            "bio": "He then went on to train at the Drama Centre in London for three years. Following a stage acting career he rose to popularity in the television series Remington Steele (1982–87), which blended the genres of romantic comedy, drama, and detective procedural.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pierce_Brosnan_Deauville_2014.jpg/423px-Pierce_Brosnan_Deauville_2014.jpg",
+            "sessions": [
+                7
+            ]
+        },
+        {
+            "id": 10,
+            "firstName": "Daniel",
+            "lastName": "Craig",
+            "bio": "Daniel Wroughton Craig (born 2 March 1968) is an English actor, who trained at the National Youth Theatre and graduated from the Guildhall School of Music and Drama in 1991, beginning his career on stage. His film debut was in the drama The Power of One (1992). Other early appearances were in the biographical film Elizabeth (1998) and the Disney family film A Kid in King Arthur's Court (1995), as well as in the historical war drama television series Sharpe's Eagle (1993) and the action-adventure drama series Zorro. Cast as the fictional British secret agent James Bond 007 in October 2005, his first film in the role, Casino Royale, was released in cinemas worldwide in November 2006.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Daniel_Craig_3%2C_2012.jpg/481px-Daniel_Craig_3%2C_2012.jpg",
+            "sessions": [
+                8
+            ]
+        }
+    ]
+}
