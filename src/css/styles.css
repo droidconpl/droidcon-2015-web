@@ -247,6 +247,28 @@ h3.section-subtitle {
 /**----end-speakers-secion----**/
 
 
+/**----partner-secion----**/
+#brackets {
+  width:100%;
+  text-align: center;
+}
+.bracket {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+.bracket a {
+  width: 100%;
+  height: 100%;
+}
+.bracket img {
+  width: inherit;
+}
+/**----end-partner-secion----**/
+
+
 /**----contact-section----**/
 a#e-mail{
   text-decoration: underline;
@@ -426,6 +448,11 @@ a#footer-mail {
   }
   .right{
     float: none;
+  }
+  .bracket {
+    height: 180px;
+    width: 180px;
+    margin: 8px 8px;
   }
   .mobile-footer {
     display: none;
