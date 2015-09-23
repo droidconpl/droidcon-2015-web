@@ -1,0 +1,9 @@
+{
+    "partners": [
+        {
+            "partnerName": "Codepot",
+            "partnerUrl": "https://codepot.pl/",
+            "partnerLogo": "src/img/partners/codepot-logo.png"
+        }
+    ]
+}
