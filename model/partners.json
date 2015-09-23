@@ -8,9 +8,9 @@
     ],
     "medias": [
         {
-            "partnerName": "Crossweb",
-            "partnerUrl": "http://crossweb.pl/",
-            "partnerLogo": "src/img/partners/crossweb-logo.png"
+            "mediaName": "Crossweb",
+            "mediaUrl": "http://crossweb.pl/",
+            "mediaLogo": "src/img/partners/crossweb-logo.png"
         }
     ]
 }

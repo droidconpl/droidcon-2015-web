@@ -21,9 +21,9 @@ $(document).ready(function(){
 
     $.each(data.medias, function(index, element){
       $("section#media-section .brackets").append(
-        "<div class=\"bracket\"><a href=\"" + element.partnerUrl
-        + "\" target=\"_blank\"><img src=\"" + element.partnerLogo
-        + "\" alt=\"" + element.partnerName + "\" /></a></div>");
+        "<div class=\"bracket\"><a href=\"" + element.mediaUrl
+        + "\" target=\"_blank\"><img src=\"" + element.mediaLogo
+        + "\" alt=\"" + element.mediaName + "\" /></a></div>");
     }).error(function(data) {
     console.log("Error!");
     });
