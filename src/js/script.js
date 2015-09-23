@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   var partnersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/partners.json";
   $.getJSON(partnersUrl, function(data){
-    $.each(data.sessions, function(index, element){
+    $.each(data.partners, function(index, element){
       $("#brackets").append(
         "<div class=\"bracket\"><a href=\"" + element.partnerUrl
         + "\" target=\"_blank\"><img src=\"" + element.partnerLogo
