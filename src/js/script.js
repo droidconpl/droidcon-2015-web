@@ -18,7 +18,10 @@ $(document).ready(function(){
     }).error(function(data) {
     console.log("Error!");
     });
+  });
 
+  var mediasUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/medias.json";
+  $.getJSON(mediasUrl, function(data){
     $.each(data.medias, function(index, element){
       $("section#media-section .brackets").append(
         "<div class=\"bracket\"><a href=\"" + element.mediaUrl
@@ -28,5 +31,6 @@ $(document).ready(function(){
     console.log("Error!");
     });
   });
+
 
 });
