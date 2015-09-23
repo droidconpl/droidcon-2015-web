@@ -5,5 +5,14 @@
             "partnerUrl": "https://codepot.pl/",
             "partnerLogo": "src/img/partners/codepot-logo.png"
         }
+    ],
+
+
+    "medias": [
+        {
+            "partnerName": "Crossweb",
+            "partnerUrl": "http://crossweb.pl/",
+            "partnerLogo": "src/img/partners/crossweb-logo.png"
+        }
     ]
 }
