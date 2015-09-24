@@ -4,6 +4,11 @@
             "partnerName": "Codepot",
             "partnerUrl": "https://codepot.pl/",
             "partnerLogo": "src/img/partners/codepot-logo.png"
+        },
+        {
+            "partnerName": "GDG Warsaw",
+            "partnerUrl": "https://plus.google.com/+GdgWarszawaPl/posts",
+            "partnerLogo": "src/img/partners/gdg-warsaw-logo.png"
         }
     ]
 }
