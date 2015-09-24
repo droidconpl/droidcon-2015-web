@@ -13,7 +13,8 @@ $(document).ready(function(){
     $.each(data.partners, function(index, element){
       $("section#partner-section .brackets").append(
         "<div class=\"bracket\"><a href=\"" + element.partnerUrl
-        + "\" target=\"_blank\"><img src=\"" + element.partnerLogo
+        + "\" target=\"_blank\" title=\"" + element.partnerName
+        + "\"><img src=\"" + element.partnerLogo
         + "\" alt=\"" + element.partnerName + "\" /></a></div>");
     }).error(function(data) {
     console.log("Error!");
@@ -25,7 +26,8 @@ $(document).ready(function(){
     $.each(data.medias, function(index, element){
       $("section#media-section .brackets").append(
         "<div class=\"bracket\"><a href=\"" + element.mediaUrl
-        + "\" target=\"_blank\"><img src=\"" + element.mediaLogo
+        + "\" target=\"_blank\" title=\"" + element.mediaName
+        + "\"><img src=\"" + element.mediaLogo
         + "\" alt=\"" + element.mediaName + "\" /></a></div>");
     }).error(function(data) {
     console.log("Error!");
