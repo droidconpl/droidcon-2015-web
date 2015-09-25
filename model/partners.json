@@ -9,6 +9,11 @@
             "partnerName": "GDG Warsaw",
             "partnerUrl": "https://plus.google.com/+GdgWarszawaPl/posts",
             "partnerLogo": "src/img/partners/gdg-warsaw-logo.png"
+        },
+        {
+            "partnerName": "Mobilization",
+            "partnerUrl": "http://mobilization5.eventbrite.com/?aff=droidconpl",
+            "partnerLogo": "src/img/partners/mobilization-logo.png"
         }
     ]
 }
