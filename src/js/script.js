@@ -12,7 +12,7 @@ $(document).ready(function(){
   $.getJSON(partnersUrl, function(data){
     $.each(data.partners, function(index, element){
       $("section#partner-section .brackets").append(
-        "<div class=\"bracket\"><a href=\"" + element.partnerUrl
+        "<div class=\"bracket " + element.partnerName + "\"><a href=\"" + element.partnerUrl
         + "\" target=\"_blank\" title=\"" + element.partnerName
         + "\"><img src=\"" + element.partnerLogo
         + "\" alt=\"" + element.partnerName + "\" /></a></div>");
@@ -25,7 +25,7 @@ $(document).ready(function(){
   $.getJSON(mediasUrl, function(data){
     $.each(data.medias, function(index, element){
       $("section#media-section .brackets").append(
-        "<div class=\"bracket\"><a href=\"" + element.mediaUrl
+        "<div class=\"bracket " + element.mediaName + "\"><a href=\"" + element.mediaUrl
         + "\" target=\"_blank\" title=\"" + element.mediaName
         + "\"><img src=\"" + element.mediaLogo
         + "\" alt=\"" + element.mediaName + "\" /></a></div>");
