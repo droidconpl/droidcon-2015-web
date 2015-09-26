@@ -19,6 +19,11 @@
             "partnerName": "Poznań Android Developer Group",
             "partnerUrl": "http://www.meetup.com/Poznan-Android-Developer-Group/",
             "partnerLogo": "src/img/partners/adg-logo.png"
+        },
+        {
+            "partnerName": "Warsaw Java User Group",
+            "partnerUrl": "http://warszawa.jug.pl/",
+            "partnerLogo": "src/img/partners/wjug-logo.png"
         }
     ]
 }
