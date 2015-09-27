@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#menu-list').toggleClass('expanded');
   });
 
-  var partnersUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/partners.json";
+  var partnersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/partners.json";
   $.getJSON(partnersUrl, function(data){
     $.each(data.partners, function(index, element){
       $("section#partner-section .brackets").append(
@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
   });
 
-  var mediasUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/medias.json";
+  var mediasUrl = "https://droidconpl.github.io/droidcon-2015-web/model/medias.json";
   $.getJSON(mediasUrl, function(data){
     $.each(data.medias, function(index, element){
       $("section#media-section .brackets").append(
