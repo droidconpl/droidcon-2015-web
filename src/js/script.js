@@ -31,7 +31,7 @@ $.getJSON(mediasUrl, function(data){
 var sponsorsUrl = "https://droidconpl.github.io/droidcon-2015-web/model/sponsors.json";
 $.getJSON(sponsorsUrl, function(data){
   $.each(data.sponsors, function(index, element){
-    $("section#media-section .brackets").append(
+    $("section#sponsors-section .brackets").append(
       "<div class=\"bracket " + element.sponsorName + "\"><a href=\"" + element.sponsorUrl
       + "\" target=\"_blank\" title=\"" + element.sponsorName
       + "\"><img src=\"" + element.sponsorLogo
