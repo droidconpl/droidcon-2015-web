@@ -422,7 +422,7 @@ a#footer-mail {
     height: inherit;
   }
   .list-item a{
-    padding: 0 26px;
+    padding: 0 20px;
     display: table-cell;
     vertical-align: middle;
     height: inherit;
@@ -479,10 +479,10 @@ a#footer-mail {
     font-size: 26px;
   }
   .list-item a{
-    padding: 0 36px;
+    padding: 0 30px;
   }
   .list-icon img{
-    height: 34px;
+    height: 30px;
   }
   .icon2{
     height: 30px;
