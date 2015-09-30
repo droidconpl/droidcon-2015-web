@@ -6,7 +6,7 @@
             "partnerLogo": "src/img/partners/codepot-logo.png"
         },
         {
-            "partnerName": "GDG Warsaw",
+            "partnerName": "GDG Warszawa",
             "partnerUrl": "https://plus.google.com/+GdgWarszawaPl/posts",
             "partnerLogo": "src/img/partners/gdg-warsaw-logo.png"
         },
@@ -29,6 +29,12 @@
             "partnerName": "TouK",
             "partnerUrl": "https://touk.pl/",
             "partnerLogo": "src/img/partners/touk-logo.png"
+        }
+        ,
+        {
+            "partnerName": "GDG Kraków",
+            "partnerUrl": "https://plus.google.com/u/0/+GDGKrakowPlus/posts",
+            "partnerLogo": "src/img/partners/gdg-krakow-logo.png"
         }
     ]
 }
