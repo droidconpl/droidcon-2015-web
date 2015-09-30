@@ -14,8 +14,6 @@ $.getJSON(partnersUrl, function(data){
       + "\" target=\"_blank\" title=\"" + element.partnerName
       + "\"><img src=\"" + element.partnerLogo
       + "\" alt=\"" + element.partnerName + "\" /></a></div>");
-  }).error(function(data) {
-  console.log("Error!");
   });
 });
 
@@ -27,7 +25,16 @@ $.getJSON(mediasUrl, function(data){
       + "\" target=\"_blank\" title=\"" + element.mediaName
       + "\"><img src=\"" + element.mediaLogo
       + "\" alt=\"" + element.mediaName + "\" /></a></div>");
-  }).error(function(data) {
-  console.log("Error!");
+  });
+});
+
+var sponsorsUrl = "https://droidconpl.github.io/droidcon-2015-web/model/sponsors.json";
+$.getJSON(sponsorsUrl, function(data){
+  $.each(data.sponsors, function(index, element){
+    $("section#media-section .brackets").append(
+      "<div class=\"bracket " + element.sponsorName + "\"><a href=\"" + element.sponsorUrl
+      + "\" target=\"_blank\" title=\"" + element.sponsorName
+      + "\"><img src=\"" + element.sponsorLogo
+      + "\" alt=\"" + element.sponsorName + "\" /></a></div>");
   });
 });
