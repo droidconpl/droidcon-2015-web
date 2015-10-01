@@ -34,6 +34,11 @@
             "partnerName": "GDG Kraków",
             "partnerUrl": "https://plus.google.com/u/0/+GDGKrakowPlus/posts",
             "partnerLogo": "src/img/partners/gdg-krakow-logo.png"
+        },
+        {
+            "partnerName": "Hackerspace Kraków",
+            "partnerUrl": "http://hackerspace-krk.pl/",
+            "partnerLogo": "src/img/partners/hackerspace-krakow-logo.png"
         }
     ]
 }
