@@ -1,5 +1,9 @@
 {
     "sponsors": [
-        
+      {
+          "sponsorName": "SoundCloud Ltd.",
+          "sponsorUrl": "https://soundcloud.com/",
+          "sponsorLogo": "src/img/sponsors/soundcloud-logo.png"
+      }
     ]
 }
