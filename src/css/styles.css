@@ -55,7 +55,7 @@ body{
 }
 
 .section {
-  font-size: 18px;
+  font-size: 16px;
   min-height: 150px;
   padding: 20px 0;
   text-align: center;
@@ -192,10 +192,6 @@ h3.section-subtitle {
 /**-----end-main droid logo-----**/
 
 /**----about-section----**/
-#about-section {
-  padding: 20px 0;
-  text-align: center;
-}
 .when-where{
   display: table-cell;
   vertical-align: middle;
@@ -375,8 +371,8 @@ a#footer-mail {
     margin-top: -80px; /*same height as header*/
   }
   .section {
-    font-size: 20px;
-    padding: 25px 0;
+    font-size: 18px;
+    padding: 20px 0;
     min-height: 200px;
   }
   h2.section-title{
