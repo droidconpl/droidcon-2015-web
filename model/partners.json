@@ -39,6 +39,16 @@
             "partnerName": "Hackerspace Kraków",
             "partnerUrl": "http://hackerspace-krk.pl/",
             "partnerLogo": "src/img/partners/hackerspace-krakow-logo.png"
+        },
+        {
+            "partnerName": "Android Developers Backstage",
+            "partnerUrl": "http://www.adbkrk.pl/",
+            "partnerLogo": "src/img/partners/adb-logo.png"
+        },
+        {
+            "partnerName": "Polish Java User Group",
+            "partnerUrl": "http://www.java.pl/",
+            "partnerLogo": "src/img/partners/pjug-logo.png"
         }
     ]
 }
