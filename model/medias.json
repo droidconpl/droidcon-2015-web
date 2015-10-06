@@ -4,6 +4,11 @@
             "mediaName": "Crossweb",
             "mediaUrl": "http://crossweb.pl/",
             "mediaLogo": "src/img/partners/crossweb-logo.png"
+        },
+        {
+            "mediaName": "Spotkania-IT",
+            "mediaUrl": "http://www.spotkania-it.pl/",
+            "mediaLogo": "src/img/partners/spotkania-it-logo.png"
         }
     ]
 }
