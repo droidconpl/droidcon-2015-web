@@ -49,6 +49,11 @@
             "partnerName": "Polish Java User Group",
             "partnerUrl": "http://www.java.pl/",
             "partnerLogo": "src/img/partners/pjug-logo.png"
+        },
+        {
+            "partnerName": "Hackathon Lovers",
+            "partnerUrl": "http://hackathonlovers.com/",
+            "partnerLogo": "src/img/partners/hackathon-lovers-logo.png"
         }
     ]
 }
