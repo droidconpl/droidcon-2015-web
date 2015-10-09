@@ -54,6 +54,11 @@
             "partnerName": "Hackathon Lovers",
             "partnerUrl": "http://hackathonlovers.com/",
             "partnerLogo": "src/img/partners/hackathon-lovers-logo.png"
+        },
+        {
+            "partnerName": "GDG DevFest Ukraine",
+            "partnerUrl": "http://devfest.gdg.org.ua/",
+            "partnerLogo": "src/img/partners/gdg-devfest-ukraine-logo.png"
         }
     ]
 }
