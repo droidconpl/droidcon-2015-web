@@ -461,27 +461,27 @@ a#footer-mail {
     height: inherit;
   }
   .anchor{
-    height: 100px; /*same height as header*/
-    margin-top: -100px; /*same height as header*/
+    height: 88px; /*same height as header*/
+    margin-top: -88px; /*same height as header*/
   }
   .navbar-height, #desktop-menu-list ul{
-    height: 100px;
+    height: 88px;
   }
   /*droid icon in menu bar*/
   .main-icon{
-    padding: 0;
+    padding: 5px;
   }
   #navbar li{
-    font-size: 26px;
+    font-size: 22px;
   }
   .list-item a{
     padding: 0 30px;
   }
   .list-icon img{
-    height: 30px;
+    height: 25px;
   }
   .icon2{
-    height: 30px;
+    height: 26px;
     padding: 0px 14px;
   }
 }
