@@ -38,3 +38,15 @@ $.getJSON(sponsorsUrl, function(data){
       + "\" alt=\"" + element.sponsorName + "\" /></a></div>");
   });
 });
+
+// $(document).ready(function(){
+//   $.ajax({url: "https://droidconpl.github.io/droidcon-2015-web/src/views/main-view.html", success: function(result){
+//       $("#loading-box").html(result);
+//   }});
+// });
+
+$(document).ready(function(){
+  $.ajax({url: "https://droidconpl.github.io/droidcon-2015-web/src/views/main-view.html ", success: function(result){
+      $("#loading-box").html(result);
+  }});
+});
