@@ -217,6 +217,16 @@ h3.section-subtitle {
 /**----end-participate----**/
 
 
+/**----sponsors-section----**/
+
+/**----end-sponsors-section----**/
+
+
+/**----speakers-secion----**/
+
+/**----end-speakers-secion----**/
+
+
 /**----partner-secion----**/
 .brackets {
   width:100%;
@@ -362,12 +372,12 @@ a#footer-mail {
   }
   .section {
     font-size: 18px;
-    padding: 60px 0;
+    padding: 20px 0;
     min-height: 200px;
   }
   h2.section-title{
     font-size: 27px;
-    margin: 0 0 15px 0;
+    margin: 15px 0;
   }
   .small-section {
     padding: 30px 0 20px 0;
