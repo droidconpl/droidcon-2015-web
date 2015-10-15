@@ -9,6 +9,11 @@
             "mediaName": "Spotkania-IT",
             "mediaUrl": "http://www.spotkania-it.pl/",
             "mediaLogo": "src/img/partners/spotkania-it-logo.png"
+        },
+        {
+            "mediaName": "nofluff Jobs",
+            "mediaUrl": "https://nofluffjobs.com/",
+            "mediaLogo": "src/img/partners/nofluffjobs-logo.png"
         }
     ]
 }
