@@ -48,13 +48,17 @@ $(document).ready(function(){
   });
 
   var speakersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/speakers.json";
+  // var speakersUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/speakers.json";
   $.getJSON(speakersUrl, function(data){
     $.each(data.people, function(index, element){
-      $("section#speakers-secion-test .brackets").append(
-        "<div class=\"bracket " + element.firstName + " " + element.lastName + "\"><a href=\"" + element.sponsorUrl
-        + "\" target=\"_blank\" title=\"" + element.sponsorName
+      $("section#speakers-secion-test .people-brackets").append(
+        "<div class=\"round-bracket " + element.firstName + " " + element.lastName + "\"><a href=\"" + element.imageUrl
+        + "\" target=\"_blank\" title=\"" + element.firstName
         + "\"><img src=\"" + element.imageUrl
-        + "\" alt=\"" + element.sponsorName + "\" /></a></div>");
+        + "\" alt=\"" + element.firstName + "\" /></a>"
+        + "<p id=\"speaker-subtitle\"><b>" + element.firstName + " " + element.lastName +"</b><br />"
+        + element.websiteTitle + "</p>"
+        + "</div>");
     });
   });
 
