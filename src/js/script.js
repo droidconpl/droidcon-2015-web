@@ -47,4 +47,15 @@ $(document).ready(function(){
     });
   });
 
+  var speakersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/speakers.json";
+  $.getJSON(speakersUrl, function(data){
+    $.each(data.people, function(index, element){
+      $("section#speakers-secion-test .brackets").append(
+        "<div class=\"bracket " + element.firstName + " " + element.lastName + "\"><a href=\"" + element.sponsorUrl
+        + "\" target=\"_blank\" title=\"" + element.sponsorName
+        + "\"><img src=\"" + element.imageUrl
+        + "\" alt=\"" + element.sponsorName + "\" /></a></div>");
+    });
+  });
+
 });
