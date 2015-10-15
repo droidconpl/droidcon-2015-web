@@ -26,12 +26,20 @@ body{
   color: #EEEDEC;
 }
 .white{
-  background-color: #EEEDEC;
+  background-color: white;
   color: #1A1A1A;
 }
 .grey{
   background-color: #4D4D4D;
   color: #EEEDEC;
+}
+.milky {
+  background-color: #EEEDEC;
+  color: #1A1A1A;
+}
+.black {
+  background-color: #1F1F1F;
+  color: white;
 }
 .logo-gradient{
   /* IE10+ */
@@ -57,13 +65,13 @@ body{
 .section {
   font-size: 16px;
   min-height: 150px;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
 }
 h2.section-title{
   font-size: 25px;
   font-family: 'nerisblack', Arial, sans-serif;
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 }
 .small-section {
   padding: 20px 0 10px 0;
@@ -74,7 +82,11 @@ h3.section-subtitle {
   margin: 10px 0;
 }
 .text{
-  padding: 10px 0;
+  max-width: 395px;
+  margin: 0 auto 25px auto;
+  display: table;
+}
+.basic-info {
   margin: 0 auto;
   display: table;
 }
@@ -86,12 +98,12 @@ h3.section-subtitle {
   background-color: #6EB300;
   display: block;
 	cursor: pointer;
-	color: #1A1A1A;
+	color: white;
 	font-family: 'nerissemibold';
   font-size: 16px;
-	padding: 12px 0px;
-  margin: 10px auto;
-  width: 290px;
+	padding: 20px 0px;
+  margin: 0 auto;
+  width: 300px;
   text-align: center;
 	text-decoration: none;
 }
@@ -224,9 +236,9 @@ h3.section-subtitle {
 }
 .bracket {
   display: inline-block;
-  height: 150px;
-  width: 150px;
-  margin: 5px 5px;
+  height: 130px;
+  width: 130px;
+  margin: 12px;
   cursor: pointer;
 }
 .bracket a {
@@ -261,6 +273,7 @@ h3.section-subtitle {
 }
 #speaker-subtitle {
   height: 50px;
+  padding-top: 5px;
 }
 
 /**----contact-section----**/
@@ -327,7 +340,7 @@ a#footer-mail {
 
 /**----other dimensions----**/
 /**--duże telefony i tablety--**/
-@media (min-width: 720px){
+@media (min-width: 768px){
   .navbar-height{
     height: 70px;
   }
@@ -359,6 +372,12 @@ a#footer-mail {
   .list-icon img{
     height: 24px;
   }
+  .text {
+    max-width: 450px;
+  }
+  .black-text{
+    height: 120px;
+  }
   #footer{
     font-size: 15px;
   }
@@ -386,12 +405,12 @@ a#footer-mail {
   }
   .section {
     font-size: 18px;
-    padding: 20px 0;
+    padding: 60px 0;
     min-height: 200px;
   }
   h2.section-title{
     font-size: 27px;
-    margin: 15px 0;
+    margin: 0 0 15px 0;
   }
   .small-section {
     padding: 30px 0 20px 0;
@@ -401,7 +420,7 @@ a#footer-mail {
     margin: 20px 0;
   }
   .text{
-    padding: 20px 0;
+    margin: 0 auto 35px auto;
   }
   .button {
     font-size: 18px;
