@@ -234,7 +234,8 @@ h3.section-subtitle {
 
 /**----partner-secion----**/
 .brackets {
-  width:100%;
+  width:80%;
+  margin: 0 auto;
   text-align: center;
 }
 .bracket {
@@ -468,10 +469,13 @@ a#footer-mail {
   .right{
     float: none;
   }
+  .brackets {
+    width: 60%;
+  }
   .bracket {
-    height: 180px;
-    width: 180px;
-    margin: 8px;
+    height: 160px;
+    width: 160px;
+    margin: 18px;
   }
   .round-bracket{
     height: 180px;
