@@ -1,9 +1,9 @@
-// $.ajax({url: "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/src/views/main-view.html", success: function(result){
-//     $("#loading-box").html(result);
-// }});
-$.ajax({url: "https://droidconpl.github.io/droidcon-2015-web/src/views/main-view.html", success: function(result){
+$.ajax({url: "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
 }});
+// $.ajax({url: "https://droidconpl.github.io/droidcon-2015-web/src/views/main-view.html", success: function(result){
+//     $("#loading-box").html(result);
+// }});
 
 $(document).ready(function(){
   $('#hamburger').click(function() {
@@ -47,8 +47,8 @@ $(document).ready(function(){
     });
   });
 
-  var speakersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/speakers.json";
-  // var speakersUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/speakers.json";
+  // var speakersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/speakers.json";
+  var speakersUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/speakers.json";
   $.getJSON(speakersUrl, function(data){
     $.each(data.people, function(index, element){
       $("section#speakers-secion-test .people-brackets").append(
