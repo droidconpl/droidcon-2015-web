@@ -34,17 +34,6 @@
             "sessions": [
                 2
             ]
-        },
-         {
-            "id": 4,
-            "firstName": "Said",
-            "lastName": "Tahsin Dane",
-            "websiteTitle": "Google Developers Expert on Android",
-            "bio": "",
-            "imageUrl": "src/img/people/said-tahsin-dane.png",
-            "sessions": [
-                2
-            ]
         }
     ]
 }
