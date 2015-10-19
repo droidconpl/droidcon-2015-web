@@ -470,11 +470,11 @@ a#footer-mail {
     float: none;
   }
   .brackets {
-    width: 60%;
+    width: 80%;
   }
   .bracket {
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
     margin: 18px;
   }
   .people-brackets {
