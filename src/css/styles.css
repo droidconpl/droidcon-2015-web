@@ -260,7 +260,7 @@ h3.section-subtitle {
   text-align: center;
 }
 .round-bracket{
-  display: inline-block;
+  display: inline-table;
   height: 130px;
   width: 130px;
   margin: 30px;
@@ -271,8 +271,8 @@ h3.section-subtitle {
   height: 100%;
 }
 .round-bracket img {
-  width: inherit;
-  height: inherit;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
 }
 #speaker-subtitle {
