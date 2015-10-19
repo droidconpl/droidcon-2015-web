@@ -234,7 +234,7 @@ h3.section-subtitle {
 
 /**----partner-secion----**/
 .brackets {
-  width:80%;
+  width:100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -257,13 +257,13 @@ h3.section-subtitle {
 /*----speakers-section----*/
 .people-brackets {
   width:100%;
+  margin: 0 auto;
   text-align: center;
 }
 .round-bracket{
-  display: inline-block;
-  height: 130px;
+  display: inline-table;
   width: 130px;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
   cursor: pointer;
 }
 .round-bracket a {
@@ -271,12 +271,12 @@ h3.section-subtitle {
   height: 100%;
 }
 .round-bracket img {
-  width: inherit;
-  height: inherit;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
 }
 #speaker-subtitle {
-  height: 50px;
+  height: 70px;
   padding-top: 5px;
 }
 
@@ -477,13 +477,20 @@ a#footer-mail {
     width: 160px;
     margin: 18px;
   }
+  .people-brackets {
+    width:80%;
+  }
   .round-bracket{
     height: 180px;
     width: 180px;
-    margin: 40px;
+  }
+  .round-bracket img {
+    width: 180px;
+    height: 180px;
   }
   #speaker-subtitle {
-    height: 70px;
+    height: 90px;
+    padding-top: 7px;
   }
   .mobile-footer {
     display: none;
@@ -530,6 +537,9 @@ a#footer-mail {
   }
   .list-icon img{
     height: 25px;
+  }
+  .round-bracket{
+    margin: 45px;
   }
   .icon2{
     height: 26px;

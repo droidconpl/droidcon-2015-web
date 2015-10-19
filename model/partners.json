@@ -59,6 +59,11 @@
             "partnerName": "GDG DevFest Ukraine",
             "partnerUrl": "http://devfest.gdg.org.ua/",
             "partnerLogo": "src/img/partners/gdg-devfest-ukraine-logo.png"
+        },
+        {
+            "partnerName": "Mobile Warsaw",
+            "partnerUrl": "http://www.meetup.com/Mobile-Warsaw/",
+            "partnerLogo": "src/img/partners/mobile-warsaw-logo.png"
         }
     ]
 }
