@@ -24,7 +24,7 @@
                 1
             ]
         },
-         {
+        {
             "id": 3,
             "firstName": "Sasa",
             "lastName": "Sekulic",
@@ -35,13 +35,24 @@
                 2
             ]
         },
-         {
+        {
             "id": 4,
             "firstName": "Said",
             "lastName": "Tahsin Dane",
             "websiteTitle": "Google Developers Expert on Android",
             "bio": "",
             "imageUrl": "src/img/people/said-tahsin-dane.png",
+            "sessions": [
+                2
+            ]
+        },
+        {
+            "id": 5,
+            "firstName": "Anton",
+            "lastName": "Rutkevich",
+            "websiteTitle": "Software engineer at JunoLab",
+            "bio": "",
+            "imageUrl": "src/img/people/anton-rutkevich.jpg",
             "sessions": [
                 2
             ]
