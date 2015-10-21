@@ -27,15 +27,15 @@ $.getJSON(mediasUrl, function(data){
   });
 });
 
-var sponsorsUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/sponsors.json";
-var bracketDest = "section#sponsors-section .brackets-";
-// var sponsorsUrl = "https://droidconpl.github.io/droidcon-2015-web/model/sponsors.json";
+// var sponsorsUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/sponsors.json";
+var bracketDest;
+var sponsorsUrl = "https://droidconpl.github.io/droidcon-2015-web/model/sponsors.json";
 $.getJSON(sponsorsUrl, function(data){
   $.each(data.sponsors, function(index, element){
     if( element.sponsorRange == "Bronze" ){
-      bracketDest = bracketDest + "bronze";
+      bracketDest = "section#sponsors-section .brackets-bronze";
     }else if( element.sponsorRange == "Gold" ){
-      bracketDest = bracketDest + "gold";
+      bracketDest = "section#sponsors-section .brackets-gold";
     }
     $(bracketDest).append(
       "<div class=\"bracket \"><a href=\"" + element.sponsorUrl
