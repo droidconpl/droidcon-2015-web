@@ -243,6 +243,8 @@ h3.section-subtitle {
 }
 .bracket {
   display: inline-block;
+  width: 110px;
+  height: 110px;
   margin: 10px;
   cursor: pointer;
 }
