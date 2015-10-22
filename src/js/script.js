@@ -1,11 +1,11 @@
-// $.ajax({url: "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/src/views/main-view.html", success: function(result){
-//     $("#loading-box").html(result);
-// }});
-$.ajax({url: "https://droidconpl.github.io/droidcon-2015-web/src/views/main-view.html", success: function(result){
+// var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
+var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+
+$.ajax({url: srcUrl + "src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
 }});
 
-var partnersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/partners.json";
+var partnersUrl = srcUrl + "model/partners.json";
 $.getJSON(partnersUrl, function(data){
   $.each(data.partners, function(index, element){
     $("section#partner-section .brackets").append(
@@ -16,7 +16,7 @@ $.getJSON(partnersUrl, function(data){
   });
 });
 
-var mediasUrl = "https://droidconpl.github.io/droidcon-2015-web/model/medias.json";
+var mediasUrl = srcUrl + "model/medias.json";
 $.getJSON(mediasUrl, function(data){
   $.each(data.medias, function(index, element){
     $("section#media-section .brackets").append(
@@ -27,9 +27,8 @@ $.getJSON(mediasUrl, function(data){
   });
 });
 
-// var sponsorsUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/sponsors.json";
 var bracketDest;
-var sponsorsUrl = "https://droidconpl.github.io/droidcon-2015-web/model/sponsors.json";
+var sponsorsUrl = srcUrl + "model/sponsors.json";
 $.getJSON(sponsorsUrl, function(data){
   $.each(data.sponsors, function(index, element){
     if( element.sponsorRange == "Bronze" ){
@@ -39,14 +38,13 @@ $.getJSON(sponsorsUrl, function(data){
     }
     $(bracketDest).append(
       "<div class=\"bracket \"><a href=\"" + element.sponsorUrl
-      + "\" target=\"_blank\" title=\"" + element.sponsorName
+      + "\" target=\"_blank\" title=\"" + element.sponsorTitle
       + "\"><img src=\"" + element.sponsorLogo
       + "\" alt=\"" + element.sponsorName + "\" /></a></div>");
   });
 });
 
-var speakersUrl = "https://droidconpl.github.io/droidcon-2015-web/model/speakers.json";
-// var speakersUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/model/speakers.json";
+var speakersUrl = srcUrl + "model/speakers.json";
 $.getJSON(speakersUrl, function(data){
   $.each(data.people, function(index, element){
     $("section#speakers-secion-test .people-brackets").append(

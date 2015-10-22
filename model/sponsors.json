@@ -4,12 +4,14 @@
           "sponsorName": "SoundCloud Ltd.",
           "sponsorUrl": "https://soundcloud.com/",
           "sponsorLogo": "src/img/sponsors/soundcloud-logo.png",
+          "sponsorTitle": "SoundCloud Ltd.",
           "sponsorRange": "Bronze"
       },
       {
           "sponsorName": "Berlin Partner",
           "sponsorUrl": "http://www.berlin-partner.de/",
           "sponsorLogo": "src/img/sponsors/berlin-partner.png",
+          "sponsorTitle": "Funded by the State of Berlin and the State of Brandenburg as well as the Investitionsbank Berlin, cofunded by the European Union – European Regional Development Fund.",
           "sponsorRange": "Gold"
       }
     ]
