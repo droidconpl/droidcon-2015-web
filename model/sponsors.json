@@ -3,7 +3,14 @@
       {
           "sponsorName": "SoundCloud Ltd.",
           "sponsorUrl": "https://soundcloud.com/",
-          "sponsorLogo": "src/img/sponsors/soundcloud-logo.png"
+          "sponsorLogo": "src/img/sponsors/soundcloud-logo.png",
+          "sponsorRange": "Bronze"
+      },
+      {
+          "sponsorName": "Berlin Partner",
+          "sponsorUrl": "http://www.berlin-partner.de/",
+          "sponsorLogo": "src/img/sponsors/berlin-partner.png",
+          "sponsorRange": "Gold"
       }
     ]
 }
