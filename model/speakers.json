@@ -56,6 +56,17 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 6,
+            "firstName": "Shintaro",
+            "lastName": "Katafuchi",
+            "websiteTitle": "hotchemi.github.io",
+            "bio": "",
+            "imageUrl": "src/img/people/shintaro-katafuchi.png",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
