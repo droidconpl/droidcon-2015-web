@@ -14,6 +14,11 @@
             "mediaName": "nofluff Jobs",
             "mediaUrl": "https://nofluffjobs.com/",
             "mediaLogo": "src/img/partners/nofluffjobs-logo.png"
+        },
+        {
+            "mediaName": "Praca.pl",
+            "mediaUrl": "http://www.praca.pl/",
+            "mediaLogo": "src/img/partners/praca-pl-logo.png"
         }
     ]
 }
