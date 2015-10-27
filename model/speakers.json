@@ -67,6 +67,17 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 7,
+            "firstName": "Magdalena",
+            "lastName": "Zadara",
+            "websiteTitle": "UI Designer @ Polidea",
+            "bio": "",
+            "imageUrl": "src/img/people/magdalena-zadara.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
