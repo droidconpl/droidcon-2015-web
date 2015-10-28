@@ -48,10 +48,9 @@ var speakersUrl = srcUrl + "model/speakers.json";
 $.getJSON(speakersUrl, function(data){
   $.each(data.people, function(index, element){
     $("section#speakers-secion-test .people-brackets").append(
-      "<div class=\"round-bracket " + element.firstName + " " + element.lastName + "\"><a href=\"" + element.imageUrl
-      + "\" target=\"_blank\" title=\"" + element.firstName
-      + "\"><img src=\"" + element.imageUrl
-      + "\" alt=\"" + element.firstName + "\" /></a>"
+      "<div class=\"round-bracket " + element.firstName + " " + element.lastName + "\">"
+      + "<img src=\"" + element.imageUrl
+      + "\" alt=\"" + element.firstName + "\" />"
       + "<p id=\"speaker-subtitle\"><b>" + element.firstName + " " + element.lastName +"</b><br />"
       + element.websiteTitle + "</p>"
       + "</div>");
