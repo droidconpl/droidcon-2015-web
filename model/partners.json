@@ -64,6 +64,11 @@
             "partnerName": "Mobile Warsaw",
             "partnerUrl": "http://www.meetup.com/Mobile-Warsaw/",
             "partnerLogo": "src/img/partners/mobile-warsaw-logo.png"
+        },
+        {
+            "partnerName": "Mobile Central Europe",
+            "partnerUrl": "http://mceconf.com/",
+            "partnerLogo": "src/img/partners/mce-logo.png"
         }
     ]
 }
