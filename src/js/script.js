@@ -58,13 +58,13 @@ $.getJSON(speakersUrl, function(data){
       + element.websiteTitle + "</p>"
       + "</div>");
 
-    $("#modal-" + element.id + " .modal-dialog h4.modal-photo").append(
+    $("#modal-" + element.id + " .modal-dialog #modal-photo").append(
       "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
     );
-    $("#modal-" + element.id + " .modal-dialog h4.modal-title").append(
+    $("#modal-" + element.id + " .modal-dialog h3.modal-title").append(
       element.firstName + " " + element.lastName
     );
-    $("#modal-" + element.id + " .modal-dialog h4.modal-subtitle").append(
+    $("#modal-" + element.id + " .modal-dialog p.modal-subtitle").append(
       element.websiteTitle
     );
   });
