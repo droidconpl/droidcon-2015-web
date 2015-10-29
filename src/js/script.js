@@ -50,10 +50,14 @@ $.getJSON(speakersUrl, function(data){
     $("section#speakers-secion-test .people-brackets").append(
       "<div class=\"round-bracket " + element.firstName + " " + element.lastName + "\">"
       + "<img src=\"" + element.imageUrl
-      + "\" alt=\"" + element.firstName + "\" />"
+      + "\" alt=\"" + element.firstName + "\" data-toggle=\"modal\" data-target=\"#modal-" + element.id + "\"/>"
       + "<p id=\"speaker-subtitle\"><b>" + element.firstName + " " + element.lastName +"</b><br />"
       + element.websiteTitle + "</p>"
       + "</div>");
+
+    $("#modal-" + element.id + " .modal-dialog h4.modal-title").append(
+      "Some text " + element.firstName + " " + element.lastName
+    );
   });
 });
 
