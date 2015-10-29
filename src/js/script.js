@@ -58,14 +58,10 @@ $.getJSON(speakersUrl, function(data){
       + element.websiteTitle + "</p>"
       + "</div>");
 
-    $("#modal-" + element.id + " .modal-dialog #modal-photo").append(
-      "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
-    );
-    $("#modal-" + element.id + " .modal-dialog h3 .modal-title").append(
-      element.firstName + " " + element.lastName
-    );
-    $("#modal-" + element.id + " .modal-dialog p .modal-subtitle").append(
-      element.websiteTitle
+    $("#modal-" + element.id + " .modal-dialog .modal-title").append(
+      "<img id=\"modal-photo\" src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
+      + "<h3>" + element.firstName + " " element.lastName "</h3>"
+      + "<p>" + element.websiteTitle + "</p>"
     );
   });
 });
