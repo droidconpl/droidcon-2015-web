@@ -4,6 +4,9 @@ var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
 $.ajax({url: srcUrl + "src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
 }});
+$.ajax({url: srcUrl + "src/views/speaker-modals.html", success: function(result){
+    $("#speaker-modals").html(result);
+}});
 
 var partnersUrl = srcUrl + "model/partners.json";
 $.getJSON(partnersUrl, function(data){
