@@ -1,5 +1,5 @@
-// var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
-var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
+// var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
 
 $.ajax({url: srcUrl + "src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
