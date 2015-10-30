@@ -61,7 +61,14 @@ $.getJSON(speakersUrl, function(data){
     $("#modal-" + element.id + " .modal-dialog .modal-title").append(
       "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
       + "<div class=\"speaker-title\"><h3>" + element.firstName + " " + element.lastName + "</h3>"
-      + "<p>" + element.websiteTitle + "</p></div>"
+      + "<p>" + element.websiteTitle + "</p>"
+      + ((element.websiteLink != null) ? "" : "<i class=\"fa fa-globe\"></i>")
+      + ((element.facebookLink != null) ? "" : "<i class=\"fa fa-facebook\"></i>")
+      + ((element.twitterHandler != null) ? "" : "<i class=\"fa fa-twitter\"></i>")
+      + ((element.githubLink != null) ? "" : "<i class=\"fa fa-github\"></i>")
+      + ((element.linkedIn != null) ? "" : "<i class=\"fa fa-linkedin\"></i>")
+      + ((element.googlePlus != null) ? "" : "<i class=\"fa fa-google-plus\"></i>")
+      + "</div>"
     );
     $("#modal-" + element.id + " .modal-dialog .modal-body").append(
       "<p>" + element.bio + "</p>"
