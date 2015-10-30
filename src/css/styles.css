@@ -273,7 +273,7 @@ h3.section-subtitle {
   width: 100%;
   height: 100%;
 }
-.round-bracket img, .modal-title img{
+.round-bracket img{
   width: 130px;
   height: 130px;
   border-radius: 100%;
@@ -285,13 +285,26 @@ h3.section-subtitle {
 .modal-title {
   padding: 10px;
 }
+.modal-title img {
+  width: 35%;
+  height: 35%;
+  border-radius: 100%;
+}
+.modal-header {
+  border-bottom: none;
+}
 .speaker-title {
-  width: 60%;
+  width: 55%;
   float: right;
 }
 .modal-title h3 {
   font-family: 'nerissemibold';
   margin: 0 0 10px 0;
+}
+
+a.modal-social-link {
+  color: inherit;
+  margin: 8px;
 }
 
 /*---- sponsors-section----*/
