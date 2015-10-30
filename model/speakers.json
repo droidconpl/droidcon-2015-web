@@ -5,13 +5,7 @@
             "firstName": "Ivan",
             "lastName": "Morgillo",
             "websiteTitle": "Senior Android Developer",
-            "bio": "I started playing with Android in late 2010 as an embedded engineer, then I moved to the \"Application layer\", publishing a few weekend projects.
-
-My personal most popular Android app is Kindle Gratis, a Kindle companion app with almost 100k downloads. I like Open Source projects. I'm a big fan of a lot of fancy Android libraries out there and I contribute with bug reporting, fixing and feedbacks.
-
-I approached Reactive Programming in 2013 and I started using it in Android thanks to RxJava by Netflix. I'm using it in every Android app I work on since then, because RxJava solves so many issues on Android and it gives you a new perspective about mobile programming.
-
-In 2013 I co-founded Alter Ego, a mobile and embedded solutions company. In 2015 I published RxJava Essentials for Packt Publishing. I'm currently writing Grokking Rx for Manning Publishing. ",
+            "bio": "I started playing with Android in late 2010 as an embedded engineer, then I moved to the \"Application layer\", publishing a few weekend projects.\nMy personal most popular Android app is Kindle Gratis, a Kindle companion app with almost 100k downloads. I like Open Source projects. I'm a big fan of a lot of fancy Android libraries out there and I contribute with bug reporting, fixing and feedbacks.\nI approached Reactive Programming in 2013 and I started using it in Android thanks to RxJava by Netflix. I'm using it in every Android app I work on since then, because RxJava solves so many issues on Android and it gives you a new perspective about mobile programming.\nIn 2013 I co-founded Alter Ego, a mobile and embedded solutions company. In 2015 I published RxJava Essentials for Packt Publishing. I'm currently writing Grokking Rx for Manning Publishing. ",
             "imageUrl": "src/img/people/ivan-morgillo.png",
             "sessions": [
                 1,
@@ -24,9 +18,7 @@ In 2013 I co-founded Alter Ego, a mobile and embedded solutions company. In 2015
             "firstName": "Gautier",
             "lastName": "Mechling",
             "websiteTitle": "Android Software Craftsman",
-            "bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France.
-Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity.
-Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
+            "bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France.\nAgile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity.\nTalk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
             "imageUrl": "src/img/people/gautier-mechling.png",
             "sessions": [
                 1
@@ -48,9 +40,7 @@ Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes
             "firstName": "Said",
             "lastName": "Tahsin Dane",
             "websiteTitle": "Google Developers Expert on Android",
-            "bio": "Said is a Google Developers Expert on Android. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.
-
-He is also an active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization.",
+            "bio": "Said is a Google Developers Expert on Android. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.\nHe is also an active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization.",
             "imageUrl": "src/img/people/said-tahsin-dane.png",
             "sessions": [
                 2
@@ -61,8 +51,7 @@ He is also an active member and organizer at GDG Istanbul enjoying organizing va
             "firstName": "Anton",
             "lastName": "Rutkevich",
             "websiteTitle": "Software engineer at JunoLab",
-            "bio": "Anton is a software engineer at JunoLab. While focusing mostly on Android development, he is also passionate about alternative JVM-based languages, Kotlin and Groovy especially.
-His other professional interests include continuous integration (\"One Button to rule them all\") and game development. Anton is a co-organizer of Google Developers Group Minsk and an active speaker at mobile and Java conferences.",
+            "bio": "Anton is a software engineer at JunoLab. While focusing mostly on Android development, he is also passionate about alternative JVM-based languages, Kotlin and Groovy especially.\nHis other professional interests include continuous integration (\"One Button to rule them all\") and game development. Anton is a co-organizer of Google Developers Group Minsk and an active speaker at mobile and Java csaonferences.",
             "imageUrl": "src/img/people/anton-rutkevich.jpg",
             "sessions": [
                 2
@@ -73,9 +62,7 @@ His other professional interests include continuous integration (\"One Button to
             "firstName": "Shintaro",
             "lastName": "Katafuchi",
             "websiteTitle": "A Tokyo based Android developer.",
-            "bio": "A Tokyo based Android developer.
-I'm working at Recruit Technologies Co.,Ltd and developing Android app/server side Java.
-And I'm one of the member of DroidKaigi, the biggest Android conference in Tokyo.",
+            "bio": "A Tokyo based Android developer.\nI'm working at Recruit Technologies Co.,Ltd and developing Android app/server side Java.\nAnd I'm one of the member of DroidKaigi, the biggest Android conference in Tokyo.",
             "imageUrl": "src/img/people/shintaro-katafuchi.png",
             "sessions": [
                 2
@@ -97,9 +84,7 @@ And I'm one of the member of DroidKaigi, the biggest Android conference in Tokyo
             "firstName": "Konrad",
             "lastName": "Krakowiak",
             "websiteTitle": "Senior Software Engineer @ Polidea",
-            "bio": "Almost 6 years of experience in programming, 5 of which as an Android developer. I participated in many business projects and I eagerly share my knowledge with other people. Currently I am Senior android engineer @Polidea.
-
-Programming is not only a job, it is my passion and hobby... Nothing more, nothing less about me :)",
+            "bio": "Almost 6 years of experience in programming, 5 of which as an Android developer. I participated in many business projects and I eagerly share my knowledge with other people. Currently I am Senior android engineer @Polidea.\nProgramming is not only a job, it is my passion and hobby... Nothing more, nothing less about me :)",
             "imageUrl": "src/img/people/konrad-krakowiak.jpg",
             "sessions": [
                 2
