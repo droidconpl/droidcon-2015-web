@@ -62,12 +62,18 @@ $.getJSON(speakersUrl, function(data){
       "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
       + "<div class=\"speaker-title\"><h3>" + element.firstName + " " + element.lastName + "</h3>"
       + "<p>" + element.websiteTitle + "</p>"
-      + ((element.websiteLink != null) ? "" : "<i class=\"fa fa-globe\"></i>")
-      + ((element.facebookLink != null) ? "" : "<i class=\"fa fa-facebook\"></i>")
-      + ((element.twitterHandler != null) ? "" : "<i class=\"fa fa-twitter\"></i>")
-      + ((element.githubLink != null) ? "" : "<i class=\"fa fa-github\"></i>")
-      + ((element.linkedIn != null) ? "" : "<i class=\"fa fa-linkedin\"></i>")
-      + ((element.googlePlus != null) ? "" : "<i class=\"fa fa-google-plus\"></i>")
+      + ((element.websiteLink != null) ? "<a href=\"" + element.websiteLink + "\" target=\"_blank\" title=\"" + element.websiteLink
+      + "\"><i class=\"fa fa-globe fa-2x\"></i></a>" : "")
+      + ((element.facebookLink != null) ? "<a href=\"" + element.facebookLink + "\" target=\"_blank\" title=\"" + element.facebookLink
+      + "\"><i class=\"fa fa-facebook fa-2x\"></i></a>" : "")
+      + ((element.twitterHandler != null) ? "<a href=\"https://twitter.com/" + element.twitterHandler + "\" target=\"_blank\" title=\"" + element.twitterHandler
+      + "\"><i class=\"fa fa-twitter fa-2x\"></i></a>" : "")
+      + ((element.githubLink != null) ? "<a href=\"https://github.com/" + element.githubLink + "\" target=\"_blank\" title=\"" + element.githubLink
+      + "\"><i class=\"fa fa-github fa-2x\"></i></a>" : "")
+      + ((element.linkedIn != null) ? "<a href=\"" + element.linkedIn + "\" target=\"_blank\" title=\"" + element.linkedIn
+      + "\"><i class=\"fa fa-linkedin fa-2x\"></i></a>" : "")
+      + ((element.googlePlus != null) ? "<a href=\"" + element.googlePlus + "\" target=\"_blank\" title=\"" + element.googlePlus
+      + "\"><i class=\"fa fa-google-plus fa-2x\"></i></a>" : "")
       + "</div>"
     );
     $("#modal-" + element.id + " .modal-dialog .modal-body").append(
