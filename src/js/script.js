@@ -59,9 +59,12 @@ $.getJSON(speakersUrl, function(data){
       + "</div>");
 
     $("#modal-" + element.id + " .modal-dialog .modal-title").append(
-      "<img id=\"modal-photo\" src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
-      + "<h3>" + element.firstName + " " element.lastName "</h3>"
-      + "<p>" + element.websiteTitle + "</p>"
+      "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
+      + "<div class=\"speaker-title\"><h3>" + element.firstName + " " + element.lastName + "</h3>"
+      + "<p>" + element.websiteTitle + "</p></div>"
+    );
+    $("#modal-" + element.id + " .modal-dialog .modal-body").append(
+      "<p>Some some text....</p>"
     );
   });
 });
