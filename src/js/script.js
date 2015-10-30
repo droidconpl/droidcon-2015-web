@@ -64,7 +64,7 @@ $.getJSON(speakersUrl, function(data){
       + "<p>" + element.websiteTitle + "</p></div>"
     );
     $("#modal-" + element.id + " .modal-dialog .modal-body").append(
-      "<p>Some some text....</p>"
+      "<p>" + element.bio + "</p>"
     );
   });
 });
