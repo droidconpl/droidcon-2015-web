@@ -292,6 +292,7 @@ h3.section-subtitle {
 }
 .modal-header {
   border-bottom: none;
+  min-height: 180px;
 }
 .speaker-title {
   width: 55%;
@@ -301,10 +302,9 @@ h3.section-subtitle {
   font-family: 'nerissemibold';
   margin: 0 0 10px 0;
 }
-
 a.modal-social-link {
   color: inherit;
-  margin: 8px;
+  margin: 5px;
 }
 
 /*---- sponsors-section----*/
@@ -438,6 +438,9 @@ a#footer-mail {
   .brackets-bronze .bracket {
     width: 140px;
     height: 140px;
+  }
+  a.modal-social-link {
+    margin: 10px;
   }
   #footer{
     font-size: 15px;
