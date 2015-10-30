@@ -137,6 +137,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 9,
+            "firstName": "Wojtek",
+            "lastName": "Kaliciński",
+            "websiteTitle": "Developer Advocate @ Google",
+            "bio": "Developer Advocate at Google London, helping developers leverage the power of Android Studio and Tools, as well as providing general outreach for the Android platform. Previously member of the Google Developer Experts program and co-founder and long time organiser at GDG Warsaw.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "wkalic",
+            "githubLink": null,
+            "linkedIn": null,
+            "googlePlus": "https://plus.google.com/+WojtekKalicinski",
+            "imageUrl": "src/img/people/wojtek-kalicinski.png",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
