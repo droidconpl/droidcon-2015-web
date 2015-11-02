@@ -282,29 +282,35 @@ h3.section-subtitle {
   height: 70px;
   padding-top: 5px;
 }
-.modal-title {
-  padding: 10px;
-}
-.modal-title img {
-  width: 35%;
-  height: 35%;
-  border-radius: 100%;
-}
+
+/*----MODALS----*/
 .modal-header {
   border-bottom: none;
   min-height: 180px;
+  border-radius: 6px 6px 0 0;
+}
+.modal-title img {
+  width: 45%;
+  height: 45%;
+  border-radius: 100%;
+  padding: 10px;
 }
 .speaker-title {
-  width: 55%;
+  width: 50%;
   float: right;
+  padding: 10px;
 }
-.modal-title h3 {
+.speaker-title h3 {
   font-family: 'nerissemibold';
-  margin: 0 0 10px 0;
+  margin: 0 0 2px 0;
+}
+.speaker-title p {
+  margin-bottom: 25px;
 }
 a.modal-social-link {
   color: inherit;
-  margin: 5px;
+  margin: 10px 20px 10px 0;
+  font-size: 1.6em;
 }
 
 /*---- sponsors-section----*/
@@ -438,9 +444,6 @@ a#footer-mail {
   .brackets-bronze .bracket {
     width: 140px;
     height: 140px;
-  }
-  a.modal-social-link {
-    margin: 10px;
   }
   #footer{
     font-size: 15px;
