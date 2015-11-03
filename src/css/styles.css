@@ -289,16 +289,15 @@ h3.section-subtitle {
   min-height: 180px;
   border-radius: 6px 6px 0 0;
 }
-.modal-title img {
-  width: 45%;
-  height: 45%;
-  border-radius: 100%;
+.speaker-title div {
+  min-width: 100px;
+  display: inline-block;
   padding: 10px;
 }
-.speaker-title {
-  width: 50%;
-  float: right;
-  padding: 10px;
+.modal-title img {
+  width: 140px;
+  border-radius: 100%;
+  vertical-align: bottom;
 }
 .speaker-title h3 {
   font-family: 'nerissemibold';
@@ -562,6 +561,14 @@ a#footer-mail {
   #speaker-subtitle {
     height: 90px;
     padding-top: 7px;
+  }
+  .speaker-title div{
+    min-width: 200px;
+    display: inline-block;
+    padding: 20px;
+  }
+  .modal-title img {
+    width: 200px;
   }
   #footer{
     min-height: 220px;

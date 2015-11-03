@@ -92,8 +92,8 @@ $(document).ready(function(){
 
       // fill it with content
       $("#modal-" + element.id + " .modal-dialog .modal-title").append(
-        "<img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" />"
-        + "<div class=\"speaker-title\"><h3>" + element.firstName + " " + element.lastName + "</h3>"
+        "<div class=\"speaker-title\"><div><img src=\"" + element.imageUrl + "\" alt=\"" + element.firstName + "\" /></div>"
+        + "<div><h3>" + element.firstName + " " + element.lastName + "</h3>"
         + "<p>" + element.websiteTitle + "</p>"
         + ((element.websiteLink != null) ? "<a class=\"modal-social-link\" href=\"" + element.websiteLink + "\" target=\"_blank\" title=\"" + element.websiteLink
         + "\"><i class=\"fa fa-globe\"></i></a>" : "")
@@ -107,7 +107,7 @@ $(document).ready(function(){
         + "\"><i class=\"fa fa-linkedin\"></i></a>" : "")
         + ((element.googlePlus != null) ? "<a class=\"modal-social-link\" href=\"" + element.googlePlus + "\" target=\"_blank\" title=\"" + element.googlePlus
         + "\"><i class=\"fa fa-google-plus\"></i></a>" : "")
-        + "</div>"
+        + "</div></div>"
       );
       $("#modal-" + element.id + " .modal-dialog .modal-body").append(
         "<p>" + element.bio + "</p>"
