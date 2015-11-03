@@ -154,6 +154,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 10,
+            "firstName": "Michał",
+            "lastName": "Szczepanik",
+            "websiteTitle": "Mobile Developer",
+            "bio": "Researcher designer, programmer with almost all mobile technologies experience. Focused on secured and beautiful solutions. Founder of Meet.mobile – Wroclaw mobile developers group. Currently team leader at BLStream company.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": null,
+            "githubLink": null,
+            "linkedIn": "https://pl.linkedin.com/pub/michał-szczepanik/70/6ba/42",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/michal-szczepanik.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
