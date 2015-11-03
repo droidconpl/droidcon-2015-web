@@ -13,6 +13,13 @@
           "sponsorLogo": "src/img/sponsors/berlin-partner.png",
           "sponsorTitle": "Funded by the State of Berlin and the State of Brandenburg as well as the Investitionsbank Berlin, cofunded by the European Union – European Regional Development Fund.",
           "sponsorRange": "Gold"
+      },
+      {
+          "sponsorName": "Pluralsight",
+          "sponsorUrl": "https://pluralsight.com",
+          "sponsorLogo": "src/img/sponsors/pluralsight.png",
+          "sponsorTitle": "Pluralsight",
+          "sponsorRange": "Bronze"
       }
     ]
 }
