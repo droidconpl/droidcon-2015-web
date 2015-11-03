@@ -311,7 +311,9 @@ a.modal-social-link {
   margin: 10px 20px 10px 0;
   font-size: 1.6em;
 }
-
+a.modal-social-link:hover{
+  color: #1F1F1F;
+}
 /*---- sponsors-section----*/
 .brackets-gold {
   margin: 0 auto 30px auto;
