@@ -1,0 +1,13 @@
+/*
+  Created 11/4/2015 by Grażyna
+
+  This file contains all agenda adjustments for droidcon Kraków 2015 website.
+*/
+
+/*AGENDA ADJUSTMENTS <768px*/
+
+/* icon when empty page*/
+#agenda img {
+  width: 100px;
+  margin: 10px;
+}
