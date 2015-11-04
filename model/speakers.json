@@ -171,6 +171,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 11,
+            "firstName": "Bernard",
+            "lastName": "Pletikosa",
+            "websiteTitle": "Android developer @ relayr",
+            "bio": "Bernard Pletikosa has started playing with Android as a student in Zagreb few years ago. Currently, he is working as an Android developer at Relayr in Berlin bringing things to life by building Relayr IoT SDKs and manager apps.",
+            "websiteLink": null,
+            "facebookLink": "https://www.facebook.com/bernard.pletikosa",
+            "twitterHandler": null,
+            "githubLink": "bernardpletikosa",
+            "linkedIn": "https://de.linkedin.com/pub/bernard-pletikosa/55/a97/455",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/bernard-pletikosa.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
