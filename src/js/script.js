@@ -114,4 +114,19 @@ $(document).ready(function(){
       );
     });
   });
+
+  // function loading the agenda page
+  $("#agenda-page").click(function(){
+    // agenda URL modification
+    window.history.pushState("", "", '/agenda');
+    
+    // clear the webpage content
+    $("#loading-box").empty();
+
+    // load agenda page
+    $.ajax({url: srcUrl + "src/views/agenda.html", success: function(result){
+        $("#loading-box").html(result);
+    }});
+
+  });
 });

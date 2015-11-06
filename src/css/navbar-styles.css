@@ -1,0 +1,208 @@
+/*
+  Created 11/4/2015 by Grażyna
+
+  This file contains all navbar adjustments for droidcon Kraków 2015 website.
+*/
+
+/*NAVBAR ADJUSTMENTS <768px*/
+
+.navbar{
+  margin-bottom: 0;
+  font-family: 'nerissemibold';
+  font-size: 20px;
+}
+.navbar-default {
+  border-color: transparent;
+  border-bottom: 1px solid #FFF;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+/*hamburger menu*/
+.navbar-toggle {
+  float: left;
+  margin: 5px 4px;
+  padding: 10px 5px;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-toggle .icon-bar {
+  width: 35px;
+  height: 3px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 5px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+/*END hamburger menu*/
+
+.navbar-collapse {
+  padding: 0;
+  -webkit-box-shadow: none;
+  border-top: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  background-color: #1A1A1A;
+  color: #8ED201;
+}
+ul.navbar-nav {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a, .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
+}
+.dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+  color: #8ED201;
+  background-color: transparent;
+}
+
+.navbar-nav>li>a {
+  padding: 13px 0;
+}
+.navbar-nav .open .dropdown-menu {
+  background-color: #1F1F1F;
+}
+ul.dropdown-menu {
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 0;
+  margin: 0 auto;
+  text-align:center;
+  background-color: #1F1F1F;
+}
+.dropdown-menu li{
+  color: white;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0;
+}
+.dropdown-menu li.slash {
+  display: none;
+}
+
+
+/*Wyzerowanie paddingu dla ikony w pasku*/
+.navbar-brand {
+  padding: 0;
+}
+#main-icon {
+  height: 50px;
+  padding: 7px 5px;
+}
+
+/*SOCIAL MEDIA ICONS - for mobile devices*/
+.navbar-right{
+  display: none;
+}
+
+/*NAVBAR ADJUSTMENTS >=768px*/
+@media (min-width: 768px){
+  .navbar {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    height: 70px;
+  }
+  #main-icon {
+    height: 70px;
+    padding: 10px 10px;
+  }
+  .navbar-left.navbar-nav>li>a {
+    padding: 24px 30px;
+  }
+  .navbar-nav>li>a {
+    padding: 0;
+    line-height: 21px;
+  }
+  /*show social icons here*/
+  .navbar-right{
+    display: block;
+  }
+  .navbar-right li a img {
+    height: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 22px 15px;
+  }
+  ul.dropdown-menu {
+    top: 69px;
+    height: 46px;
+  }
+  .dropdown-menu li {
+    width: 140px;
+    padding: 10px 0;
+  }
+  .dropdown-menu li.slash {
+    display: inline-block;
+    width: 5px;
+    padding: 0;
+  }
+  .dropdown-menu li.slash div {
+    background-color: white;
+    width: 1px;
+    height: 17px;
+    margin: -5px 0;
+    border-radius: 5px;
+    -ms-transform: rotate(35deg); /* IE 9 */
+    -webkit-transform: rotate(35deg); /* Safari */
+    transform: rotate(35deg); /* Standard syntax */
+  }
+}
+
+/*NAVBAR ADJUSTMENTS >=992px*/
+@media (min-width: 992px){
+  .navbar {
+    height: 80px;
+  }
+  #main-icon {
+    height: 80px;
+  }
+  .navbar-left.navbar-nav>li>a {
+    font-size: 22px;
+    padding: 29px 30px;
+  }
+  .navbar-right li a img {
+    height: 28px;
+    margin: 27px 20px;
+  }
+  ul.dropdown-menu {
+    top: 79px;
+  }
+}
+
+/*NAVBAR ADJUSTMENTS >=1200px*/
+@media (min-width: 1200px){
+  .navbar {
+    height: 88px;
+  }
+  #main-icon {
+    margin: 4px;
+  }
+  .navbar-left.navbar-nav>li>a {
+    padding: 33px 30px;
+  }
+  .navbar-right li a img {
+    height: 30px;
+    margin: 29px 22px;
+  }
+  ul.dropdown-menu {
+    top: 87px;
+  }
+}
