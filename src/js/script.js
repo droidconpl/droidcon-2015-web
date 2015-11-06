@@ -119,7 +119,7 @@ $(document).ready(function(){
   $("#agenda-page").click(function(){
     // agenda URL modification
     window.history.pushState("", "", '/agenda');
-    
+
     // clear the webpage content
     $("#loading-box").empty();
 
