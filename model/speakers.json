@@ -188,6 +188,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 12,
+            "firstName": "Michał",
+            "lastName": "Tajchert",
+            "websiteTitle": "CEO @ 12Hours",
+            "bio": "Michał is Android Developer for all kinds of wearables, done programming for things such Oakley Airwave, Glass, Sony Smartwatch, and lately found his place in Android Wear development. Author of libraries such BusWear, WaitingDots, Nammu, also sharing his knowledge to the community by organizing many of Warsaw GDG meetings. Currently doing Android development at 12Hours, and many side-projects.",
+            "websiteLink": "http://tajchert.pl/",
+            "facebookLink": "https://www.facebook.com/mtajchert",
+            "twitterHandler": "Tajchert",
+            "githubLink": "tajchert",
+            "linkedIn": "https://www.linkedin.com/profile/view?id=AAMAAA5pJmMBee3hq9n_rp-ULs9eRcJyEN3iOgI",
+            "googlePlus": "https://plus.google.com/u/0/+MichalTajchert/posts",
+            "imageUrl": "src/img/people/michal-tajchert.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
