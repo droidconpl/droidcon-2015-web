@@ -118,7 +118,7 @@ $(document).ready(function(){
   // function loading the agenda page
   $("#agenda-page").click(function(){
     // agenda URL modification
-    window.history.pushState("", "", '/agenda');
+    // window.history.pushState("", "", '/agenda');
 
     // clear the webpage content
     $("#loading-box").empty();
