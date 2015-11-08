@@ -1,5 +1,5 @@
-// var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
-var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
+// var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
 
 $.ajax({url: srcUrl + "src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
@@ -118,7 +118,7 @@ $(document).ready(function(){
   // function loading the agenda page
   $("#agenda-page").click(function(){
     // agenda URL modification
-    // window.history.pushState("", "", '/agenda');
+    history.pushState("", "", '/agenda');
 
     // clear the webpage content
     $("#loading-box").empty();
