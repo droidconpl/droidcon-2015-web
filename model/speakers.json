@@ -205,6 +205,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 13,
+            "firstName": "Roman",
+            "lastName": "Mazur",
+            "websiteTitle": "Software Engineer",
+            "bio": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium.<br /><br />At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
+            "websiteLink": "https://stanfy.com/blog",
+            "facebookLink": null,
+            "twitterHandler": "roman_mazur",
+            "githubLink": "roman-mazur",
+            "linkedIn": "https://ua.linkedin.com/in/romanmazur",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/roman-mazur.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
