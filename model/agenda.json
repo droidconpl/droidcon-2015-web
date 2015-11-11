@@ -1,94 +1,22 @@
 {
   "sessions": [
     {
-      "speakerFirstName": "Doktor Julius",
-      "speakerLastName": "No",
-      "speakerBio": "From Jamaica",
-      "speakerPhoto": "http://1.fwcdn.pl/p/73/90/7390/331677_1.1.jpg",
-      "sessionTopic": "Doctor No talks about ....",
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotId": 1,
+      "speakerId": null,
+      "sessionTopic": "Registration Starts",
       "sessionDate": "2015-09-17 06:58:21",
-      "sessionDescription": "talks about his work on Jamaica"
+      "sessionDescription": null
     },
     {
-      "speakerFirstName": "Donald",
-      "speakerLastName": "Grant",
-      "speakerBio": "From Orient Express",
-      "speakerPhoto": "http://1.fwcdn.pl/p/73/83/7383/338367.1.jpg",
-      "sessionTopic": "Donald talks about ....",
-      "sessionDate": "2015-09-17 07:58:21",
-      "sessionDescription": "talks about Lektor"
-    },
-    {
-      "speakerFirstName": "Auric",
-      "speakerLastName": "Goldfinger",
-      "speakerBio": "Gold lover",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/14/814/453883_2.1.jpg",
-      "sessionTopic": "Auric talks about ....",
-      "sessionDate": "2015-09-17 08:58:21",
-      "sessionDescription": "talks about his plans for Fort Knox"
-    },
-    {
-      "speakerFirstName": "Emilio",
-      "speakerLastName": "Largo",
-      "speakerBio": "From Caribbean Islands",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/13/813/455310_1.1.jpg",
-      "sessionTopic": "Emilio talks about ....",
-      "sessionDate": "2015-09-17 09:58:21",
-      "sessionDescription": "talks about his plan for Miami"
-    },
-    {
-      "speakerFirstName": "Ernst Stavro",
-      "speakerLastName": "Blofeld",
-      "speakerBio": "From Japan",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/12/812/211994.1.jpg",
-      "sessionTopic": "Ernst talks about ....",
-      "sessionDate": "2015-09-17 10:58:21",
-      "sessionDescription": "talks about collecting missiles in space"
-    },
-    {
-      "speakerFirstName": "Ernst Stavro",
-      "speakerLastName": "Blofeld",
-      "speakerBio": "From Las Vegas",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/10/810/211948.1.jpg",
-      "sessionTopic": "Ernst talks about ....",
-      "sessionDate": "2015-09-17 11:58:21",
-      "sessionDescription": "talks about diamonds market"
-    },
-    {
-      "speakerFirstName": "Kananga",
-      "speakerLastName": "aka Mr. Big",
-      "speakerBio": "From New Orleans",
-      "speakerPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkyMDQ2Nzk5Nl5BMl5BanBnXkFtZTcwOTg2NDk0NA@@._V1_SX640_SY720_.jpg",
-      "sessionTopic": "Kananga talks about ....",
-      "sessionDate": "2015-09-17 12:58:21",
-      "sessionDescription": "talks about his cooperation with double 0's"
-    },
-    {
-      "speakerFirstName": "Francisco",
-      "speakerLastName": "Scaramanga",
-      "speakerBio": "From Scaramanga's island",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/08/808/211885_1.1.jpg",
-      "sessionTopic": "Francisco talks about ....",
-      "sessionDate": "2015-09-17 13:58:21",
-      "sessionDescription": "talks about his master duel"
-    },
-    {
-      "speakerFirstName": "Karl",
-      "speakerLastName": "Stromberg",
-      "speakerBio": "From Atlantis",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/07/807/440459.1.jpg",
-      "sessionTopic": "Jamie talks about ....",
-      "sessionDate": "2015-09-17 14:58:21",
-      "sessionDescription": "talks about his double attack"
-    },
-    {
-      "speakerFirstName": "Hugo",
-      "speakerLastName": "Drax",
-      "speakerBio": "From Space Inc.",
-      "speakerPhoto": "http://1.fwcdn.pl/ph/08/06/806/211778_1.1.jpg",
-      "sessionTopic": "Hugo talks about ....",
-      "sessionDate": "2015-09-17 15:58:21",
-      "sessionDescription": "talks about his space expedition"
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotId": 2,
+      "speakerId": null,
+      "sessionTopic": "Big Opening",
+      "sessionDate": "2015-09-17 06:58:21",
+      "sessionDescription": null
     }
   ]
 }
