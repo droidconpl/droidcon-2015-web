@@ -1,10 +1,11 @@
 {
   "sessions": [
     {
+      "Id" : 1,
       "dayId": 1,
       "slotId": 1,
       "roomId": [],
-      "slotImg" : "src/img/icon_droid.png",
+      "slotImg" : "../src/img/icon_droid.png",
       "speakerNames": [],
       "sessionTopic": "Registration Starts",
       "sessionDate": "2015-12-04",
@@ -12,10 +13,11 @@
       "sessionDescription": null
     },
     {
+      "Id" : 2,
       "dayId": 1,
       "slotId": 2,
       "roomId": [],
-      "slotImg" : "src/img/icon_droid.png",
+      "slotImg" : "../src/img/icon_droid.png",
       "speakerNames": [],
       "sessionTopic": "Big Opening",
       "sessionDate": "2015-12-04",
