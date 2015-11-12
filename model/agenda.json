@@ -2,22 +2,24 @@
   "sessions": [
     {
       "dayId": 1,
-      "roomId": [1,2],
       "slotId": 1,
+      "roomId": [],
+      "slotImg" : "src/img/icon_droid.png",
       "speakerNames": [],
-      "speakerImg" : "src/img/icon_droid.png",
       "sessionTopic": "Registration Starts",
-      "sessionDate": "2015-12-04 08:00",
+      "sessionDate": "2015-12-04",
+      "sessionHour": "08:00",
       "sessionDescription": null
     },
     {
       "dayId": 1,
-      "roomId": [1,2],
       "slotId": 2,
+      "roomId": [],
+      "slotImg" : "src/img/icon_droid.png",
       "speakerNames": [],
-      "speakerImg" : "src/img/icon_droid.png",
-      "sessionTopic": "Big Opening",
-      "sessionDate": "2015-12-04 09:00",
+      "sessionTopic": "Registration Starts",
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:00 - 9:15",
       "sessionDescription": null
     }
   ]
