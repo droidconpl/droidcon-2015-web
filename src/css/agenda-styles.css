@@ -11,3 +11,31 @@
   width: 100px;
   margin: 10px;
 }
+
+#agenda-tabs div{
+  height: 62px;
+}
+
+section#agenda-tabs a.tab-link {
+  z-index: 1000;
+  width: 253px;
+  height: 62px;
+}
+
+section#agenda-tabs canvas {
+  border: none;
+}
+
+canvas#day-two-tab {
+  position: relative;
+  left: -45px;
+}
+canvas#day-three-tab {
+  position: relative;
+  left: -90px;
+}
+
+/* AGENDA TABLE */
+table#agenda-table {
+  width: 100%;
+}
