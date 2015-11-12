@@ -4,18 +4,20 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotId": 1,
-      "speakerId": null,
+      "speakerNames": [],
+      "speakerImg" : "src/img/icon_droid.png",
       "sessionTopic": "Registration Starts",
-      "sessionDate": "2015-09-17 06:58:21",
+      "sessionDate": "2015-12-04 08:00",
       "sessionDescription": null
     },
     {
       "dayId": 1,
       "roomId": [1,2],
       "slotId": 2,
-      "speakerId": null,
+      "speakerNames": [],
+      "speakerImg" : "src/img/icon_droid.png",
       "sessionTopic": "Big Opening",
-      "sessionDate": "2015-09-17 06:58:21",
+      "sessionDate": "2015-12-04 09:00",
       "sessionDescription": null
     }
   ]
