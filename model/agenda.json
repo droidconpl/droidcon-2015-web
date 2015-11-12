@@ -23,6 +23,30 @@
       "sessionHour": "09:00 - 9:15",
       "sessionTopic": "Big Opening",
       "sessionDescription": ""
+    },
+    {
+      "Id" : 3,
+      "dayId": 1,
+      "slotId": 3,
+      "roomId": [1],
+      "slotImg" : "",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:15 - 10:00",
+      "sessionTopic": "TBA",
+      "sessionDescription": ""
+    },
+    {
+      "Id" : 4,
+      "dayId": 1,
+      "slotId": 3,
+      "roomId": [2],
+      "slotImg" : "",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:15 - 10:00",
+      "sessionTopic": "TBA",
+      "sessionDescription": ""
     }
   ]
 }
