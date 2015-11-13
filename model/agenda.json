@@ -1,22 +1,52 @@
 {
   "sessions": [
     {
+      "Id" : 1,
       "dayId": 1,
-      "roomId": [1,2],
       "slotId": 1,
-      "speakerId": null,
+      "roomId": [],
+      "slotImg" : "../src/img/icon_droid.png",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "08:00",
       "sessionTopic": "Registration Starts",
-      "sessionDate": "2015-09-17 06:58:21",
-      "sessionDescription": null
+      "sessionDescription": ""
     },
     {
+      "Id" : 2,
       "dayId": 1,
-      "roomId": [1,2],
       "slotId": 2,
-      "speakerId": null,
+      "roomId": [1,2],
+      "slotImg" : "../src/img/icon_droid.png",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:00 - 9:15",
       "sessionTopic": "Big Opening",
-      "sessionDate": "2015-09-17 06:58:21",
-      "sessionDescription": null
+      "sessionDescription": ""
+    },
+    {
+      "Id" : 3,
+      "dayId": 1,
+      "slotId": 3,
+      "roomId": [1],
+      "slotImg" : "",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:15 - 10:00",
+      "sessionTopic": "TBA",
+      "sessionDescription": ""
+    },
+    {
+      "Id" : 4,
+      "dayId": 1,
+      "slotId": 3,
+      "roomId": [2],
+      "slotImg" : "",
+      "speakerIDs": [],
+      "sessionDate": "2015-12-04",
+      "sessionHour": "09:15 - 10:00",
+      "sessionTopic": "TBA",
+      "sessionDescription": ""
     }
   ]
 }
