@@ -4,6 +4,10 @@
   This file contains all agenda adjustments for droidcon Kraków 2015 website.
 */
 
+/* FONTS */
+.nerissemibold {
+  font-family: 'nerissemibold';
+}
 /*AGENDA ADJUSTMENTS <768px*/
 
 /* icon when empty page*/
@@ -12,30 +16,26 @@
   margin: 10px;
 }
 
-#agenda-tabs div{
-  height: 62px;
+/* TEMPORARY LIST */
+.square-bracket {
+  border: 2px solid white;
+  border-radius: 14px;
+  margin: 10px 0;
+  padding: 20px;
+  word-wrap: break-word;
 }
-
-section#agenda-tabs a.tab-link {
-  z-index: 1000;
-  width: 253px;
-  height: 62px;
+.no-border {
+  margin: 10px 0;
+  padding: 20px;
+  word-wrap: break-word;
 }
-
-section#agenda-tabs canvas {
-  border: none;
+#temp-list img {
+  width: 150px;
+  border-radius: 100%;
 }
-
-canvas#day-two-tab {
-  position: relative;
-  left: -45px;
+#temp-list h4 {
+  font-family: 'nerissemibold';
 }
-canvas#day-three-tab {
-  position: relative;
-  left: -90px;
-}
-
-/* AGENDA TABLE */
-table#agenda-table {
-  width: 100%;
+#temp-list .talk {
+  text-align: left;
 }
