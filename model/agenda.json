@@ -25,7 +25,7 @@
     {
       "Id" : 3,
       "dayId": 1,
-      "roomId": [1, 2],
+      "roomId": [2],
       "slotImg" : "",
       "speakerIDs": [[1], [4]],
       "sessionDate": "2015-12-04 09:15",
@@ -36,7 +36,7 @@
     {
       "Id" : 4,
       "dayId": 1,
-      "roomId": [1, 2],
+      "roomId": [2],
       "slotImg" : "",
       "speakerIDs": [ [3], [8]],
       "sessionDate": "2015-12-04 09:15",
@@ -58,7 +58,7 @@
     {
       "Id" : 6,
       "dayId": 1,
-      "roomId": [1,2],
+      "roomId": [2],
       "slotImg" : "",
       "speakerIDs": [[2],[5]],
       "sessionDate": "2015-12-04 09:15",
