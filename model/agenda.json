@@ -3,7 +3,7 @@
     {
       "Id" : 1,
       "dayId": 1,
-      "roomId": [0],
+      "roomId": [null, null],
       "slotImg" : "../src/img/icon_droid.png",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 08:00",
@@ -14,7 +14,7 @@
     {
       "Id" : 2,
       "dayId": 1,
-      "roomId": [1],
+      "roomId": [1, null],
       "slotImg" : "../src/img/icon_droid.png",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 09:00",
@@ -25,7 +25,7 @@
     {
       "Id" : 3,
       "dayId": 1,
-      "roomId": [2],
+      "roomId": [1, 2],
       "slotImg" : "",
       "speakerIDs": [[1], [4]],
       "sessionDate": "2015-12-04 09:15",
@@ -36,7 +36,7 @@
     {
       "Id" : 4,
       "dayId": 1,
-      "roomId": [2],
+      "roomId": [1, 2],
       "slotImg" : "",
       "speakerIDs": [ [3], [8]],
       "sessionDate": "2015-12-04 09:15",
@@ -47,7 +47,7 @@
     {
       "Id" : 5,
       "dayId": 1,
-      "roomId": [0],
+      "roomId": [ null, null],
       "slotImg" : "",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 09:15",
@@ -58,7 +58,7 @@
     {
       "Id" : 6,
       "dayId": 1,
-      "roomId": [2],
+      "roomId": [1, 2],
       "slotImg" : "",
       "speakerIDs": [[2],[5]],
       "sessionDate": "2015-12-04 09:15",
