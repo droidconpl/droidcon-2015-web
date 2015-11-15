@@ -19,7 +19,7 @@
       "speakerIDs": [ [], []],
       "sessionDate": "2015-12-04 09:00",
       "sessionDisplayHour": "9:00 - 9:15",
-      "sessionTopic": ["Big Opening", ""],
+      "sessionTitle": ["Big Opening", ""],
       "sessionDescription": [ "", ""]
     },
     {
@@ -30,7 +30,7 @@
       "speakerIDs": [ [], []],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTopic": ["TBA","TBA"],
+      "sessionTitle": ["TBA","TBA"],
       "sessionDescription": [ "", ""]
     },
     {
@@ -41,7 +41,7 @@
       "speakerIDs": [ [], []],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTopic": ["TBA","TBA"],
+      "sessionTitle": ["TBA","TBA"],
       "sessionDescription": [ "", ""]
     },
     {
@@ -52,7 +52,7 @@
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTopic": ["TBA","TBA"],
+      "sessionTitle": ["TBA","TBA"],
       "sessionDescription": ["",""]
     },
     {
@@ -63,7 +63,7 @@
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTopic": ["TBA","TBA"],
+      "sessionTitle": ["TBA","TBA"],
       "sessionDescription": ["",""]
     }
 
