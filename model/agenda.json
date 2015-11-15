@@ -3,50 +3,69 @@
     {
       "Id" : 1,
       "dayId": 1,
-      "slotId": 1,
-      "roomId": [],
+      "roomId": [ null, null],
       "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [],
-      "sessionDate": "2015-12-04",
-      "sessionHour": "08:00",
-      "sessionTopic": "Registration Starts",
-      "sessionDescription": ""
+      "speakerIDs": [ [], []],
+      "sessionDate": "2015-12-04 08:00",
+      "sessionDisplayHour": "8:00",
+      "sessionTitle": [ "Registration Starts", ""],
+      "sessionDescription": [ "", ""]
     },
     {
       "Id" : 2,
       "dayId": 1,
-      "slotId": 2,
-      "roomId": [1,2],
+      "roomId": [ 1, null],
       "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [],
-      "sessionDate": "2015-12-04",
-      "sessionHour": "09:00 - 9:15",
-      "sessionTopic": "Big Opening",
-      "sessionDescription": ""
+      "speakerIDs": [ [], []],
+      "sessionDate": "2015-12-04 09:00",
+      "sessionDisplayHour": "9:00 - 9:15",
+      "sessionTopic": ["Big Opening", ""],
+      "sessionDescription": [ "", ""]
     },
     {
       "Id" : 3,
       "dayId": 1,
-      "slotId": 3,
-      "roomId": [1],
+      "roomId": [ 1, 2],
       "slotImg" : "",
-      "speakerIDs": [],
-      "sessionDate": "2015-12-04",
-      "sessionHour": "09:15 - 10:00",
-      "sessionTopic": "TBA",
-      "sessionDescription": ""
+      "speakerIDs": [ [], []],
+      "sessionDate": "2015-12-04 09:15",
+      "sessionHour": "9:15 - 10:00",
+      "sessionTopic": ["TBA","TBA"],
+      "sessionDescription": [ "", ""]
     },
     {
       "Id" : 4,
       "dayId": 1,
-      "slotId": 3,
+      "roomId": [ 1, 2],
+      "slotImg" : "",
+      "speakerIDs": [ [], []],
+      "sessionDate": "2015-12-04 09:15",
+      "sessionHour": "9:15 - 10:00",
+      "sessionTopic": ["TBA","TBA"],
+      "sessionDescription": [ "", ""]
+    },
+    {
+      "Id" : 5,
+      "dayId": 1,
+      "roomId": [ 1, 2],
+      "slotImg" : "",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 09:15",
+      "sessionHour": "9:15 - 10:00",
+      "sessionTopic": ["TBA","TBA"],
+      "sessionDescription": ["",""]
+    },
+    {
+      "Id" : 6,
+      "dayId": 1,
       "roomId": [2],
       "slotImg" : "",
-      "speakerIDs": [],
-      "sessionDate": "2015-12-04",
-      "sessionHour": "09:15 - 10:00",
-      "sessionTopic": "TBA",
-      "sessionDescription": ""
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 09:15",
+      "sessionHour": "9:15 - 10:00",
+      "sessionTopic": ["TBA","TBA"],
+      "sessionDescription": ["",""]
     }
+
   ]
 }
