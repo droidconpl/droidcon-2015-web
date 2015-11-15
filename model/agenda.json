@@ -3,42 +3,42 @@
     {
       "Id" : 1,
       "dayId": 1,
-      "roomId": [ null, null],
+      "roomId": [0],
       "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [ [], []],
+      "speakerIDs": [],
       "sessionDate": "2015-12-04 08:00",
       "sessionDisplayHour": "8:00",
-      "sessionTitle": [ "Registration Starts", ""],
-      "sessionDescription": [ "", ""]
+      "sessionTitle": ["Registration Starts"],
+      "sessionDescription": [""]
     },
     {
       "Id" : 2,
       "dayId": 1,
-      "roomId": [ 1, null],
+      "roomId": [1],
       "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [ [], []],
+      "speakerIDs": [],
       "sessionDate": "2015-12-04 09:00",
       "sessionDisplayHour": "9:00 - 9:15",
-      "sessionTitle": ["Big Opening", ""],
-      "sessionDescription": [ "", ""]
+      "sessionTitle": ["Big Opening"],
+      "sessionDescription": [""]
     },
     {
       "Id" : 3,
       "dayId": 1,
-      "roomId": [ 1, 2],
+      "roomId": [1, 2],
       "slotImg" : "",
-      "speakerIDs": [ [], []],
+      "speakerIDs": [[1], [4]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
       "sessionTitle": ["TBA","TBA"],
-      "sessionDescription": [ "", ""]
+      "sessionDescription": ["", ""]
     },
     {
       "Id" : 4,
       "dayId": 1,
-      "roomId": [ 1, 2],
+      "roomId": [1, 2],
       "slotImg" : "",
-      "speakerIDs": [ [], []],
+      "speakerIDs": [ [3], [8]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
       "sessionTitle": ["TBA","TBA"],
@@ -47,20 +47,20 @@
     {
       "Id" : 5,
       "dayId": 1,
-      "roomId": [ 1, 2],
+      "roomId": [0],
       "slotImg" : "",
-      "speakerIDs": [[],[]],
+      "speakerIDs": [],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA","TBA"],
-      "sessionDescription": ["",""]
+      "sessionTitle": ["Coffee break"],
+      "sessionDescription": [""]
     },
     {
       "Id" : 6,
       "dayId": 1,
-      "roomId": [2],
+      "roomId": [1,2],
       "slotImg" : "",
-      "speakerIDs": [[],[]],
+      "speakerIDs": [[2],[5]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
       "sessionTitle": ["TBA","TBA"],
