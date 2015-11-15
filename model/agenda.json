@@ -29,7 +29,7 @@
       "slotImg" : "",
       "speakerIDs": [ [], []],
       "sessionDate": "2015-12-04 09:15",
-      "sessionHour": "9:15 - 10:00",
+      "sessionDisplayHour": "9:15 - 10:00",
       "sessionTopic": ["TBA","TBA"],
       "sessionDescription": [ "", ""]
     },
@@ -40,7 +40,7 @@
       "slotImg" : "",
       "speakerIDs": [ [], []],
       "sessionDate": "2015-12-04 09:15",
-      "sessionHour": "9:15 - 10:00",
+      "sessionDisplayHour": "9:15 - 10:00",
       "sessionTopic": ["TBA","TBA"],
       "sessionDescription": [ "", ""]
     },
@@ -51,7 +51,7 @@
       "slotImg" : "",
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:15",
-      "sessionHour": "9:15 - 10:00",
+      "sessionDisplayHour": "9:15 - 10:00",
       "sessionTopic": ["TBA","TBA"],
       "sessionDescription": ["",""]
     },
@@ -62,7 +62,7 @@
       "slotImg" : "",
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:15",
-      "sessionHour": "9:15 - 10:00",
+      "sessionDisplayHour": "9:15 - 10:00",
       "sessionTopic": ["TBA","TBA"],
       "sessionDescription": ["",""]
     }
