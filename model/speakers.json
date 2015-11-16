@@ -239,6 +239,23 @@
             "sessions": [
                 2
             ]
+        },
+        {
+            "id": 15,
+            "firstName": "Resul",
+            "lastName": "Caner Yıldırım",
+            "websiteTitle": "UX Designer",
+            "bio": "Basically a technology geek. Mainly focused on the marketing and design of mobile applications. Passionate about marketing, UX, IoT and Android. Since 2012, he has been writing technology news and articles on protechman.net<br /><br />Organizer of the Google Developer Group Istanbul & Chief Problem Solver of Mobil Istanbul. Speaks at conferences worldwide. Also known as Protechman.",
+            "websiteLink": "http://medium.com/@resulcaneryildirim",
+            "facebookLink": "htt://facebook.com/r.caner.yildirim",
+            "twitterHandler": "protechman",
+            "githubLink": null,
+            "linkedIn": "http://linkedin.com/in/protechman",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/resul-caner-yıldırım.jpg",
+            "sessions": [
+                2
+            ]
         }
     ]
 }
