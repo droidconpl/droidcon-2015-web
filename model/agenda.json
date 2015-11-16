@@ -27,7 +27,7 @@
       "dayId": 1,
       "roomId": [1, 2],
       "slotImg" : "",
-      "speakerIDs": [[1], [4]],
+      "speakerIDs": [[1,5], [4]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
       "sessionTitle": ["TBA","TBA"],
