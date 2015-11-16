@@ -3,7 +3,7 @@
     {
       "Id" : 1,
       "dayId": 1,
-      "roomId": [null, null],
+      "roomId": [0],
       "slotImg" : "../src/img/icon_droid.png",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 08:00",
@@ -14,7 +14,7 @@
     {
       "Id" : 2,
       "dayId": 1,
-      "roomId": [1, null],
+      "roomId": [1],
       "slotImg" : "../src/img/icon_droid.png",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 09:00",
@@ -47,7 +47,7 @@
     {
       "Id" : 5,
       "dayId": 1,
-      "roomId": [ null, null],
+      "roomId": [0],
       "slotImg" : "",
       "speakerIDs": [],
       "sessionDate": "2015-12-04 09:15",
