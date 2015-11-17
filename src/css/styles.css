@@ -305,6 +305,7 @@ h3.section-subtitle {
 }
 .speaker-title p {
   margin-bottom: 25px;
+  max-width: 260px;
 }
 a.modal-social-link {
   color: inherit;
@@ -390,7 +391,7 @@ a#footer-mail {
 #droidcon-global p{
   text-align: left;
   height: 60px;
-  width: 250px;
+  width: 270px;
   padding: 3px 0;
 }
 /**----end-footer----**/
