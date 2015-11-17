@@ -129,4 +129,29 @@ $(document).ready(function(){
     }});
 
   });
+
+  // flow after click on the website
+  // NOT WORKING YET!!!
+  $("body").on('click', 'a.scrollable', function(e) {
+      // target element id
+      var id = $(this).attr('href');
+
+      // target element
+      var $id = $(id);
+      console.log(id);
+      if ($id.length === 0) {
+          return;
+      }
+
+      // wyłączenie normalnej hashowej nawigacji
+      e.preventDefault();
+
+      // top relatywnie do dokumentu
+      var pos = $(id).offset().top;
+
+      // animacja
+      $('body, html').animate({scrollTop: pos}, function(){
+          window.location.hash = id; //ustawienie hasha w przeglądarce
+      });
+    });
 });

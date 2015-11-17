@@ -12,12 +12,7 @@
             "githubLink": "hamen",
             "linkedIn": "https://ch.linkedin.com/in/ivanmorgillo",
             "googlePlus": null,
-            "imageUrl": "src/img/people/ivan-morgillo.png",
-            "sessions": [
-                1,
-                2,
-                3
-            ]
+            "imageUrl": "src/img/people/ivan-morgillo.png"
         },
         {
             "id": 2,
@@ -31,10 +26,7 @@
             "githubLink": "Nilhcem",
             "linkedIn": "https://fr.linkedin.com/pub/gautier-mechling/36/a72/9a0",
             "googlePlus": "https://plus.google.com/+GautierMechling",
-            "imageUrl": "src/img/people/gautier-mechling.png",
-            "sessions": [
-                1
-            ]
+            "imageUrl": "src/img/people/gautier-mechling.png"
         },
         {
             "id": 3,
@@ -48,10 +40,7 @@
             "githubLink": "mrsasha",
             "linkedIn": "https://de.linkedin.com/in/sasasekulic",
             "googlePlus": null,
-            "imageUrl": "src/img/people/sasa-sekulic.png",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/sasa-sekulic.png"
         },
         {
             "id": 4,
@@ -65,10 +54,7 @@
             "githubLink": "tasomaniac/",
             "linkedIn": "https://linkedin.com/in/saidtahsindane",
             "googlePlus": null,
-            "imageUrl": "src/img/people/said-tahsin-dane.png",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/said-tahsin-dane.png"
         },
         {
             "id": 5,
@@ -82,10 +68,7 @@
             "githubLink": null,
             "linkedIn": null,
             "googlePlus": null,
-            "imageUrl": "src/img/people/anton-rutkevich.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/anton-rutkevich.jpg"
         },
         {
             "id": 6,
@@ -99,10 +82,7 @@
             "githubLink": "hotchemi",
             "linkedIn": null,
             "googlePlus": null,
-            "imageUrl": "src/img/people/shintaro-katafuchi.png",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/shintaro-katafuchi.png"
         },
         {
             "id": 7,
@@ -116,10 +96,7 @@
             "githubLink": null,
             "linkedIn": "https://pl.linkedin.com/pub/magdalena-zadara/53/971/a8a",
             "googlePlus": null,
-            "imageUrl": "src/img/people/magdalena-zadara.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/magdalena-zadara.jpg"
         },
         {
             "id": 8,
@@ -133,10 +110,7 @@
             "githubLink": "KKonradMC",
             "linkedIn": "https://www.linkedin.com/pub/konrad-krakowiak/72/833/110",
             "googlePlus": null,
-            "imageUrl": "src/img/people/konrad-krakowiak.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/konrad-krakowiak.jpg"
         },
         {
             "id": 9,
@@ -150,10 +124,7 @@
             "githubLink": null,
             "linkedIn": null,
             "googlePlus": "https://plus.google.com/+WojtekKalicinski",
-            "imageUrl": "src/img/people/wojtek-kalicinski.png",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/wojtek-kalicinski.png"
         },
         {
             "id": 10,
@@ -167,10 +138,7 @@
             "githubLink": null,
             "linkedIn": "https://pl.linkedin.com/pub/michał-szczepanik/70/6ba/42",
             "googlePlus": null,
-            "imageUrl": "src/img/people/michal-szczepanik.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/michal-szczepanik.jpg"
         },
         {
             "id": 11,
@@ -184,10 +152,7 @@
             "githubLink": "bernardpletikosa",
             "linkedIn": "https://de.linkedin.com/pub/bernard-pletikosa/55/a97/455",
             "googlePlus": null,
-            "imageUrl": "src/img/people/bernard-pletikosa.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/bernard-pletikosa.jpg"
         },
         {
             "id": 12,
@@ -201,10 +166,7 @@
             "githubLink": "tajchert",
             "linkedIn": "https://www.linkedin.com/profile/view?id=AAMAAA5pJmMBee3hq9n_rp-ULs9eRcJyEN3iOgI",
             "googlePlus": "https://plus.google.com/u/0/+MichalTajchert/posts",
-            "imageUrl": "src/img/people/michal-tajchert.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/michal-tajchert.jpg"
         },
         {
             "id": 13,
@@ -218,10 +180,7 @@
             "githubLink": "roman-mazur",
             "linkedIn": "https://ua.linkedin.com/in/romanmazur",
             "googlePlus": null,
-            "imageUrl": "src/img/people/roman-mazur.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/roman-mazur.jpg"
         },
         {
             "id": 14,
@@ -235,10 +194,7 @@
             "githubLink": null,
             "linkedIn": "http://ua.linkedin.com/pub/kseniia-shumelchyk/49/26/935",
             "googlePlus": "https://plus.google.com/+KseniiaShumelchyk",
-            "imageUrl": "src/img/people/kseniia-shumelchyk.png",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/kseniia-shumelchyk.png"
         },
         {
             "id": 15,
@@ -247,15 +203,27 @@
             "websiteTitle": "UX Designer",
             "bio": "Basically a technology geek. Mainly focused on the marketing and design of mobile applications. Passionate about marketing, UX, IoT and Android. Since 2012, he has been writing technology news and articles on protechman.net<br /><br />Organizer of the Google Developer Group Istanbul & Chief Problem Solver of Mobil Istanbul. Speaks at conferences worldwide. Also known as Protechman.",
             "websiteLink": "http://medium.com/@resulcaneryildirim",
-            "facebookLink": "htt://facebook.com/r.caner.yildirim",
+            "facebookLink": "https://facebook.com/r.caner.yildirim",
             "twitterHandler": "protechman",
             "githubLink": null,
             "linkedIn": "http://linkedin.com/in/protechman",
             "googlePlus": null,
-            "imageUrl": "src/img/people/resul-caner-yıldırım.jpg",
-            "sessions": [
-                2
-            ]
+            "imageUrl": "src/img/people/resul-caner-yıldırım.jpg"
+        }
+        ,
+        {
+            "id": 16,
+            "firstName": "Roman",
+            "lastName": "Herasymenko",
+            "websiteTitle": "Google Developers Expert on Android @ Yalantis",
+            "bio": "Roman is a technology geek, leading developer with 10+ years of experience, and a Google Developer Expert on Android at Yalantis company.<br /><br />He is skilled in building cutting-edge mobile apps, mainly developing for Android and wearable devices.<br /><br />For two years Roman is an organizer and active member at GDG Dnipropetrovsk, where he had already organized a variety of local meet-ups, conferences and hackathons.",
+            "websiteLink": "http://aenterhy.co",
+            "facebookLink": "https://www.facebook.com/profile.php?id=100001762073451",
+            "twitterHandler": "Aenterhy",
+            "githubLink": "Aenterhy",
+            "linkedIn": null,
+            "googlePlus": null,
+            "imageUrl": "src/img/people/roman-herasymenko.png"
         }
     ]
 }

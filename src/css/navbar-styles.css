@@ -112,6 +112,16 @@ ul.dropdown-menu {
   display: none;
 }
 
+#to-top {
+  position: fixed;
+  z-index: 99;
+  bottom: 15px;
+  right: 15px;
+}
+#to-top img {
+  height: 30px;
+}
+
 /*NAVBAR ADJUSTMENTS >=768px*/
 @media (min-width: 768px){
   .navbar {
@@ -143,7 +153,7 @@ ul.dropdown-menu {
   }
   ul.dropdown-menu {
     top: 69px;
-    height: 46px;
+    min-height: 46px;
   }
   .dropdown-menu li {
     width: 140px;
@@ -163,6 +173,13 @@ ul.dropdown-menu {
     -ms-transform: rotate(35deg); /* IE 9 */
     -webkit-transform: rotate(35deg); /* Safari */
     transform: rotate(35deg); /* Standard syntax */
+  }
+  #to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+  #to-top img {
+    height: 45px;
   }
 }
 
