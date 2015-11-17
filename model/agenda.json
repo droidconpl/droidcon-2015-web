@@ -63,7 +63,7 @@
       "speakerIDs": [[4],[]],
       "sessionDate": "2015-12-04 11:15",
       "sessionDisplayHour": "11:15 - 12:00",
-      "sessionTitle": ["Material Design Custom Views", ""],
+      "sessionTitle": ["Material Design Custom Views", "TBA"],
       "sessionDescription": ["There are various widgets to create user interfaces in Android Framework. Using these widgets is a starting point but they are not enough to create awesome apps. Fortunately, alternative methods are here to rescue! I mean understanding and extending the View class.<br /><br />In this presentation, I will give some Custom View examples. Some of them makes impossible things be possible and some of them increase performance.<br /><br />I will talk about how to apply Material Design principles in Custom Views while supporting the older platform versions.<br /><br />If you want to be beyond the limits of ordinary, open to innovation and surprise your users, this talk is for you.", ""]
     },
     {
@@ -108,7 +108,7 @@
       "sessionDate": "2015-12-04 14:40",
       "sessionDisplayHour": "14:40 - 15:25",
       "sessionTitle": ["TBA", "Unit test via Spock"],
-      "sessionDescription": ["TBA", "My presentation shows how to create unit test via Spock framework.<br />Through my presentation I would like to encourage the use of this library and show that writing of unit tests can be fun and enjoyable and may affect the code quality."]
+      "sessionDescription": ["", "My presentation shows how to create unit test via Spock framework.<br />Through my presentation I would like to encourage the use of this library and show that writing of unit tests can be fun and enjoyable and may affect the code quality."]
     },
     {
       "Id" : 11,
@@ -130,7 +130,7 @@
       "sessionDate": "2015-12-04 15:45",
       "sessionDisplayHour": "15:45 - 16:30",
       "sessionTitle": ["I'm not trying to piss you off: why designers insist on costly features", "TBA"],
-      "sessionDescription": ["I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.", "TBA"]
+      "sessionDescription": ["I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.", ""]
     },
     {
       "Id" : 13,
@@ -141,7 +141,7 @@
       "sessionDate": "2015-12-04 16:40",
       "sessionDisplayHour": "16:40 - 17:10",
       "sessionTitle": ["How to move faster from an idea to full-fledged app?", "TBA"],
-      "sessionDescription": ["Probably you have dozens of ideas, and people always pitch you \"Oh, I have that milion dollar idea for app\". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.", "TBA"]
+      "sessionDescription": ["Probably you have dozens of ideas, and people always pitch you \"Oh, I have that milion dollar idea for app\". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.", ""]
     },
     {
       "Id" : 14,
