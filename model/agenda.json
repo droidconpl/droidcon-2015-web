@@ -71,11 +71,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[],[]],
+      "speakerIDs": [[],[13]],
       "sessionDate": "2015-12-04 12:10",
       "sessionDisplayHour": "12:10 - 12:40",
-      "sessionTitle": ["TBA", "TBA"],
-      "sessionDescription": ["", ""]
+      "sessionTitle": ["TBA", "Power of Android Shell"],
+      "sessionDescription": ["", "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br /><br />We'll see what is available in Android command line and:<br /><br />- analyze system and sample apps with 'dumpsys', <br /><br />- find out how to check whether your service finishes normally and does not live forever, <br /><br />- mock battery level and charger state, <br /><br />- trigger account sychronization, <br /><br />- change system settings without a single line of UiAutomator code."]
     },
     {
       "Id" : 8,
