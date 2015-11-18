@@ -4,10 +4,6 @@
   This file contains all agenda adjustments for droidcon Kraków 2015 website.
 */
 
-/* FONTS */
-.nerissemibold {
-  font-family: 'nerissemibold';
-}
 /*AGENDA ADJUSTMENTS <768px*/
 
 /* icon when empty page*/
@@ -16,26 +12,220 @@
   margin: 10px;
 }
 
-/* TEMPORARY LIST */
-.square-bracket {
-  border: 2px solid white;
-  border-radius: 14px;
-  margin: 10px 0;
-  padding: 20px;
+/* FINAL AGENDA */
+/* agenda day tabs */
+#agenda-tabs div{
+  height: 35px;
+}
+#agenda-tabs p {
+  font-family: 'nerisblack';
+  padding: 7px 12px;
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -o-transform: skew(-40deg);
+}
+#agenda-tabs .active, #agenda-tabs .active div{
+  background-color: #1F1F1F;
+  color: #EEEDEC;
+}
+#agenda-tabs div > div {
+  background: #4D4D4D;
+  color: #6EB300;
+}
+#cover-tab {
+  width: 30px;
+  position: absolute;
+  left: -14px;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -o-transform: skew(-40deg);
+}
+.tab {
+  width: 85px;
+  margin-right: 7px;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg);
+  float: left;
+}
+
+/* AGENDA table */
+#agenda-section {
+  position: relative;
+  top: -1px;
+}
+div.time-table {
+  padding: 0 0 20px 0;
   word-wrap: break-word;
 }
-.no-border {
-  margin: 10px 0;
-  padding: 20px;
-  word-wrap: break-word;
+div.time-table .header .hour {
+  font-family: 'nerisblack';
 }
-#temp-list img {
-  width: 150px;
+div.time-table .content .title {
+  font-family: 'nerissemibold';
+
+}
+div.left-slot, div.right-slot {
+  padding: 0;
+}
+div.slot-img {
+  padding: 0 0 0 10px;
+}
+div.slot-img img {
+  height: 60px;
+  margin: 7px 0;
+}
+/* PEOPLE pictures */
+div.left-slot .slot-img img, div.right-slot .slot-img img, div.slot-img img.speaker-image {
+  height: 70px;
+  margin: 10px 0 20px 0;
+}
+.left-slot img, .right-slot img, div.slot-img img.speaker-image {
   border-radius: 100%;
 }
-#temp-list h4 {
-  font-family: 'nerissemibold';
-}
-#temp-list .talk {
+div.time-table .header {
+  background-color: #6EB300;
+  color: #1A1A1A;
+  height: 28px;
+  border-radius: 14px 14px 0 0;
   text-align: left;
+  padding: 2px 20px;
+}
+div.time-table .right-slot .header {
+  border-radius: 0;
+}
+div.time-table .hour {
+  width: 60%;
+  float: left;
+}
+div.time-table .room {
+  float: right;
+}
+.right-slot .hour{
+  display: none;
+}
+div.slot-desc .content {
+  border: 2px solid #6EB300;
+  border-radius: 0 0 14px 14px;
+  margin-top: -1px;
+  padding: 10px 20px 0 20px;
+  text-align: left;
+}
+div.left-slot .content {
+  border-radius: 0;
+}
+.divider {
+  width: 80%;
+  height: 2px;
+  border-bottom: 2px dashed #7B7B7B;
+  /*background-color: #EEEDEC;*/
+  margin:  10px auto;
+}
+
+/* AGENDA ADJUSTMENTS >=768px */
+@media (min-width: 768px){
+  #agenda-tabs div {
+    height: 40px;
+  }
+  #cover-tab {
+    width: 35px;
+    left: -17px;
+  }
+  .tab {
+    width: 120px;
+  }
+  #agenda-tabs p {
+    padding: 7px 22px;
+    font-size: 18px;
+  }
+  div.right-slot div.slot-img {
+    float: right;
+  }
+  div.left-slot .slot-img img, div.right-slot .slot-img img, div.slot-img img.speaker-image {
+    height: 85px;
+    margin: 0 0 20px 0;
+  }
+  div.slot-img {
+    padding: 0 10px;
+  }
+  div.slot-desc {
+    padding: 0;
+  }
+  div.time-table .header {
+    height: 32px;
+    padding: 7px 20px;
+  }
+  div.time-table .left-slot .header {
+    border-radius: 14px 0 0 0;
+  }
+  div.time-table .right-slot .header {
+    display: block;
+    border-radius: 0 14px 0 0;
+    margin-left: -1px;
+  }
+  div.left-slot .content {
+    border-radius: 0 0 0 14px;
+  }
+  div.right-slot .content {
+    border-radius: 0 0 14px 0;
+    border-left: 1px solid #6EB300;
+    margin-left: -1px;
+  }
+}
+
+/*AGENDA ADJUSTMENTS >=992px*/
+@media (min-width: 992px){
+  div.time-table {
+    padding: 0 0 30px 0;
+  }
+  div.slot-img img {
+    height: 80px;
+    margin: 2px 0;
+  }
+  div.left-slot .slot-img img, div.right-slot .slot-img img, div.slot-img img.speaker-image {
+    height: 120px;
+  }
+}
+
+/*AGENDA ADJUSTMENTS >=1200px*/
+@media (min-width: 1200px){
+  #agenda-tabs div {
+    height: 62px;
+  }
+  #cover-tab {
+    width: 55px;
+    left: -26px;
+  }
+  .tab {
+    width: 180px;
+  }
+  #agenda-tabs p {
+    padding: 13px 40px;
+    font-size: 25px;
+  }
+  div.time-table {
+    padding: 0 0 40px 0;
+  }
+  div.slot-img img {
+    height: 70px;
+    margin: 10px 0;
+  }
+  /* PEOPLE pictures */
+  div.left-slot .slot-img img, div.right-slot .slot-img img, div.slot-img img.speaker-image {
+    height: 150px;
+    margin: 0 0 28px 0;
+  }
+  div.time-table .header {
+    height: 40px;
+    padding: 9px 30px;
+  }
+  div.slot-desc .content {
+    border: 4px solid #6EB300;
+  }
+  div.right-slot .content {
+    border-left: 2px solid #6EB300;
+  }
 }
