@@ -60,7 +60,6 @@ $(document).ready(function(){
                        "</div>";
 
       } else if ( sessionsJSON[i].roomId[0] == 1 &&  sessionsJSON[i].roomId[1] == 1 ) {
-
         appendValue += "<div class=\"slot-img col-xs-3 col-sm-2\">";
 
         // when it's a keynote
@@ -93,6 +92,7 @@ $(document).ready(function(){
           var speakerIDs = sessionsJSON[i].speakerIDs[k];
 
           for (var speaker = 0; speaker < speakerIDs.length; speaker++) {
+            appendValue += "<span id=\""+ speakersJSON[speakerIDs[speaker]-1].firstName + "-" + speakersJSON[speakerIDs[speaker]-1].lastName +"\" class=\"anchor\"></span>";
             appendValue += "<img src=\"../" + speakersJSON[speakerIDs[speaker]-1].imageUrl + "\" alt=\"\" />" +
                            "<p class=\"speaker-subtitle\"><b>" + speakersJSON[speakerIDs[speaker]-1].firstName + " " + speakersJSON[speakerIDs[speaker]-1].lastName +"</b><br />"
                            + speakersJSON[speakerIDs[speaker]-1].websiteTitle + "</p>";
