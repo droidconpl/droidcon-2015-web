@@ -81,7 +81,7 @@
       "Id" : 8,
       "dayId": 1,
       "roomId": [0,0],
-      "slotImg" :"",
+      "slotImg" :"../src/img/icon_fork.png",
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 12:40",
       "sessionDisplayHour": "12:40 - 14:00",
