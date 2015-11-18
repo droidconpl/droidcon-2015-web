@@ -209,8 +209,7 @@
             "linkedIn": "http://linkedin.com/in/protechman",
             "googlePlus": null,
             "imageUrl": "src/img/people/resul-caner-yıldırım.jpg"
-        }
-        ,
+        },
         {
             "id": 16,
             "firstName": "Roman",
@@ -224,6 +223,20 @@
             "linkedIn": null,
             "googlePlus": null,
             "imageUrl": "src/img/people/roman-herasymenko.png"
+        },
+        {
+            "id": 17,
+            "firstName": "Radek",
+            "lastName": "Piekarz",
+            "websiteTitle": "Head of Mobile @ Tango Agency",
+            "bio": "Head of Mobile at Tango Agency and Android developer for the past 5 years. Big fan of reactive programming and design patterns. In his free time he is developing Scrobble FM application, which has been recognized in competitions conducted by the portals AntyApps.pl and Android.com.pl. Besides programming, his time is effectively fulfilled by the culinary experiments and photography.",
+            "websiteLink": "http://droidlabs.net",
+            "facebookLink": null,
+            "twitterHandler": "radzio",
+            "githubLink": "radzio",
+            "linkedIn": "https://www.linkedin.com/in/radekpiekarz",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/radek-piekarz.jpg"
         }
     ]
 }

@@ -3,69 +3,167 @@
     {
       "Id" : 1,
       "dayId": 1,
-      "roomId": [0],
-      "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [-1],
+      "roomId": [0,0],
+      "slotImg" :"../src/img/icon_droid.png",
+      "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 08:00",
       "sessionDisplayHour": "8:00",
-      "sessionTitle": ["Registration Starts"],
-      "sessionDescription": [""]
+      "sessionTitle": ["Registration Opens", ""],
+      "sessionDescription": ["", ""]
     },
     {
       "Id" : 2,
       "dayId": 1,
-      "roomId": [1],
-      "slotImg" : "../src/img/icon_droid.png",
-      "speakerIDs": [-1],
+      "roomId": [1,1],
+      "slotImg" :"../src/img/icon_droid.png",
+      "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:00",
       "sessionDisplayHour": "9:00 - 9:15",
-      "sessionTitle": ["Big Opening"],
-      "sessionDescription": [""]
+      "sessionTitle": ["Opening", ""],
+      "sessionDescription": ["", ""]
     },
     {
       "Id" : 3,
       "dayId": 1,
-      "roomId": [1, 2],
-      "slotImg" : "",
-      "speakerIDs": [[1,5], [4]],
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA","TBA"],
+      "sessionTitle": ["TBA", "TBA"],
       "sessionDescription": ["", ""]
     },
     {
       "Id" : 4,
       "dayId": 1,
-      "roomId": [1, 2],
-      "slotImg" : "",
-      "speakerIDs": [[3], [8]],
-      "sessionDate": "2015-12-04 09:15",
-      "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA","TBA"],
-      "sessionDescription": [ "", ""]
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[6],[2]],
+      "sessionDate": "2015-12-04 10:10",
+      "sessionDisplayHour": "10:10 - 10:55",
+      "sessionTitle": ["Managing Runtime Permissions", "The 2015 Android Developer Toolbox"],
+      "sessionDescription": ["## Summary<br /><br />I'm gonna talk about what actually the changing of Runtime Permissions is and how to manage it well, with my library \"PermissionsDispatcher\" which solves the problem that writing a ton of boiler plate codes.<br />https://github.com/hotchemi/PermissionsDispatcher<br /><br />## Detail<br /><br />In the last GoogleIO 2015, google released the new feature of Marshmallow which is called \"Runtime Permissions\". It drastically changed the way to handle permissions from the previous mechanism.<br /><br />The change is basically great for users but also the hell for developers. Because developers have to write a ton of boilerplate codes and the new mechanism and api may not be easy for developers.<br /><br />### For example<br />- `shouldShowRationale` is a really confusing method<br />- There is a lot of class which have methods about permissions, PermissionChecker, ContextCompat, ActivityCompat, FragmentCompat, etc...<br /><br />So in this session, I'm gonna talk about what actually the change is and how to manage permissions well. And I'm also gonna introduce the usage of my library \"PermissionsDispatcher\", which solves the problem that writing a ton of boilerplate codes.<br /><br />https://github.com/hotchemi/PermissionsDispatcher", "Developing for Android has drastically changed over the last few years.<br />We now have a gigantic toolbox we can benefit from to improve our productivity and build better applications.<br /><br />During this presentation I will introduce some of the tools we use daily at happn, a multi-million users French dating application.<br /><br />I will talk about many tools that help us to:<br />- Simulate a laggy/instable HTTP(s) connection<br />- Interact with our application to analyze logs, views, and modify any data (inc. memory / shared preferences / database) in real time<br />- Change our application's backend server without recompiling<br />- Better understand our technical debt<br />- Create a REST mock server in a few seconds to anticipate the development of a feature when the backend is not developed yet<br />- Measure the performance (cpu/memory) of our application<br />- Decompile our application to better understand and analyze its security<br />- Alter a server response and check whether the application behaves properly<br />- and many more tips..."]
     },
     {
       "Id" : 5,
       "dayId": 1,
-      "roomId": [0],
-      "slotImg" : "",
-      "speakerIDs": [-1],
-      "sessionDate": "2015-12-04 09:15",
-      "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["Coffee break"],
-      "sessionDescription": [""]
+      "roomId": [0,0],
+      "slotImg" :"../src/img/icon_coffee.png",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 10:55",
+      "sessionDisplayHour": "10:55 - 11:15",
+      "sessionTitle": ["Coffee break", ""],
+      "sessionDescription": ["", ""]
     },
     {
       "Id" : 6,
       "dayId": 1,
-      "roomId": [1, 2],
-      "slotImg" : "",
-      "speakerIDs": [[2],[5]],
-      "sessionDate": "2015-12-04 09:15",
-      "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA","TBA"],
-      "sessionDescription": ["",""]
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[4],[]],
+      "sessionDate": "2015-12-04 11:15",
+      "sessionDisplayHour": "11:15 - 12:00",
+      "sessionTitle": ["Material Design Custom Views", "TBA"],
+      "sessionDescription": ["There are various widgets to create user interfaces in Android Framework. Using these widgets is a starting point but they are not enough to create awesome apps. Fortunately, alternative methods are here to rescue! I mean understanding and extending the View class.<br /><br />In this presentation, I will give some Custom View examples. Some of them makes impossible things be possible and some of them increase performance.<br /><br />I will talk about how to apply Material Design principles in Custom Views while supporting the older platform versions.<br /><br />If you want to be beyond the limits of ordinary, open to innovation and surprise your users, this talk is for you.", ""]
+    },
+    {
+      "Id" : 7,
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 12:10",
+      "sessionDisplayHour": "12:10 - 12:40",
+      "sessionTitle": ["TBA", "TBA"],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 8,
+      "dayId": 1,
+      "roomId": [0,0],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 12:40",
+      "sessionDisplayHour": "12:40 - 14:00",
+      "sessionTitle": ["Lunch break", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 9,
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[10],[]],
+      "sessionDate": "2015-12-04 14:00",
+      "sessionDisplayHour": "14:00 - 14:30",
+      "sessionTitle": ["Clean architecture: Android", "TBA"],
+      "sessionDescription": ["Planning architecture of application is a complex task. Did you ever consider where to put business logic and how to organize it in a clean, re-usable way? How to make your project more readable and testable to reduce number of issues?  In this presentation  bill be explain how to use MVP/MVC, MVVM patterns and whole clean architecture concept for your Android app development.", ""]
+    },
+    {
+      "Id" : 10,
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[],[8]],
+      "sessionDate": "2015-12-04 14:40",
+      "sessionDisplayHour": "14:40 - 15:25",
+      "sessionTitle": ["TBA", "Unit test via Spock"],
+      "sessionDescription": ["", "My presentation shows how to create unit test via Spock framework.<br />Through my presentation I would like to encourage the use of this library and show that writing of unit tests can be fun and enjoyable and may affect the code quality."]
+    },
+    {
+      "Id" : 11,
+      "dayId": 1,
+      "roomId": [0,0],
+      "slotImg" :"../src/img/icon_coffee.png",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 15:25",
+      "sessionDisplayHour": "15:25 - 15:45",
+      "sessionTitle": ["Coffee break", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 12,
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[7],[]],
+      "sessionDate": "2015-12-04 15:45",
+      "sessionDisplayHour": "15:45 - 16:30",
+      "sessionTitle": ["I'm not trying to piss you off: why designers insist on costly features", "TBA"],
+      "sessionDescription": ["I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.", ""]
+    },
+    {
+      "Id" : 13,
+      "dayId": 1,
+      "roomId": [1,2],
+      "slotImg" :"",
+      "speakerIDs": [[12],[]],
+      "sessionDate": "2015-12-04 16:40",
+      "sessionDisplayHour": "16:40 - 17:10",
+      "sessionTitle": ["How to move faster from an idea to full-fledged app?", "TBA"],
+      "sessionDescription": ["Probably you have dozens of ideas, and people always pitch you \"Oh, I have that milion dollar idea for app\". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.", ""]
+    },
+    {
+      "Id" : 14,
+      "dayId": 1,
+      "roomId": [1,1],
+      "slotImg" :"../src/img/icon_droid.png",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 17:10",
+      "sessionDisplayHour": "17:10 - 17:30",
+      "sessionTitle": ["Closing 1 day", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 15,
+      "dayId": 1,
+      "roomId": [0,0],
+      "slotImg" :"../src/img/icon_party.png",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-04 20:00",
+      "sessionDisplayHour": "20:00",
+      "sessionTitle": ["Afterparty", ""],
+      "sessionDescription": ["", ""]
     }
-
   ]
 }
