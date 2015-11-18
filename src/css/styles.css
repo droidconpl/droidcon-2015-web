@@ -285,6 +285,14 @@ h3.section-subtitle {
 }
 
 /*----MODALS----*/
+.modal-header .close {
+  margin-top: -3px;
+  margin-right: 3px;
+}
+.close {
+  font-size: 30px;
+  opacity: 0.5;
+}
 .modal-header {
   border-bottom: none;
   min-height: 180px;
