@@ -257,7 +257,7 @@
       "Id" : 24,
       "dayId": 2,
       "roomId": [1,1],
-      "slotImg" :"",
+      "slotImg" :"../src/img/people/wojtek-kalicinski.png",
       "speakerIDs": [[9],[]],
       "sessionDate": "2015-12-04 15:15",
       "sessionDisplayHour": "15:15 - 16:00",
