@@ -100,7 +100,7 @@
 </nav>
 
 <div id="to-top">
-  <a href="#home" class="scrollable"><img src="../src/img/up_button.png" alt="Back to top" /></a>
+  <a href="#home" class="scrollable"><img src="../src/img/up_button_shadow.png" alt="Back to top" /></a>
 </div>
 
 <!--  empty container-->
@@ -121,296 +121,41 @@
     <h2 class="section-title">Agenda</h2>
 
     <p class="row text">
-      We are working on the agenda right now!<br />
-      Below there is a part of topics and their abstracts that will be inside of the agenda.<br />
-      Follow us on Facebook, Twitter and G+ and wait for more :)
+      Here is the Agenda for droidcon Kraków 2015!!!<br />
+      We will be constantly filling the rest of the slots, so keep tracking our website :)<br /><br />
+      See you soon!
     </p>
-    <img src="../src/img/empty-page-logo.png" />
+    <!-- <img src="../src/img/empty-page-logo.png" /> -->
   </div>
 </section>
 
-
-<section id="temp-list" class="section black">
+<!-- Day Tabs -->
+<section id="agenda-tabs" class="milky">
   <div class="container">
+    <!-- First tab is different -->
 
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/shintaro-katafuchi.png" alt="" />
-        <h4>Shintaro Katafuchi</h4>
-        <p>A Tokyo based Android developer.<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Managing Runtime Permissions</h4>
-        <p><b>## Summary</b>
-<br /><br />
-I'm gonna talk about what actually the changing of Runtime Permissions is and how to manage it well, with my library "PermissionsDispatcher" which solves the problem that writing a ton of boiler plate codes.
-https://github.com/hotchemi/PermissionsDispatcher
-<br /><br />
-<b>## Detail</b>
-<br /><br />
-In the last GoogleIO 2015, google released the new feature of Marshmallow which is called "Runtime Permissions". It drastically changed the way to handle permissions from the previous mechanism.
-<br /><br />
-The change is basically great for users but also the hell for developers. Because developers have to write a ton of boilerplate codes and the new mechanism and api may not be easy for developers.
-<br /><br />
-<b>### For example</b>
-- `shouldShowRationale` is a really confusing method<br />
-- There is a lot of class which have methods about permissions, PermissionChecker, ContextCompat, ActivityCompat, FragmentCompat, etc...
-<br /><br />
-So in this session, I'm gonna talk about what actually the change is and how to manage permissions well. And I'm also gonna introduce the usage of my library "PermissionsDispatcher", which solves the problem that writing a ton of boilerplate codes.
-<br /><br />
-https://github.com/hotchemi/PermissionsDispatcher</p>
-      </div>
+    <div id="tab-1" class="tabs tab active">
+      <div id="cover-tab"></div>
+      <p>4.12.2015</p>
     </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/ivan-morgillo.png" alt="" />
-        <h4>Ivan Morgillo</h4>
-        <p>Senior Android Developer<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Android Reactive Programming with RxJava</h4>
-        <p>In a world where there is a smartphone in every pocket, designing and building applications that can run smoothly and deliver the User Experience that users will like, it’s the only way to go. Reactive Programming with RxJava will help you to beat Android Platform limitations to create astonishing Android Apps.
-          <br /><br />
-This talk will be a practical journey from basic Reactive Programming and Observer Pattern concepts to the main feature of RxJava, with practical code examples and a real-world app.
-<br /><br />
-I'll show the audience how to create an Observable ""from scratch"", from a list or from a function we already have in our code base. Our listeners will learn how to filter an Observable sequence to create a new sequence containing only the values we want; they will learn how to apply a function to an Observable, how to concatenate, merge or zip Observables. I'll show how to enjoy RxAndroid Schedulers to overcome the threading and concurrency hell in Android.
-<br /><br />
-I will close the talk with a practical example about RxJava + Retrofit, to easily communicate with a REST API.</p>
-      </div>
+    <div id="tab-2" class="tabs tab">
+      <p>5.12.2015</p>
     </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/gautier-mechling.png" alt="" />
-        <h4>Gautier Mechling</h4>
-        <p>Android Software Craftsman<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>The 2015 Android Developer Toolbox</h4>
-        <p>Developing for Android has drastically changed over the last few years.
-We now have a gigantic toolbox we can benefit from to improve our productivity and build better applications.
-<br /><br />
-During this presentation I will introduce some of the tools we use daily at happn, a multi-million users French dating application.
-<br /><br />
-I will talk about many tools that help us to:<br />
-- Simulate a laggy/instable HTTP(s) connection<br />
-- Interact with our application to analyze logs, views, and modify any data (inc. memory / shared preferences / database) in real time<br />
-- Change our application's backend server without recompiling<br />
-- Better understand our technical debt<br />
-- Create a REST mock server in a few seconds to anticipate the development of a feature when the backend is not developed yet<br />
-- Measure the performance (cpu/memory) of our application<br />
-- Decompile our application to better understand and analyze its security<br />
-- Alter a server response and check whether the application behaves properly<br />
-- and many more tips...
-</p>
-      </div>
+    <div id="tab-3" class="tabs tab">
+      <p>6.12.2015</p>
     </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/anton-rutkevich.jpg" alt="" />
-        <h4>Anton Rutkevich</h4>
-        <p>Software engineer at JunoLab<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Kotlin in a real-world Android project</h4>
-        <p>Kotlin is the language that can bring the quality of your code to the next level.
-Developed by JetBrains and highly appreciated by many Android developers, it is getting more and more popular.
-<br /><br />
-This talk will briefly introduce the language basics and show how real-world problems can be solved with Kotlin.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/sasa-sekulic.png" alt="" />
-        <h4>Sasa Sekulic</h4>
-        <p>Entrepreneur and Android developer<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Recipes in RxJava for Android</h4>
-        <p>You've heard of reactive programming and RxJava but aren't sure how to do some things? Worried about the Android lifecycle? Scared of multithreading? This talk will show you how to do all of this, easily (well, easiER than normal Java/Android) and lots more!
-<br /><br />
-For example, want to add a network API layer between your app and the network calls? Use a Subject. want to have quick and easy network caching? Just use BehaviourSubject which caches the last value. Don't want to stop and restart network calls because the app rotated? Make an Api Manager married to the Application context instead of the Activity context.
-<br /><br />
-It will also show how you can use multithreading that is almost painless, and - even more importantly - some of the common problems and bugs encountered while using RxJava multithreading.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/michal-szczepanik.jpg" alt="" />
-        <h4>Michał Szczepanik</h4>
-        <p>Mobile Developer<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Clean architecture: Android</h4>
-        <p>Planning architecture of application is a complex task. Did you ever consider where to put business logic and how to organize it in a clean, re-usable way? How to make your project more readable and testable to reduce number of issues?  In this presentation  bill be explain how to use MVP/MVC, MVVM patterns and whole clean architecture concept for your Android app development.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/konrad-krakowiak.jpg" alt="" />
-        <h4>Konrad Krakowiak</h4>
-        <p>Senior Software Engineer@Polidea<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Unit test via Spock</h4>
-        <p>My presentation shows how to create unit test via Spock framework.
-Through my presentation I would like to encourage the use of this library and show that writing of unit tests can be fun and enjoyable and may affect the code quality.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/michal-tajchert.jpg" alt="" />
-        <h4>Michał Tajchert</h4>
-        <p>CEO @ 12Hours<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>How to move faster from an idea to full-fledged app?</h4>
-        <p>Probably you have dozens of ideas, and people always pitch you ""Oh, I have that milion dollar idea for app"". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/said-tahsin-dane.png" alt="" />
-        <h4>Said Tahsin Dane</h4>
-        <p>Google Developers Expert on Android<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Material Design Custom Views</h4>
-        <p>There are various widgets to create user interfaces in Android Framework. Using these widgets is a starting point but they are not enough to create awesome apps. Fortunately, alternative methods are here to rescue! I mean understanding and extending the View class.
-<br /><br />
-In this presentation, I will give some Custom View examples. Some of them makes impossible things be possible and some of them increase performance.
-<br /><br />
-I will talk about how to apply Material Design principles in Custom Views while supporting the older platform versions.
-<br /><br />
-If you want to be beyond the limits of ordinary, open to innovation and surprise your users, this talk is for you.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/magdalena-zadara.jpg" alt="" />
-        <h4>Magda Zadara</h4>
-        <p>UI Designer @ Polidea<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>I'm not trying to piss you off: why designers insist on costly features</h4>
-        <p>I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/bernard-pletikosa.jpg" alt="" />
-        <h4>Bernard Pletikosa</h4>
-        <p>Android developer @ relayr<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Protocols and communication in the IoT world</h4>
-        <p>The Internet of Things is here to stay. It could be in your house, in your pocket, in your car, on your wrist or in your traveling suitcase. From smart phones and smart watches to smart beds and smart dishwashers, we are living in a world where everything is connectable to the Internet. However, to connect those things and make them smart we need new protocols and new ways of communication. In this presentation we’ll talk about IoT protocols like MQTT and CoAP and ways of communication with hardware - not just with WiFi and BT, but also with light and sound.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/roman-mazur.jpg" alt="" />
-        <h4>Roman Mazur</h4>
-        <p>Software Engineer<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Power of Android Shell</h4>
-        <p>Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation.
-
-We'll see what is available in Android command line and
-- analyze system and sample apps with 'dumpsys',
-- find out how to check whether your service finishes normally and does not live forever,
-- mock battery level and charger state,
-- trigger account sychronization,
-- change system settings without a single line of UiAutomator code.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/wojtek-kalicinski.png" alt="" />
-        <h4>Wojtek Kaliciński</h4>
-        <p>Developer Advocate @ Google<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>20 tips for building better apps</h4>
-        <p>tl;dr: learn from others' mistakes, don't repeat them
-Anyone can start making Android apps, but with the platform evolving rapidly it's not easy to stay on top of what's required to maintain high quality. During this presentation you'll learn various API, tooling, performance and battery life tips and best practices that will make your life as a developer easier and help you build better apps for your users.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/kseniia-shumelchyk.png" alt="" />
-        <h4>Kseniia Shumelchyk</h4>
-        <p>Software developer at SoftServe, Leader at Women Techmakers Ukraine<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Motion recognition and creating fitness apps for Android Wear</h4>
-        <p>Wearable devices are being used more and more these days, because they allows to get almost any app just on your wrist. Now we have wearable apps to count your steps, track pulse and measure the distance to run, but nevertheless, fitness apps are still interesting area to discover. During the talk we will discover how to implement custom motions recognition, for example, counting the situps, pushups and jumpings, and use the battery in the efficient mode.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/resul-caner-yıldırım.jpg" alt="" />
-        <h4>Resul Caner Yıldırım</h4>
-        <p>UX Designer<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>USING ANDROID TO CREATE THE BEST UX WITH #IOT</h4>
-        <p>In this presentation we will talk about daily use of IoT devices and the Android based operation system Brillo.
-<br /><br />
-We are in the early stages in the creation of Internet of Things. And the examples I will provide just a glimpse into what is possible when you combine sensors, actuators, and networked intelligence to create more fun and easy lifestyle.</p>
-      </div>
-    </div>
-
-    <div class="row no-border">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/roman-herasymenko.png" alt="" />
-        <h4>Roman Herasymenko</h4>
-        <p>Google Developers Expert on Android @ Yalantis<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Android Fingerprint API</h4>
-        <p>Nobody likes typing in passwords, especially on mobile phones.
-Password Sucks!
-<br /><br />
-Android Marshmallow brings official support of fingerprint authentication to the Android platform.
-<br /><br />
-It's available for developers to integrate inside their own Android apps, accelerate payments and sign-in operations.
-<br /><br />
-During my talk we will learn on how can we secure sensitive users data, and how can we use this API to authenticate on remote servers.</p>
-      </div>
-    </div>
-
-    <div class="row square-bracket">
-      <div class="person col-xs-4">
-        <img src="../src/img/people/radek-piekarz.jpg" alt="" />
-        <h4>Radek Piekarz</h4>
-        <p>Head of Mobile @ Tango Agency<p>
-      </div>
-      <div class="talk col-xs-8">
-        <h4>Deep dive into Android Data Binding</h4>
-        <p>During last Google IO conference Google presented Android Data Binding Library. I would like to show how to use it with Model-View-ViewModel (MVVM) design pattern.
-<br /><br />
-Data Binding Library is currently in beta but definitely it will become the new standard for Android developers, the sooner we start to learn it the better for us and our projects!
-<br /><br />
-In this talk I will explain how MVVM works, why we really need it and how  this design pattern can make UI code easier to read, test and maintain.</p>
-      </div>
-    </div>
-
   </div>
+</section>
+
+<!-- AGENDA in divs -->
+<section id="agenda-section" class="section black">
+  <div class="container">
+    <div id="day-1"></div>
+    <div id="day-2"></div>
+    <div id="day-3"></div>
+  </div>
+
+  <p>* This is not the final version of the agenda. Slight differencies may apply.</p>
 </section>
 
 

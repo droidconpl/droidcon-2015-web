@@ -91,6 +91,7 @@ h3.section-subtitle {
 .text{
   margin: 0 auto 25px auto;
   display: table;
+  max-width: 375px;
 }
 .basic-info {
   margin: 0 auto;
@@ -344,7 +345,7 @@ a#e-mail{
 
 /**----footer----**/
 #footer{
-  min-height: 150px;
+  min-height: 175px;
   text-align: center;
   font-size: 12px;
 }
@@ -384,15 +385,18 @@ a#footer-mail {
   height: 60px;
 }
 #droidcon-global img {
-  height: 60px;
-  padding: 5px;
+  height: 40px;
   float: left;
+  margin: 10px 5px;
+}
+#global-reference {
+  padding: 0;
 }
 #droidcon-global p{
   text-align: left;
-  height: 60px;
-  width: 270px;
-  padding: 3px 0;
+  height: 50px;
+  width: 230px;
+  padding: 3px;
 }
 /**----end-footer----**/
 
@@ -456,6 +460,13 @@ a#footer-mail {
   .icon2{
     padding: 25px 12px;
     height: 75px;
+  }
+  #droidcon-global img {
+    height: 45px;
+    margin: 20px 10px;
+  }
+  #droidcon-global p{
+    width: 270px;
   }
 }
 
