@@ -225,11 +225,11 @@
       "dayId": 2,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[11],[]],
+      "speakerIDs": [[11],[20]],
       "sessionDate": "2015-12-05 12:40",
       "sessionDisplayHour": "12:40 - 13:10",
-      "sessionTitle": ["Protocols and communication in the IoT world", "TBA"],
-      "sessionDescription": ["The Internet of Things is here to stay. It could be in your house, in your pocket, in your car, on your wrist or in your traveling suitcase. From smart phones and smart watches to smart beds and smart dishwashers, we are living in a world where everything is connectable to the Internet. However, to connect those things and make them smart we need new protocols and new ways of communication. In this presentation we’ll talk about IoT protocols like MQTT and CoAP and ways of communication with hardware - not just with WiFi and BT, but also with light and sound.", ""]
+      "sessionTitle": ["Protocols and communication in the IoT world", "iOS to Android: how we translated GigTown App into Material Design"],
+      "sessionDescription": ["The Internet of Things is here to stay. It could be in your house, in your pocket, in your car, on your wrist or in your traveling suitcase. From smart phones and smart watches to smart beds and smart dishwashers, we are living in a world where everything is connectable to the Internet. However, to connect those things and make them smart we need new protocols and new ways of communication. In this presentation we’ll talk about IoT protocols like MQTT and CoAP and ways of communication with hardware - not just with WiFi and BT, but also with light and sound.", "Right after Google introduced their new design language, Material Design, we started working with GigTown – a service allowing users to browse local musicians and book them for events. I’m going to talk about the process of designing a native Material Design Android App while keeping in mind iOS app structure and product look and feel."]
     },
     {
       "Id" : 22,
