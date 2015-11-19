@@ -1,5 +1,5 @@
-var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
-// var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+// var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
+var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
 
 $.ajax({url: srcUrl + "src/views/main-view.html", success: function(result){
     $("#loading-box").html(result);
@@ -45,10 +45,10 @@ $(document).ready(function(){
     $.each(data.sponsors, function(index, element){
       if( element.sponsorRange == "Bronze" ){
         bracketDest = "section#sponsors-section .brackets-bronze";
-      }else if( element.sponsorRange == "Gold" ){
-        bracketDest = "section#sponsors-section .brackets-gold";
       }else if ( element.sponsorRange == "Silver" ) {
         bracketDest = "section#sponsors-section .brackets-silver";
+      }else if( element.sponsorRange == "Gold" ){
+        bracketDest = "section#sponsors-section .brackets-gold";
       }
       $(bracketDest).append(
         "<div class=\"bracket \"><a href=\"" + element.sponsorUrl
