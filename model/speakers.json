@@ -262,9 +262,23 @@
             "facebookLink": null,
             "twitterHandler": "mherych",
             "githubLink": "partition",
-            "linkedIn": "https://de.linkedin.com/in/yasinyildirim",
+            "linkedIn": null,
             "googlePlus": null,
             "imageUrl": "src/img/people/mateusz-herych.jpg"
+        },
+        {
+            "id": 20,
+            "firstName": "Gosia",
+            "lastName": "Fiedorow",
+            "websiteTitle": "UI Designer",
+            "bio": "Gosia Fiedorow works as UI Designer at Polidea, the company driven by solid cooperation between designers and developers. She believes teamwork is one of a few key factors in building great interactive products.  She earned Master degree in Product Design Faculty from the Academy of Fine Arts in Warsaw. During studying she realized how important role technology plays in product development nowadays. In the meantime she is involved in organizing workshops and conferences: Design Practice Meetup and MCE Conferences.",
+            "websiteLink": null,
+            "facebookLink": "https://www.facebook.com/m.fiedorow",
+            "twitterHandler": "khyroslava",
+            "githubLink": null,
+            "linkedIn": "https://pl.linkedin.com/pub/małgorzata-fiedorow/64/860/513",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/gosia-fiedorow.png"
         }
     ]
 }
