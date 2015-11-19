@@ -126,11 +126,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[7],[]],
+      "speakerIDs": [[7],[18]],
       "sessionDate": "2015-12-04 15:45",
       "sessionDisplayHour": "15:45 - 16:30",
-      "sessionTitle": ["I'm not trying to piss you off: why designers insist on costly features", "TBA"],
-      "sessionDescription": ["I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.", ""]
+      "sessionTitle": ["I'm not trying to piss you off: why designers insist on costly features", "Code quality tips and best practices for Android"],
+      "sessionDescription": ["I'm a UI designer. In my talk, I will discuss why we sometimes design features that are difficult and/or costly to implement. I will also suggest some methods of resolving such conflicts and strategies for optimising the scope so it meets needs and expectations. This talk will be beneficial to developers who implement UI and work with designers.", "Android apps are developed using JAVA, but not all Android developers are \"real\" JAVA developers (including myself). There are many rules and best practices to write clean code on JAVA, but how much do we care about those as Android developers?<br /><br />In this talk, I will discuss some code quality tips and best practices, which make most sense for Android code, with examples of bad and improved versions of code. Furthermore, I will recommend some popular source code analysis tools and explain how we brought them into our attention in our day-to-day development process."]
     },
     {
       "Id" : 13,

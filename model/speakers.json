@@ -237,6 +237,20 @@
             "linkedIn": "https://www.linkedin.com/in/radekpiekarz",
             "googlePlus": null,
             "imageUrl": "src/img/people/radek-piekarz.jpg"
+        },
+        {
+            "id": 18,
+            "firstName": "Yasin",
+            "lastName": "Yildirim",
+            "websiteTitle": "Senior Android Developer @eBay Kleinanzeigen",
+            "bio": "I'm an Android developer since late 2009, and worked on many different projects during my early career in Turkey. Currently working in Berlin at eBay Kleinanzeigen (Classifieds) as Senior Android Developer. I'm passionate about Android and also clean code and code quality.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "vudin",
+            "githubLink": "vudin",
+            "linkedIn": "https://de.linkedin.com/in/yasinyildirim",
+            "googlePlus": "https://plus.google.com/+YasinYildirimm",
+            "imageUrl": "src/img/people/yasin-yildirim.png"
         }
     ]
 }
