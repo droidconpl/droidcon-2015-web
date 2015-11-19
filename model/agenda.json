@@ -71,11 +71,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[19],[13]],
+      "speakerIDs": [[],[13]],
       "sessionDate": "2015-12-04 12:10",
       "sessionDisplayHour": "12:10 - 12:40",
-      "sessionTitle": ["How to live with Doze and App Standby", "Power of Android Shell"],
-      "sessionDescription": ["Doze and App Standby can break your heart by moving your application to an idle state, making it almost impossible to perform any meaningful background processing. But hey, they are not your enemies after all. Attend this talk to learn how to make friends with Marshmallow's peace janitors.", "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br /><br />We'll see what is available in Android command line and:<br /><br />- analyze system and sample apps with 'dumpsys', <br /><br />- find out how to check whether your service finishes normally and does not live forever, <br /><br />- mock battery level and charger state, <br /><br />- trigger account sychronization, <br /><br />- change system settings without a single line of UiAutomator code."]
+      "sessionTitle": ["", "Power of Android Shell"],
+      "sessionDescription": ["Doze and App Standby can break your heart by moving your application to an idle state, making it almost impossible to perform any meaningful background processing. But hey, they are not your enemies after all. Attend this talk to learn how to make friends with Marshmallow's peace janitors.", ""]
     },
     {
       "Id" : 8,
@@ -137,11 +137,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[12],[]],
+      "speakerIDs": [[12],[19]],
       "sessionDate": "2015-12-04 16:40",
       "sessionDisplayHour": "16:40 - 17:10",
-      "sessionTitle": ["How to move faster from an idea to full-fledged app?", "TBA"],
-      "sessionDescription": ["Probably you have dozens of ideas, and people always pitch you \"Oh, I have that milion dollar idea for app\". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.", ""]
+      "sessionTitle": ["How to move faster from an idea to full-fledged app?", "How to live with Doze and App Standby"],
+      "sessionDescription": ["Probably you have dozens of ideas, and people always pitch you \"Oh, I have that milion dollar idea for app\". From my experience over past couple of years I will show you how to pick idea, team, validate it, release MVP, gain traction and hopefuly all this with 5 star rating. This presentation will be on the verge of marketing, business and app development - but told from point of view of a software developer.", "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br /><br />We'll see what is available in Android command line and:<br /><br />- analyze system and sample apps with 'dumpsys', <br /><br />- find out how to check whether your service finishes normally and does not live forever, <br /><br />- mock battery level and charger state, <br /><br />- trigger account sychronization, <br /><br />- change system settings without a single line of UiAutomator code."]
     },
     {
       "Id" : 14,
