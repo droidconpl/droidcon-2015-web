@@ -47,6 +47,8 @@ $(document).ready(function(){
         bracketDest = "section#sponsors-section .brackets-bronze";
       }else if( element.sponsorRange == "Gold" ){
         bracketDest = "section#sponsors-section .brackets-gold";
+      }else if ( element.sponsorRange == "Silver" ) {
+        bracketDest = "section#sponsors-section .brackets-silver";
       }
       $(bracketDest).append(
         "<div class=\"bracket \"><a href=\"" + element.sponsorUrl
