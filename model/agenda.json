@@ -97,7 +97,7 @@
       "sessionDate": "2015-12-04 14:00",
       "sessionDisplayHour": "14:00 - 14:30",
       "sessionTitle": ["Clean architecture: Android", "TBA"],
-      "sessionDescription": ["Planning architecture of application is a complex task. Did you ever consider where to put business logic and how to organize it in a clean, re-usable way? How to make your project more readable and testable to reduce number of issues?  In this presentation  bill be explain how to use MVP/MVC, MVVM patterns and whole clean architecture concept for your Android app development.", ""]
+      "sessionDescription": ["Planning architecture of application is a complex task. Did you ever consider where to put business logic and how to organize it in a clean, re-usable way? How to make your project more readable and testable to reduce number of issues? Michał is  going to show how to use MVP/MVC, MVVM patterns and whole clean architecture concept for your Android app development.", ""]
     },
     {
       "Id" : 10,
