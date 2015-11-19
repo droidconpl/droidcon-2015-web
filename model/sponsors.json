@@ -20,6 +20,13 @@
           "sponsorLogo": "src/img/sponsors/pluralsight.png",
           "sponsorTitle": "Pluralsight",
           "sponsorRange": "Bronze"
+      },
+      {
+          "sponsorName": "Relayr",
+          "sponsorUrl": "https://www.relayr.io/",
+          "sponsorLogo": "src/img/sponsors/relayr-logo.png",
+          "sponsorTitle": "Relayr",
+          "sponsorRange": "Silver"
       }
     ]
 }
