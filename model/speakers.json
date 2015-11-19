@@ -251,6 +251,20 @@
             "linkedIn": "https://de.linkedin.com/in/yasinyildirim",
             "googlePlus": "https://plus.google.com/+YasinYildirimm",
             "imageUrl": "src/img/people/yasin-yildirim.png"
+        },
+        {
+            "id": 19,
+            "firstName": "Mateusz",
+            "lastName": "Herych",
+            "websiteTitle": "Android guy",
+            "bio": "Mateusz is a GDG Kraków co-organizer and a Google Developer Expert for Android. On a daily basis he works at Base where he uses his Android abracadabras to make sales representatives more productive. Fresh father of twins, writing this bio having a child on his arm.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "mherych",
+            "githubLink": "partition",
+            "linkedIn": "https://de.linkedin.com/in/yasinyildirim",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/mateusz-herych.jpg"
         }
     ]
 }
