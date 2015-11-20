@@ -27,11 +27,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[],[]],
+      "speakerIDs": [[],[24]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA", "TBA"],
-      "sessionDescription": ["", ""]
+      "sessionTitle": ["TBA", "Implementing Material Design"],
+      "sessionDescription": ["", "Material Design is a design language, a tool for designers. It's been around for over a year and developers still have a hard time implementing its features.<br />In this talk I'm going to go through implementation details of shadows, vector graphics, rounded corners, z order, extended hit areas and keyline aligning."]
     },
     {
       "Id" : 4,

@@ -321,6 +321,20 @@
             "linkedIn": "https://www.linkedin.com/in/eenriquelopez",
             "googlePlus": null,
             "imageUrl": "src/img/people/enrique-lopez-manas.jpg"
+        },
+        {
+            "id": 24,
+            "firstName": "Marcin",
+            "lastName": "Korniluk",
+            "websiteTitle": "UI Maniac",
+            "bio": "Started with Flash, then DirectX and Windows::Forms. Currently works as Android Developer and plays with Material Design. Author of Carbon - Material Design implementation for Android 2.2. Plays guitar and StarCraft in his free time.",
+            "websiteLink": "https://androidreclib.wordpress.com/",
+            "facebookLink": null,
+            "twitterHandler": null,
+            "githubLink": "ZieIony/Carbon",
+            "linkedIn": null,
+            "googlePlus": null,
+            "imageUrl": "src/img/people/marcin-korniluk.jpg"
         }
     ]
 }
