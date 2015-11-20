@@ -279,6 +279,20 @@
             "linkedIn": "https://pl.linkedin.com/pub/małgorzata-fiedorow/64/860/513",
             "googlePlus": null,
             "imageUrl": "src/img/people/gosia-fiedorow.png"
+        },
+        {
+            "id": 21,
+            "firstName": "Wilfried",
+            "lastName": "Mouenda Mbogne",
+            "websiteTitle": "Android developer @LinkYourThings",
+            "bio": "Wilfried is a passionate Android developer since 2011.<br/>He is also a Hackathon enthusiast and an occasional blogger. <br />When he isn't coding, he enjoys reading & writing, doing sports and poetry recitation.",
+            "websiteLink": "http://mysc.altervista.org/",
+            "facebookLink": "https://www.facebook.com/mbouenda.wilfried",
+            "twitterHandler": "ewilly1",
+            "githubLink": "WillyShakes",
+            "linkedIn": "http://linkedin.com/in/mbouenda",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/wilfried-mouenda-mbogne.png"
         }
     ]
 }
