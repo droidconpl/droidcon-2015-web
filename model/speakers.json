@@ -293,6 +293,34 @@
             "linkedIn": "http://linkedin.com/in/mbouenda",
             "googlePlus": null,
             "imageUrl": "src/img/people/wilfried-mouenda-mbogne.png"
+        },
+        {
+            "id": 22,
+            "firstName": "Nick",
+            "lastName": "Skelton",
+            "websiteTitle": "Dev Manager @Sixt",
+            "bio": "Nick works for Sixt in Germany but originally comes from Sydney Australia. He loves Android and enjoys building agile teams. Also a CI and security enthusiast.",
+            "websiteLink": "http://www.androidshortcuts.com/",
+            "facebookLink": null,
+            "twitterHandler": "nshred",
+            "githubLink": null,
+            "linkedIn": null,
+            "googlePlus": null,
+            "imageUrl": "src/img/people/nick-skelton.png"
+        },
+        {
+            "id": 23,
+            "firstName": "Enrique",
+            "lastName": "López Mañas",
+            "websiteTitle": "Google Developer Expert",
+            "bio": "Enrique is a Google Developer Expert, and Freelance Mobile Engineer normally based in Munich, Germany (although is hard to catch him up there for more than a few weeks). He develops software and writes about it for money and fun. He spends his free time developing OpenSource code, writing articles, learning languages or taking photographies. He loves nature, beer, traveling, and talking about him in third person.",
+            "websiteLink": "http://www.lopez-manas.com",
+            "facebookLink": null,
+            "twitterHandler": "eenriquelopez",
+            "githubLink": "kikoso",
+            "linkedIn": "https://www.linkedin.com/in/eenriquelopez",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/enrique-lopez-manas.jpg"
         }
     ]
 }

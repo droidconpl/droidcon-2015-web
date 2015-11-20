@@ -181,11 +181,11 @@
       "dayId": 2,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[],[15]],
+      "speakerIDs": [[22,23],[15]],
       "sessionDate": "2015-12-05 10:00",
       "sessionDisplayHour": "10:00 - 10:30",
-      "sessionTitle": ["TBA", "USING ANDROID TO CREATE THE BEST UX WITH #IOT"],
-      "sessionDescription": ["", "In this presentation we will talk about daily use of IoT devices and the Android based operation system Brillo.<br /><br />We are in the early stages in the creation of Internet of Things. And the examples I will provide just a glimpse into what is possible when you combine sensors, actuators, and networked intelligence to create more fun and easy lifestyle."]
+      "sessionTitle": ["Secure Development with Android", "USING ANDROID TO CREATE THE BEST UX WITH #IOT"],
+      "sessionDescription": ["You develop Android applications, but do you develop them securely? Flags in its initial design can lead to security and privacy issues difficult to correct in an advanced state of the development.<br /><br />This talk with go through some famous applications that were designed with serious security and privacy flags. After realising that even the giants can have big security issues, we will explain some techniques to avoid them.<br /><br />Among them, this talk will explain how to store data with NDK, how to protect yourself with ProGuard and DexGuard and some architectural design tips to make your application safe against evil users.", "In this presentation we will talk about daily use of IoT devices and the Android based operation system Brillo.<br /><br />We are in the early stages in the creation of Internet of Things. And the examples I will provide just a glimpse into what is possible when you combine sensors, actuators, and networked intelligence to create more fun and easy lifestyle."]
     },
     {
       "Id" : 18,
