@@ -27,11 +27,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[],[24]],
+      "speakerIDs": [[25],[24]],
       "sessionDate": "2015-12-04 09:15",
       "sessionDisplayHour": "9:15 - 10:00",
-      "sessionTitle": ["TBA", "Implementing Material Design"],
-      "sessionDescription": ["", "Material Design is a design language, a tool for designers. It's been around for over a year and developers still have a hard time implementing its features.<br />In this talk I'm going to go through implementation details of shadows, vector graphics, rounded corners, z order, extended hit areas and keyline aligning."]
+      "sessionTitle": ["Nothing but the truth about Binder", "Implementing Material Design"],
+      "sessionDescription": ["We all know that Android was given us by the Google but don't know that its roots are somewhere else. With Android being nowdays mosty Android Support Library, Design Library, and whatever new just got released, we will have a look at good old Binder, who is our frind since forever and makes Android a pleasant place to be for us, an Android developers.", "Material Design is a design language, a tool for designers. It's been around for over a year and developers still have a hard time implementing its features.<br />In this talk I'm going to go through implementation details of shadows, vector graphics, rounded corners, z order, extended hit areas and keyline aligning."]
     },
     {
       "Id" : 4,
