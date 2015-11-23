@@ -335,6 +335,20 @@
             "linkedIn": null,
             "googlePlus": null,
             "imageUrl": "src/img/people/marcin-korniluk.jpg"
+        },
+        {
+            "id": 25,
+            "firstName": "Aleksander",
+            "lastName": "Piotrowski",
+            "websiteTitle": "young, bright, and ambitious",
+            "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender",
+            "websiteLink": "https://about.me/pelotasplus",
+            "facebookLink": "https://www.facebook.com/pelotasplus",
+            "twitterHandler": "pelotasplus",
+            "githubLink": "pelotasplus",
+            "linkedIn": "https://www.linkedin.com/in/pelotasplus",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/aleksander-piotrowski.jpg"
         }
     ]
 }
