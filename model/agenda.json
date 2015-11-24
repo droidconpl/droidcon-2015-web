@@ -71,11 +71,11 @@
       "dayId": 1,
       "roomId": [1,2],
       "slotImg" :"",
-      "speakerIDs": [[],[13]],
+      "speakerIDs": [[27],[13]],
       "sessionDate": "2015-12-04 12:10",
       "sessionDisplayHour": "12:10 - 12:40",
-      "sessionTitle": ["", "Power of Android Shell"],
-      "sessionDescription": ["", "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br /><br />We'll see what is available in Android command line and:<br /><br />- analyze system and sample apps with 'dumpsys', <br /><br />- find out how to check whether your service finishes normally and does not live forever, <br /><br />- mock battery level and charger state, <br /><br />- trigger account sychronization, <br /><br />- change system settings without a single line of UiAutomator code."]
+      "sessionTitle": ["Short explanation to how to cope with a Designer: Facts and figures.", "Power of Android Shell"],
+      "sessionDescription": ["Great product results from the cooperation of specialists from different fields. The key to mutual understanding is to be acquainted with each others work flow, capabilities and limitations.<br /><br />During my work I recognised that sometimes designers’ and developers’ work is a mystery for both which may lead to unnecessary misunderstandings. We can simply avoid them by getting to know each other better. In my speech I will explain the designer’s fields of expertise and bring you closer to the product journey from the idea phase to asset production. Based on my experience I will describe how to handle the intersections in designers’ and developers’ work to the project’s final success.", "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br /><br />We'll see what is available in Android command line and:<br /><br />- analyze system and sample apps with 'dumpsys', <br /><br />- find out how to check whether your service finishes normally and does not live forever, <br /><br />- mock battery level and charger state, <br /><br />- trigger account sychronization, <br /><br />- change system settings without a single line of UiAutomator code."]
     },
     {
       "Id" : 8,
