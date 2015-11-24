@@ -363,6 +363,20 @@
             "linkedIn": "https://www.linkedin.com/in/pjakubczyk",
             "googlePlus": null,
             "imageUrl": "src/img/people/przemyslaw-jakubczyk.jpg"
+        },
+        {
+            "id": 27,
+            "firstName": "Karolina",
+            "lastName": "Chmiel",
+            "websiteTitle": "Head of Design @ Polidea",
+            "bio": "Karolina Chmiel works as the Head of Design at Polidea. She is a graduate of the Product Design Department at the Academy of Fine Arts in Katowice. Currently, she focuses on coordinating the design team, however she draws a lot of satisfaction from designing herself. She always follows the design process and appreciates user research. She is a lecturer at the Polish-Japanese Academy of Information Technology in the scope of interaction design. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "karo_chmiel",
+            "githubLink": null,
+            "linkedIn": "https://www.linkedin.com/in/karolina-chmiel-74320a96",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/karolina-chmiel.jpg"
         }
     ]
 }
