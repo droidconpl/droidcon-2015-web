@@ -341,7 +341,7 @@
             "firstName": "Aleksander",
             "lastName": "Piotrowski",
             "websiteTitle": "young, bright, and ambitious",
-            "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender",
+            "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender.",
             "websiteLink": "https://about.me/pelotasplus",
             "facebookLink": "https://www.facebook.com/pelotasplus",
             "twitterHandler": "pelotasplus",
@@ -349,6 +349,20 @@
             "linkedIn": "https://www.linkedin.com/in/pelotasplus",
             "googlePlus": null,
             "imageUrl": "src/img/people/aleksander-piotrowski.jpg"
+        },
+        {
+            "id": 26,
+            "firstName": "Przemek",
+            "lastName": "Jakubczyk",
+            "websiteTitle": "Android Technical Lead @Applause",
+            "bio": "For the second time proud speaker at droidcon Kraków. Active member of developers community. Recently hosted a workshop at Codepot and is about to give a talk during DevFest Poland '15. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "pjakubczyk",
+            "githubLink": "pjakubczyk",
+            "linkedIn": "https://www.linkedin.com/in/pjakubczyk",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/przemyslaw-jakubczyk.jpg"
         }
     ]
 }
