@@ -8,7 +8,7 @@
 
   <!--  Website title and icon visible on browser tab-->
   <title>droidcon Kraków</title>
-  <link sizes="32x32" href="src/img/droidcon-logo-simple.png" rel="icon">
+  <link sizes="32x32" href="../src/img/droidcon-logo-simple.png" rel="icon">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
@@ -22,14 +22,12 @@
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- Slick-->
-  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
 
   <!--Custom styles for this web page-->
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
-  <link rel="stylesheet" type="text/css" href="src/css/navbar-styles.css">
-  <link rel="stylesheet" type="text/css" href="src/css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="src/css/agenda-styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/navbar-styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/code-of-conduct.css">
 </head>
 <body>
 
@@ -46,7 +44,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://droidcon.pl/#home" class="scrollable"><img id="main-icon" src="src/img/main-logo.png"/></a>
+      <a class="navbar-brand" href="http://droidcon.pl/#home" class="scrollable"><img id="main-icon" src="../src/img/main-logo.png"/></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,17 +53,17 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#about" class="scrollable">About</a></li>
+            <li><a href="http://droidcon.pl/#about" class="scrollable">About</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="#registration" class="scrollable">Tickets</a></li>
+            <li><a href="http://droidcon.pl/#registration" class="scrollable">Tickets</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="#c4p-and-sponsor" class="scrollable">Call 4 Papers</a></li>
+            <li><a href="http://droidcon.pl/#c4p-and-sponsor" class="scrollable">Call 4 Papers</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="#speakers" class="scrollable">Lineup</a></li>
+            <li><a href="http://droidcon.pl/#speakers" class="scrollable">Lineup</a></li>
             <li class="slash"><div></div></li>
-            <li><a id="agenda-page" href="http://droidcon.pl/agenda">Agenda</a></li>
+            <li><a id="agenda-page" href="http://droidcon.pl/agenda" class="scrollable">Agenda</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
+            <li><a href="http://droidcon.pl/#sponsors" class="scrollable">Sponsors</a></li>
           </ul>
         </li>
         <!-- <li class="dropdown">
@@ -98,17 +96,17 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon" src="src/img/facebook.png"/></a></li>
-        <li><a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon" src="src/img/twitter.png"/></a></li>
-        <li><a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon" src="src/img/github-icon.png"/></a></li>
-        <li><a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon" src="src/img/google.png"/></a></li>
+        <li><a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon" src="../src/img/facebook.png"/></a></li>
+        <li><a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon" src="../src/img/twitter.png"/></a></li>
+        <li><a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon" src="../src/img/github-icon.png"/></a></li>
+        <li><a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon" src="../src/img/google.png"/></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
 
 <div id="to-top">
-  <a href="#home" class="scrollable"><img src="src/img/up_button_shadow.png" alt="Back to top" /></a>
+  <a href="#home" class="scrollable"><img src="../src/img/up_button_shadow.png" alt="Back to top" /></a>
 </div>
 
 <!--  empty container-->
@@ -116,15 +114,18 @@
 
 <section id="main-logo" class="logo-gradient">
   <div class="container">
-    <img src="src/img/tlo_ilustracja.png"/>
+    <img src="../src/img/tlo_ilustracja.png"/>
   </div>
 </section>
 
 
-<!-- Here all external html files are shown. -->
-<div id="loading-box">
+<section class="section milky">
+  <div class="container">
+    <h2 class="section-title">Get a room!</h2>
 
-</div>
+
+  </div>
+</section>
 
 
 <span id="contact" class="anchor"></span>
@@ -144,10 +145,10 @@
       <p>&copy; DROIDCON | Droidcon Poland</p>
 
       <div id="footer-icons">
-        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
-        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
-        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
-        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="../src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="../src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="../src/img/github-icon.png"/></a>
+        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="../src/img/google.png"/></a>
       </div>
   </div>
 
@@ -156,10 +157,10 @@
       <div class="col-sm-3 footer-pos">
           <h5>Conference</h5>
           <ul class="list footer-list">
-            <li><a href="#about" class="scrollable">About</a></li>
-            <li><a href="#participate" class="scrollable">Get involved</a></li>
-            <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
-            <li><a href="#speakers" class="scrollable">Speakers</a></li>
+            <li><a href="http://droidcon.pl/#about" class="scrollable">About</a></li>
+            <li><a href="http://droidcon.pl/#participate" class="scrollable">Get involved</a></li>
+            <li><a href="http://droidcon.pl/#sponsors" class="scrollable">Sponsors</a></li>
+            <li><a href="http://droidcon.pl/#speakers" class="scrollable">Speakers</a></li>
           </ul>
       </div>
       <div class="col-sm-3 footer-pos">
@@ -173,10 +174,10 @@
         <h5><a id="footer-mail" href="mailto:contact@droidcon.pl">Contact</a></h5>
       </div>
       <div class="col-sm-3 footer-pos">
-        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="src/img/facebook.png"/></a>
-        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="src/img/twitter.png"/></a>
-        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="src/img/github-icon.png"/></a>
-        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="src/img/google.png"/></a>
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="../src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="../src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="../src/img/github-icon.png"/></a>
+        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="../src/img/google.png"/></a>
       </div>
   </div>
 
@@ -185,20 +186,16 @@
       <!--  zaslepka-->
     </div>
     <div id="global-reference" class="col-sm-4 col-md-3">
-      <a href="http://droidcon.com/" target="_blank"><img src="src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
+      <a href="http://droidcon.com/" target="_blank"><img src="../src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
       <p>droidcon is a registered trademark<br /> by Mobile Seasons GmbH</p>
     </div>
   </div>
 
 </footer>
 
-<!--Modals of the speakers will be loaded here-->
-<div id="speaker-modals" class=""></div>
-
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
-  <script type="text/javascript" src="src/js/script.js"></script>
+  <script type="text/javascript" src="../src/js/script.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

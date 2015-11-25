@@ -24,12 +24,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- Slick-->
   <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
 
   <!--Custom styles for this web page-->
   <link rel="stylesheet" type="text/css" href="../src/css/styles.css">
   <link rel="stylesheet" type="text/css" href="../src/css/navbar-styles.css">
   <link rel="stylesheet" type="text/css" href="../src/css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="../src/css/agenda-styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/location.css">
 </head>
 <body>
 
@@ -46,7 +48,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://droidcon.pl/#home" class="scrollable"><img id="main-icon" src="../src/img/main-logo.png"/></a>
+      <a class="navbar-brand" href="http://droidcon.pl/"><img id="main-icon" src="../src/img/main-logo.png"/></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,17 +57,17 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://droidcon.pl/#about" class="scrollable">About</a></li>
+            <li><a href="http://droidcon.pl/#about">About</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/#registration" class="scrollable">Tickets</a></li>
+            <li><a href="http://droidcon.pl/#registration">Tickets</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/#c4p-and-sponsor" class="scrollable">Call 4 Papers</a></li>
+            <li><a href="http://droidcon.pl/#c4p-and-sponsor">Call 4 Papers</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/#speakers" class="scrollable">Lineup</a></li>
+            <li><a href="http://droidcon.pl/#speakers">Lineup</a></li>
             <li class="slash"><div></div></li>
-            <li><a id="agenda-page" href="http://droidcon.pl/agenda" class="scrollable">Agenda</a></li>
+            <li><a id="agenda-page" href="http://droidcon.pl/agenda">Agenda</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/#sponsors" class="scrollable">Sponsors</a></li>
+            <li><a href="http://droidcon.pl/#sponsors">Sponsors</a></li>
           </ul>
         </li>
         <!-- <li class="dropdown">
@@ -94,7 +96,7 @@
             <li><a href="http://droidcon.pl/about/who-we-are" class="scrollable">Who we are?</a></li> -->
           </ul>
         </li>
-        <li><a href="http://droidcon.pl/#contact" class="scrollable">Contact</a></li>
+        <li><a href="#contact" class="scrollable">Contact</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -121,48 +123,127 @@
 </section>
 
 
-<span id="agenda-anchor" class="anchor"></span>
-<!--Here is a place for agenda-->
-<section id="agenda" class="section milky">
+<section class="section milky">
+
   <div class="container">
 
-    <h2 class="section-title">Agenda</h2>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="section-title">Conference & Hachathon</h2>
+        <p class="text">
+          droidcon Kraków 2015 is coming soon so we decided to put together some information for you about locations and tips on how to get there.
+        </p>
+      </div>
+    </div>
 
-    <p class="row text">
-      Here is the Agenda for droidcon Kraków 2015!!!<br />
-      We will be constantly filling the rest of the slots, so keep tracking our website :)<br /><br />
-      See you soon!
-    </p>
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          droidcon Kraków 2015 is going to be hosted by <br />
+          <b id="venue-pointer" class="underline-location">Best Western PLUS Q Hotel</b><br />
+          Wygrana 6 street in Kraków
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          Aterparty for droidcon Kraków 2015 will be at<br />
+          <b id="afterparty-pointer" class="underline-location">Forum Przestrzenie</b><br />
+          Marii Konopnickiej 28 street in Kraków
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          The Hackathon on Sunday will be hosted by <br />
+          <b id="hackathon-pointer" class="underline-location">Tech Space in Base Lab</b><br />
+          Wyczółkowskiego 7 street in Kraków
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Conference location map -->
+  <div id="conference-location"></div>
+
+</section>
+
+<!-- Kraków airport travel -->
+<section class="section milky">
+  <div class="container">
+
+    <h2 class="section-title">Travel from the Kraków Balice Airport</h2>
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By TAXI</b></h3>
+        <p class="text">
+          The easiest but most expensive way to reach the city center from the airport Kraków Balice is by a taxi, which can cost around 60-100 PLN.
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By railway</b></h3>
+        <p class="text">
+          You can also travel by train. It will take you around 20 minutes to reach Main Railway Station. Trains leave each 30 minutes from the stop <strong>Kraków Lotnisko/Airport</strong>
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By bus</b></h3>
+        <p class="text">
+          Or you can take a bus. Ticket to the city center costs 4.00 PLN and the trip will last around 45-50 minutes depending on traffic. Line numbers that you should look for are: <strong>208, 292</strong> or for the night line <strong>902</strong>.
+        </p>
+      </div>
+
+    </div>
   </div>
 </section>
 
-<!-- Day Tabs -->
-<section id="agenda-tabs" class="milky">
+<!-- Public transportation -->
+<section class="section milky">
   <div class="container">
-    <!-- First tab is different -->
 
-    <div id="tab-1" class="tabs tab active">
-      <div id="cover-tab"></div>
-      <p>4.12.2015</p>
+    <h2 class="section-title">Moving around in the city</h2>
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>TAXI</b></h3>
+        <p class="text">
+          You can use regular TAXIs which will cost you around 25 PLN per ride to move around the City Center.<br /> It is also possible to use <strong>Uber</strong> in Kraków too.<br />
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>Trams</b></h3>
+        <p class="text">
+          Direct tram lines to the conference venue are <strong>18, 52</strong>.<br />
+          It will take around 20 minutes to get to the conference venue from Main Railway Station.<br />
+          20 minutes ticket costs <strong>2.80 PLN</strong>, but if you're not sure if you're gonna make it in this time, just take One Ride ticket for <strong>3.80 PLN</strong>.<br />
+          Leave the tram at the stop <strong>Centrum Konferencyjne</strong> (Conference Center).
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>Buses</b></h3>
+        <p class="text">
+          Direct bus connections are eg. <strong> 164, 169, 503</strong>
+          or night lines <strong>608, 610</strong>. Bus tickets are the same as tram tickets.<br />
+          Leave the bus at the stop <strong>Centrum Konferencyjne</strong> (Conference Center).
+        </p>
+      </div>
+
     </div>
-    <div id="tab-2" class="tabs tab">
-      <p>5.12.2015</p>
-    </div>
-    <div id="tab-3" class="tabs tab">
-      <p>6.12.2015</p>
-    </div>
+
+    <!-- Stops location map -->
+    <div id="stops-location"></div>
+
   </div>
 </section>
 
-<!-- AGENDA in divs -->
-<section id="agenda-section" class="section black">
+<section class="section milky">
   <div class="container">
-    <div id="day-1"></div>
-    <div id="day-2"></div>
-    <div id="day-3"></div>
+    <h2 class="section-title">See you at droidcon Kraków 2015! :)</h2>
   </div>
-
-  <p>* This is not the final version of the agenda. Slight differencies may apply.</p>
 </section>
 
 
@@ -231,14 +312,10 @@
 
 </footer>
 
-<!--Modals of the speakers will be loaded here-->
-<div id="speaker-modals" class=""></div>
-
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
   <script type="text/javascript" src="../src/js/script.js"></script>
-  <script type="text/javascript" src="../src/js/agenda-script.js"></script>
+  <script type="text/javascript" src="../src/js/location.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -247,7 +324,6 @@
 
     ga('create', 'UA-68291226-1', 'auto');
     ga('send', 'pageview');
-
   </script>
 </body>
 </html>
