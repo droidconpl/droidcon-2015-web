@@ -34,6 +34,13 @@
           "sponsorLogo": "src/img/sponsors/base-logo.png",
           "sponsorTitle": "Base Lab",
           "sponsorRange": "Bronze"
+      },
+      {
+          "sponsorName": "Genymobile",
+          "sponsorUrl": "http://www.genymobile.com/",
+          "sponsorLogo": "src/img/sponsors/genymobile-logo.png",
+          "sponsorTitle": "Genymobile",
+          "sponsorRange": "Silver"
       }
     ]
 }
