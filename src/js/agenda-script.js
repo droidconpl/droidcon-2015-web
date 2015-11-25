@@ -45,7 +45,7 @@ $(document).ready(function(){
       if ( sessionsJSON[i].roomId[0] == 0 ) {
 
         appendValue += "<div class=\"slot-img col-xs-3 col-sm-2\">" +
-                          "<img src=\"" + sessionsJSON[i].slotImg + "\" alt=\"img\" />" +
+                          ((sessionsJSON[i].slotImg != "") ? "<img src=\"" + sessionsJSON[i].slotImg + "\" alt=\"img\" />" : "") +
                        "</div>";
 
         appendValue += "<div class=\"slot-desc col-xs-9 col-sm-8\">" +
