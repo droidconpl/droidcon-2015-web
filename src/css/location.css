@@ -1,0 +1,53 @@
+/*
+  Created 11/17/2015 by Grażyna
+
+  This file contains all location.html adjustments for droidcon Kraków 2015 website.
+*/
+
+#conference-location {
+  width: 100%;
+  height: 300px;
+}
+
+ul#transport {
+  list-style: none;
+  text-align: left;
+}
+ul#transport li{
+  margin: 10px 0;
+}
+
+.underline-location {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stops-location{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+
+/* LOCATION ADJUSTMENTS >=768px */
+@media (min-width: 768px){
+
+
+}
+
+
+/* LOCATION ADJUSTMENTS >=992px */
+@media (min-width: 992px){
+  #conference-location, #hackathon-location {
+    height: 350px;
+  }
+
+}
+
+/* LOCATION ADJUSTMENTS >=1200px */
+@media (min-width: 1200px){
+  #conference-location, #hackathon-location {
+    height: 400px;
+  }
+
+}

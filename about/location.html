@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!--  Website title and icon visible on browser tab-->
+  <title>droidcon Kraków</title>
+  <link sizes="32x32" href="../src/img/droidcon-logo-simple.png" rel="icon">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <meta property="og:title" content="droidcon Kraków 2015" />
+  <meta property="og:site_name" content="droidcon Kraków">
+  <meta property="og:url" content="http://droidcon.pl/" />
+  <meta property="og:description" content="Second edition of Android conference taking place in Kraków, Poland." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://droidcon.pl/src/img/droidcon-krakow-logo.png" />
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Slick-->
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <!--Custom styles for this web page-->
+  <link rel="stylesheet" type="text/css" href="../src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/navbar-styles.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/location.css">
+</head>
+<body>
+
+<span id="home" class="anchor"></span>
+
+<!--Here is a place for navbar-->
+<nav class="navbar navbar-default green">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://droidcon.pl/"><img id="main-icon" src="../src/img/main-logo.png"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://droidcon.pl/#about">About</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/#registration">Tickets</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/#c4p-and-sponsor">Call 4 Papers</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/#speakers">Lineup</a></li>
+            <li class="slash"><div></div></li>
+            <li><a id="agenda-page" href="http://droidcon.pl/agenda">Agenda</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/#sponsors">Sponsors</a></li>
+          </ul>
+        </li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hackathon <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Tickets</a></li>
+            <li><a href="#">Sponsors & Orgs</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Get Help</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Agenda</a></li>
+          </ul>
+        </li> -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://droidcon.pl/about/location" class="scrollable">Location</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/about/hotels" class="scrollable">Hotels</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/about/code-of-conduct" class="scrollable">Code of Conduct</a></li>
+            <!-- <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/about/about/female-developer-sponsorship-program" class="scrollable">Grant Programs</a></li>
+            <li class="slash"><div></div></li>
+            <li><a href="http://droidcon.pl/about/who-we-are" class="scrollable">Who we are?</a></li> -->
+          </ul>
+        </li>
+        <li><a href="#contact" class="scrollable">Contact</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon" src="../src/img/facebook.png"/></a></li>
+        <li><a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon" src="../src/img/twitter.png"/></a></li>
+        <li><a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon" src="../src/img/github-icon.png"/></a></li>
+        <li><a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon" src="../src/img/google.png"/></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<div id="to-top">
+  <a href="#home" class="scrollable"><img src="../src/img/up_button_shadow.png" alt="Back to top" /></a>
+</div>
+
+<!--  empty container-->
+<div class="navbar-height"></div>
+
+<section id="main-logo" class="logo-gradient">
+  <div class="container">
+    <img src="../src/img/tlo_ilustracja.png"/>
+  </div>
+</section>
+
+
+<section class="section milky">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="section-title">Conference & Hachathon</h2>
+        <p class="text">
+          droidcon Kraków 2015 is coming soon so we decided to put together some information for you about locations and tips on how to get there.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          droidcon Kraków 2015 is going to be hosted by <br />
+          <b id="venue-pointer" class="underline-location">Best Western PLUS Q Hotel</b><br />
+          Wygrana 6 street in Kraków
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          Aterparty for droidcon Kraków 2015 will be at<br />
+          <b id="afterparty-pointer" class="underline-location">Forum Przestrzenie</b><br />
+          Marii Konopnickiej 28 street in Kraków
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <p class="text">
+          The Hackathon on Sunday will be hosted by <br />
+          <b id="hackathon-pointer" class="underline-location">Tech Space in Base Lab</b><br />
+          Wyczółkowskiego 7 street in Kraków
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Conference location map -->
+  <div id="conference-location"></div>
+
+</section>
+
+<!-- Kraków airport travel -->
+<section class="section milky">
+  <div class="container">
+
+    <h2 class="section-title">Travel from the Kraków Balice Airport</h2>
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By TAXI</b></h3>
+        <p class="text">
+          The easiest but most expensive way to reach the city center from the airport Kraków Balice is by a taxi, which can cost around 60-100 PLN.
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By railway</b></h3>
+        <p class="text">
+          You can also travel by train. It will take you around 20 minutes to reach Main Railway Station. Trains leave each 30 minutes from the stop <strong>Kraków Lotnisko/Airport</strong>
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>By bus</b></h3>
+        <p class="text">
+          Or you can take a bus. Ticket to the city center costs 4.00 PLN and the trip will last around 45-50 minutes depending on traffic. Line numbers that you should look for are: <strong>208, 292</strong> or for the night line <strong>902</strong>.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Public transportation -->
+<section class="section milky">
+  <div class="container">
+
+    <h2 class="section-title">Moving around in the city</h2>
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>TAXI</b></h3>
+        <p class="text">
+          You can use regular TAXIs which will cost you around 25 PLN per ride to move around the City Center.<br /> It is also possible to use <strong>Uber</strong> in Kraków too.<br />
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>Trams</b></h3>
+        <p class="text">
+          Direct tram lines to the conference venue are <strong>18, 52</strong>.<br />
+          It will take around 20 minutes to get to the conference venue from Main Railway Station.<br />
+          20 minutes ticket costs <strong>2.80 PLN</strong>, but if you're not sure if you're gonna make it in this time, just take One Ride ticket for <strong>3.80 PLN</strong>.<br />
+          Leave the tram at the stop <strong>Centrum Konferencyjne</strong> (Conference Center).
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h3><b>Buses</b></h3>
+        <p class="text">
+          Direct bus connections are eg. <strong> 164, 169, 503</strong>
+          or night lines <strong>608, 610</strong>. Bus tickets are the same as tram tickets.<br />
+          Leave the bus at the stop <strong>Centrum Konferencyjne</strong> (Conference Center).
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Stops location map -->
+    <div id="stops-location"></div>
+
+  </div>
+</section>
+
+<section class="section milky">
+  <div class="container">
+    <h2 class="section-title">See you at droidcon Kraków 2015! :)</h2>
+  </div>
+</section>
+
+
+<span id="contact" class="anchor"></span>
+<!-- Here is a place for contact email-->
+<section id="contact-section" class="section green">
+    <div class="container">
+
+        <h2 class="row section-title">Contact us</h2>
+        <a id="e-mail" href="mailto:contact@droidcon.pl">contact@droidcon.pl</a>
+    </div>
+</section>
+
+<footer id="footer" class="grey">
+
+  <!-- Displayed only for mobile devices-->
+  <div class="container mobile-footer">
+      <p>&copy; DROIDCON | Droidcon Poland</p>
+
+      <div id="footer-icons">
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="../src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="../src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="../src/img/github-icon.png"/></a>
+        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="../src/img/google.png"/></a>
+      </div>
+  </div>
+
+  <!-- Displayed for bigger resolutions-->
+  <div class="container desktop-footer">
+      <div class="col-sm-3 footer-pos">
+          <h5>Conference</h5>
+          <ul class="list footer-list">
+            <li><a href="http://droidcon.pl/#about">About</a></li>
+            <li><a href="http://droidcon.pl/#participate">Get involved</a></li>
+            <li><a href="http://droidcon.pl/#sponsors">Sponsors</a></li>
+            <li><a href="http://droidcon.pl/#speakers">Speakers</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3 footer-pos">
+          <h5>Previous Editions</h5>
+          <ul class="list footer-list">
+            <li><a href="http://2014.droidcon.pl/" target="_blank">2014</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3 footer-pos">
+        <!--<h5>About Us</h5>-->
+        <h5><a id="footer-mail" href="mailto:contact@droidcon.pl">Contact</a></h5>
+      </div>
+      <div class="col-sm-3 footer-pos">
+        <a href="https://www.facebook.com/droidconpl" target="_blank"><img id="facebook" alt="facebook" class="icon2" src="../src/img/facebook.png"/></a>
+        <a href="https://twitter.com/droidconkr" target="_blank"><img id="twitter" alt="twitter" class="icon2" src="../src/img/twitter.png"/></a>
+        <a href="https://github.com/droidconpl/droidcon-2015-web" target="_blank"><img id="github" alt="github" class="icon2" src="../src/img/github-icon.png"/></a>
+        <a href="https://plus.google.com/u/1/101079550596594106726/about" target="_blank"><img id="google" alt="google" class="icon2" src="../src/img/google.png"/></a>
+      </div>
+  </div>
+
+  <div id="droidcon-global" class="container">
+    <div class="col-sm-8 col-md-9">
+      <!--  zaslepka-->
+    </div>
+    <div id="global-reference" class="col-sm-4 col-md-3">
+      <a href="http://droidcon.com/" target="_blank"><img src="../src/img/DroidCon_Logo.png" alt="droidcon.com" /></a>
+      <p>droidcon is a registered trademark<br /> by Mobile Seasons GmbH</p>
+    </div>
+  </div>
+
+</footer>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../src/js/script.js"></script>
+  <script type="text/javascript" src="../src/js/location.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-68291226-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
