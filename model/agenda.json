@@ -304,9 +304,53 @@
       "slotImg" :"../src/img/icon_droid.png",
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-06 09:00",
-      "sessionDisplayHour": "9:00 - 18:00",
-      "sessionTitle": ["Hackathon", ""],
-      "sessionDescription": ["The Agenda for the Hackathon will be announced soon!", ""]
+      "sessionDisplayHour": "9:00",
+      "sessionTitle": ["Hackathon Registration Opens", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 29,
+      "dayId": 3,
+      "roomId": [0,0],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-06 09:30",
+      "sessionDisplayHour": "9:30 - 13:00",
+      "sessionTitle": ["Hackathon starts", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 30,
+      "dayId": 3,
+      "roomId": [0,0],
+      "slotImg" :"../src/img/icon_fork.png",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-06 13:00",
+      "sessionDisplayHour": "13:00 - 13:30",
+      "sessionTitle": ["Lunch", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 31,
+      "dayId": 3,
+      "roomId": [0,0],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-06 13:30",
+      "sessionDisplayHour": "13:30 - 17:30",
+      "sessionTitle": ["Hackathon continues", ""],
+      "sessionDescription": ["", ""]
+    },
+    {
+      "Id" : 32,
+      "dayId": 3,
+      "roomId": [0,0],
+      "slotImg" :"",
+      "speakerIDs": [[],[]],
+      "sessionDate": "2015-12-06 17:30",
+      "sessionDisplayHour": "17:30 - 18:30",
+      "sessionTitle": ["Hackathon Sumup", ""],
+      "sessionDescription": ["Presenting projects, prizes and pizza :)", ""]
     }
   ]
 }
