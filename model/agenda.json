@@ -161,9 +161,9 @@
       "slotImg" :"../src/img/icon_party.png",
       "speakerIDs": [[],[]],
       "sessionDate": "2015-12-04 20:00",
-      "sessionDisplayHour": "20:00",
-      "sessionTitle": ["Afterparty", ""],
-      "sessionDescription": ["", ""]
+      "sessionDisplayHour": "19:00",
+      "sessionTitle": ["Afterparty at Forum Przestrzenie", ""],
+      "sessionDescription": ["Marii Konopnickiej 28 Street<br />See how to get <a href=\"http://droidcon.pl/about/location\">there</a>", ""]
     },
     {
       "Id" : 16,
