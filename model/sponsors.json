@@ -27,6 +27,13 @@
           "sponsorLogo": "src/img/sponsors/relayr-logo.png",
           "sponsorTitle": "Relayr",
           "sponsorRange": "Silver"
+      },
+      {
+          "sponsorName": "Base Lab",
+          "sponsorUrl": "https://getbase.com/",
+          "sponsorLogo": "src/img/sponsors/base-logo.png",
+          "sponsorTitle": "Base Lab",
+          "sponsorRange": "Bronze"
       }
     ]
 }
