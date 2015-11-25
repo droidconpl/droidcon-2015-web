@@ -4,8 +4,8 @@
   This file contains all agenda scripts for droidcon Kraków 2015 website.
 */
 
-// var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
-var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
+// var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
 
 // make each slot height even
 function setHeight(element1, element2) {
