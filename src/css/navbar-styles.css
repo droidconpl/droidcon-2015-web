@@ -99,10 +99,26 @@ ul.dropdown-menu {
 #agenda-page {
   width: 120px;
   margin: 0 auto;
-  background-color: #D21D00;
-  border-radius: 50px;
+  background: #f2686f;
+  background-image: -webkit-linear-gradient(top, #f2686f, #b00000);
+  background-image: -moz-linear-gradient(top, #f2686f, #b00000);
+  background-image: -ms-linear-gradient(top, #f2686f, #b00000);
+  background-image: -o-linear-gradient(top, #f2686f, #b00000);
+  background-image: linear-gradient(to bottom, #f2686f, #b00000);
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
 }
 
+#agenda-page:hover {
+  background: #c72020;
+  background-image: -webkit-linear-gradient(top, #c72020, #851111);
+  background-image: -moz-linear-gradient(top, #c72020, #851111);
+  background-image: -ms-linear-gradient(top, #c72020, #851111);
+  background-image: -o-linear-gradient(top, #c72020, #851111);
+  background-image: linear-gradient(to bottom, #c72020, #851111);
+  text-decoration: none;
+}
 
 /*Wyzerowanie paddingu dla ikony w pasku*/
 .navbar-brand {
