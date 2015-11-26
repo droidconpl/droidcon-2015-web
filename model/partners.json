@@ -69,6 +69,11 @@
             "partnerName": "Mobile Central Europe",
             "partnerUrl": "http://mceconf.com/",
             "partnerLogo": "src/img/partners/mce-logo.png"
+        },
+        {
+            "partnerName": "GDG Dnipropetrovs'k",
+            "partnerUrl": "https://plus.google.com/116033068768596939209/posts",
+            "partnerLogo": "src/img/partners/gdg-dnipropetrovsk-logo.png"
         }
     ]
 }
