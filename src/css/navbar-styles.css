@@ -96,6 +96,12 @@ ul.dropdown-menu {
 .dropdown-menu li.slash {
   display: none;
 }
+#agenda-page {
+  width: 120px;
+  margin: 0 auto;
+  background-color: #D21D00;
+  border-radius: 50px;
+}
 
 
 /*Wyzerowanie paddingu dla ikony w pasku*/
