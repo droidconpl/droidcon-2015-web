@@ -262,8 +262,8 @@ a.modal-social-link:hover{
   color: #1F1F1F;
 }
 /*---- sponsors-section----*/
-.brackets-gold {
-  margin: 0 auto 30px auto;
+.brackets-gold, .brackets-silver, .brackets-bronze {
+  margin: 0 auto 40px auto;
 }
 h3.sponsor-range {
   width: 270px;
@@ -276,6 +276,10 @@ h3.sponsor-range {
 .brackets-gold .bracket {
   width: 150px;
   height: 150px;
+}
+.brackets-silver .bracket {
+  width: 130px;
+  height: 130px;
 }
 .brackets-bronze .bracket {
   width: 110px;
@@ -392,9 +396,13 @@ a#footer-mail {
     width: 180px;
     height: 180px;
   }
+  .brackets-silver .bracket {
+    width: 130px;
+    height: 130px;
+  }
   .brackets-bronze .bracket {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
   }
   #footer{
     font-size: 15px;
@@ -498,12 +506,16 @@ a#footer-mail {
     width: 350px;
   }
   .brackets-gold .bracket {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
   }
-  .brackets-bronze .bracket {
+  .brackets-silver .bracket {
     width: 180px;
     height: 180px;
+  }
+  .brackets-bronze .bracket {
+    width: 150px;
+    height: 150px;
   }
   .people-brackets {
     width:80%;
