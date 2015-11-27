@@ -377,6 +377,34 @@
             "linkedIn": "https://www.linkedin.com/in/karolina-chmiel-74320a96",
             "googlePlus": null,
             "imageUrl": "src/img/people/karolina-chmiel.jpg"
+        },
+        {
+            "id": 28,
+            "firstName": "Alizée",
+            "lastName": "Penel",
+            "websiteTitle": "System Developer @ Genymobile",
+            "bio": "Alizée is a (embedded) system developer at Genymobile, a startup offering companies its Android expertise through a range of application and system services and innovative solutions. She works on virtualization problematics, graphics stack on Linux and Android ROM cooking. She also teaches courses on Android system at EPITA to the future engineers specializing in embedded systems.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": "kynzie___",
+            "githubLink": null,
+            "linkedIn": "https://www.linkedin.com/in/aliz%C3%A9e-penel-2b353758",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/alizee-penel.png"
+        },
+        {
+            "id": 29,
+            "firstName": "Alexis",
+            "lastName": "Rosovsky",
+            "websiteTitle": "Android platform developer @ Genymobile",
+            "bio": "Alexis is an Android platform developer at Genymobile. He is used to work on Android porting issues, such as HAL development and framework fixes.",
+            "websiteLink": null,
+            "facebookLink": null,
+            "twitterHandler": null,
+            "githubLink": null,
+            "linkedIn": "https://www.linkedin.com/in/alexis-rosovsky-b5738693",
+            "googlePlus": null,
+            "imageUrl": "src/img/people/alexis-rosovsky.jpg"
         }
     ]
 }
