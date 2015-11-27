@@ -41,6 +41,13 @@
           "sponsorLogo": "src/img/sponsors/genymobile-logo.png",
           "sponsorTitle": "Genymobile",
           "sponsorRange": "Silver"
+      },
+      {
+          "sponsorName": "IG",
+          "sponsorUrl": "https://www.ig.com/pl",
+          "sponsorLogo": "src/img/sponsors/IG-logo.png",
+          "sponsorTitle": "IG",
+          "sponsorRange": "Silver"
       }
     ]
 }
