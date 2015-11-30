@@ -1,0 +1,35 @@
+/*
+  Created 11/30/2015 by Grażyna
+
+  This file contains all extra hackathon.html adjustments for droidcon Kraków 2015 website.
+*/
+
+.hackathon-sponsor {
+  height: 50px;
+  margin: 0 15px;
+}
+
+
+/**--duże telefony i tablety--**/
+@media (min-width: 768px){
+  .hackathon-sponsor {
+    height: 80px;
+  }
+
+
+}
+
+/**--duże telefony i tablety--**/
+@media (min-width: 1080px){
+  .hackathon-sponsor {
+    height: 120px;
+    margin: 0 35px;
+  }
+}
+
+/**--desktop--**/
+@media (min-width: 1440px){
+  .hackathon-sponsor {
+    height: 200px;
+  }
+}

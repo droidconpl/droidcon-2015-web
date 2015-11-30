@@ -157,7 +157,7 @@ ul.dropdown-menu {
     padding: 10px 10px;
   }
   .navbar-left.navbar-nav>li>a {
-    padding: 24px 20px;
+    padding: 24px 14px;
   }
   .navbar-nav>li>a {
     padding: 0;
@@ -215,7 +215,7 @@ ul.dropdown-menu {
   }
   .navbar-left.navbar-nav>li>a {
     font-size: 22px;
-    padding: 29px 30px;
+    padding: 29px 24px;
   }
   .navbar-right li a img {
     height: 28px;
@@ -235,11 +235,11 @@ ul.dropdown-menu {
     margin: 4px;
   }
   .navbar-left.navbar-nav>li>a {
-    padding: 33px 30px;
+    padding: 33px 35px;
   }
   .navbar-right li a img {
     height: 30px;
-    margin: 29px 22px;
+    margin: 29px 30px;
   }
   ul.dropdown-menu {
     top: 87px;
