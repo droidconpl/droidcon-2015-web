@@ -12,7 +12,7 @@
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-  <meta property="og:title" content="droidcon Kraków 2015" />
+  <meta property="og:title" content="droidcon Kraków 2015 - Hackathon" />
   <meta property="og:site_name" content="droidcon Kraków">
   <meta property="og:url" content="http://droidcon.pl/" />
   <meta property="og:description" content="Second edition of Android conference taking place in Kraków, Poland." />
@@ -22,12 +22,14 @@
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Slick-->
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
 
   <!--Custom styles for this web page-->
   <link rel="stylesheet" type="text/css" href="../src/css/styles.css">
   <link rel="stylesheet" type="text/css" href="../src/css/navbar-styles.css">
   <link rel="stylesheet" type="text/css" href="../src/css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="../src/css/code-of-conduct.css">
+  <link rel="stylesheet" type="text/css" href="hackathon.css">
 </head>
 <body>
 
@@ -61,7 +63,7 @@
             <li class="slash"><div></div></li>
             <li><a href="http://droidcon.pl/#speakers" class="scrollable">Lineup</a></li>
             <li class="slash"><div></div></li>
-            <li><a id="agenda-page" href="http://droidcon.pl/agenda" class="scrollable">Agenda</a></li>
+            <li><a id="agenda-page" href="http://droidcon.pl/agenda">Agenda</a></li>
             <li class="slash"><div></div></li>
             <li><a href="http://droidcon.pl/#sponsors" class="scrollable">Sponsors</a></li>
           </ul>
@@ -69,15 +71,15 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hackathon <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://droidcon.pl/hackathon/#about" class="scrollable">About</a></li>
+            <li><a href="#about" class="scrollable">About</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/hackathon/#tickets" class="scrollable">Tickets</a></li>
+            <li><a href="#tickets" class="scrollable">Tickets</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/hackathon/#location" class="scrollable">Location</a></li>
+            <li><a href="#location" class="scrollable">Location</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/hackathon/#agenda" class="scrollable">What the plan is?</a></li>
+            <li><a href="#agenda" class="scrollable">What the plan is?</a></li>
             <li class="slash"><div></div></li>
-            <li><a href="http://droidcon.pl/hackathon/#whos-behind" class="scrollable">Who's behind?</a></li>
+            <li><a href="#whos-behind" class="scrollable">Who's behind?</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -120,28 +122,77 @@
   </div>
 </section>
 
-
+<!-- About section -->
+<span id="about" class="anchor"></span>
 <section class="section milky">
   <div class="container">
-    <h2 class="section-title">Get a room!</h2>
-    <p class="text">
-      If you still didn't find any room for the time of the conference,
-      we can give you a hint: <br />droidcon Kraków 2015 is happening in the hotel ;) <br /><br />
-      And to be more specific: <br /><b>Best Western Q Hotel, Wygrana 6 st., Kraków</b><br /><br />
-      We worked on some discounts for droidcon Kraków attendees. If you decide to stay there,
-      contact the Hotel on <a href="http://www.qhotelkrakow.pl/contact,24-25.html" target="_blank">Individual Reservations</a>, use the code 'droidcon' and get a discount :)
-
+    <h2 class="section-title">About</h2>
+    <p class="row text">
+      If you don't have enough of droidcon Kraków after two days full of Android content,
+      you can come to the Hackathon on Sunday, 6th December,<br />
+      and use your knowledge during making your project.<br />
+      You will have the chance to win great prizes and code among other great developers!<br />
+      It is deffinitely worth to join us :)
     </p>
-
   </div>
 </section>
 
+<!-- Ticket section -->
+<span id="tickets" class="anchor"></span>
+<section class="section black">
+  <div class="container">
+    <h2 class="section-title">Get a ticket</h2>
+    <p class="row text">
+      Just to avoid "empty" places on the hackathon ( when one registeres and doesn't come ),
+      we established a symbolic ticket price of 5€. <br />
+      Visit the link below to get yours and see you there!<br /><br />
+      <b>P.S. You don't have to buy conference ticket to get a Hackathon ticket ;)</b>
+    </p>
+    <a href="http://droidconpl.evenea.pl/" class="button" target="_blank" style="color: black">Buy tickets</a>
+  </div>
+</section>
+
+<!-- Location section -->
+<span id="location" class="anchor"></span>
 <section class="section milky">
   <div class="container">
-    <h2 class="section-title">Not satisfied with the above?</h2>
-    <p class="text">
-      We are working on some more places for you, so if the choice above does not meet your expectations, wait a bit more. There will be an update!
+    <h2 class="section-title">Where is it going to be?</h2>
+    <p class="row text">
+      The Hackathon itself is going to be hosted by Base Lab, in Tech.Space.<br /><br />
+      See more detailes <a href="http://droidcon.pl/about/location">here</a>.
     </p>
+  </div>
+</section>
+
+<!-- Agenda section -->
+<span id="agenda" class="anchor"></span>
+<section class="section green">
+  <div class="container">
+    <h2 class="section-title">What's the plan?</h2>
+    <p class="row text">
+      In general we meet on Sunday to make great projects!<br /><br/>
+      <b>Less general:</b><br />
+      You'll get into a group of 3 people.<br />
+      Our Sponsor, relayr, delivers the Wunderbars which you'll have to use in an Android project.<br /><br />
+      At the end of the Hackathon the best apps will be chosen and the authors will win great prizes! <br /><br />
+      <b>What is on stake?</b><br />
+      Well, there are rumors that relayr is bringing some of their finest Wunderbars to give away,<br />
+      there are going to be some Chromecasts (2nd generation) from Base, and some board games from TouK.<br /><br />
+      But for more details you'll have to come and see for yourself :)
+    </p>
+  </div>
+</section>
+
+<!-- Who's behind section -->
+<span id="whos-behind" class="anchor"></span>
+<section class="section milky">
+  <div class="container">
+    <h2 class="section-title">Who's behind all this?</h2>
+    <p class="row text">
+      For sure it wouldn't happen without our Hackathon Sponsors:
+    </p>
+    <img class="hackathon-sponsor" src="../src/img/sponsors/base-logo.png" alt="" /> and
+    <img class="hackathon-sponsor" src="../src/img/sponsors/relayr-logo.png" alt="" />
 
   </div>
 </section>
@@ -176,10 +227,10 @@
       <div class="col-sm-3 footer-pos">
           <h5>Conference</h5>
           <ul class="list footer-list">
-            <li><a href="http://droidcon.pl/#about" class="scrollable">About</a></li>
-            <li><a href="http://droidcon.pl/#participate" class="scrollable">Get involved</a></li>
-            <li><a href="http://droidcon.pl/#sponsors" class="scrollable">Sponsors</a></li>
-            <li><a href="http://droidcon.pl/#speakers" class="scrollable">Speakers</a></li>
+            <li><a href="#about" class="scrollable">About</a></li>
+            <li><a href="#participate" class="scrollable">Get involved</a></li>
+            <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
+            <li><a href="#speakers" class="scrollable">Speakers</a></li>
           </ul>
       </div>
       <div class="col-sm-3 footer-pos">
@@ -212,8 +263,12 @@
 
 </footer>
 
+<!--Modals of the speakers will be loaded here-->
+<div id="speaker-modals" class=""></div>
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
   <script type="text/javascript" src="../src/js/script.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
