@@ -9,6 +9,10 @@
   margin: 0 15px;
 }
 
+.hackathon-host {
+  margin: 20px;
+}
+
 
 /**--duże telefony i tablety--**/
 @media (min-width: 768px){
