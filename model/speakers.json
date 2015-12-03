@@ -44,17 +44,17 @@
         },
         {
             "id": 4,
-            "firstName": "Said",
-            "lastName": "Tahsin Dane",
-            "websiteTitle": "Google Developers Expert on Android",
-            "bio": "Said is a Google Developers Expert on Android. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.<br /><br />He is also an active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization.",
-            "websiteLink": "http://www.tasomaniac.com/",
+            "firstName": "Tomasz",
+            "lastName": "Netczuk",
+            "websiteTitle": "Senior Software Developer @ Polidea",
+            "bio": "Programmer who doesn't focus only on one platform. He can code on mobile platforms (iOS), backend apps (Python, Node) and web frontends. Recently explores yet another approach to mobile apps written in JS: React Native. He also organised Warsawa 2014 and Codepot 2015 and attended multiple hackathons.",
+            "websiteLink": null,
             "facebookLink": null,
-            "twitterHandler": "tasomaniac",
-            "githubLink": "tasomaniac/",
-            "linkedIn": "https://linkedin.com/in/saidtahsindane",
+            "twitterHandler": "netczuk",
+            "githubLink": "neciu",
+            "linkedIn": "https://pl.linkedin.com/in/netczuk",
             "googlePlus": null,
-            "imageUrl": "src/img/people/said-tahsin-dane.png"
+            "imageUrl": "src/img/people/tomasz-netczuk.jpeg"
         },
         {
             "id": 5,
