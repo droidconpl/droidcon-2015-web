@@ -5,7 +5,7 @@
 */
 
 // var srcUrl = "https://raw.githubusercontent.com/droidconpl/droidcon-2015-web/master/";
-var srcUrl = "https://droidconpl.github.io/droidcon-2015-web/";
+var srcUrl = "http://2015.droidcon.pl/";
 
 // make each slot height even
 function setHeight(element1, element2) {
